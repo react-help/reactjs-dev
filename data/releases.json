@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02T12:46:25.788Z",
+  "updatedAt": "2026-10-02T22:19:12.617Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -97,15 +97,15 @@
       "bump": "minor",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-7c6ac13e-20260929",
-          "publishedAt": "2026-09-29T16:44:51.132Z",
+          "version": "0.0.0-experimental-278794d7-20261002",
+          "publishedAt": "2026-10-02T17:46:45.775Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "19.3.0-canary-7c6ac13e-20260929",
-          "publishedAt": "2026-09-29T16:42:20.048Z",
+          "version": "19.3.0-canary-278794d7-20261002",
+          "publishedAt": "2026-10-02T17:44:54.950Z",
           "tags": [
             "canary"
           ]
@@ -121,12 +121,12 @@
           "publishedAt": "2026-05-08T16:43:16.457Z"
         },
         "canary": {
-          "version": "19.3.0-canary-7c6ac13e-20260929",
-          "publishedAt": "2026-09-29T16:42:20.048Z"
+          "version": "19.3.0-canary-278794d7-20261002",
+          "publishedAt": "2026-10-02T17:44:54.950Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-7c6ac13e-20260929",
-          "publishedAt": "2026-09-29T16:44:51.132Z"
+          "version": "0.0.0-experimental-278794d7-20261002",
+          "publishedAt": "2026-10-02T17:46:45.775Z"
         },
         "rc": {
           "version": "19.0.0-rc.1",
@@ -159,15 +159,15 @@
       "bump": "minor",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-7c6ac13e-20260929",
-          "publishedAt": "2026-09-29T16:42:09.520Z",
+          "version": "0.0.0-experimental-278794d7-20261002",
+          "publishedAt": "2026-10-02T17:48:31.191Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "19.3.0-canary-7c6ac13e-20260929",
-          "publishedAt": "2026-09-29T16:41:02.444Z",
+          "version": "19.3.0-canary-278794d7-20261002",
+          "publishedAt": "2026-10-02T17:47:00.101Z",
           "tags": [
             "canary"
           ]
@@ -183,12 +183,12 @@
           "publishedAt": "2026-05-08T16:43:27.237Z"
         },
         "canary": {
-          "version": "19.3.0-canary-7c6ac13e-20260929",
-          "publishedAt": "2026-09-29T16:41:02.444Z"
+          "version": "19.3.0-canary-278794d7-20261002",
+          "publishedAt": "2026-10-02T17:47:00.101Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-7c6ac13e-20260929",
-          "publishedAt": "2026-09-29T16:42:09.520Z"
+          "version": "0.0.0-experimental-278794d7-20261002",
+          "publishedAt": "2026-10-02T17:48:31.191Z"
         },
         "rc": {
           "version": "19.0.0-rc.1",
@@ -815,19 +815,19 @@
       "npmUrl": "https://www.npmjs.com/package/motion",
       "repoUrl": "https://github.com/motiondivision/motion",
       "latest": {
+        "version": "14.0.0",
+        "publishedAt": "2026-10-02T13:15:54.395Z"
+      },
+      "previous": {
         "version": "13.5.1",
         "publishedAt": "2026-10-02T12:10:51.735Z"
       },
-      "previous": {
-        "version": "13.5.0",
-        "publishedAt": "2026-10-01T11:31:59.072Z"
-      },
-      "bump": "patch",
+      "bump": "major",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "13.5.1",
-          "publishedAt": "2026-10-02T12:10:51.735Z"
+          "version": "14.0.0",
+          "publishedAt": "2026-10-02T13:15:54.395Z"
         },
         "canary": {
           "version": "13.1.1-alpha.0",
@@ -940,15 +940,23 @@
         "publishedAt": "2026-09-15T10:53:46.300Z"
       },
       "bump": "minor",
-      "prereleases": [],
+      "prereleases": [
+        {
+          "version": "8.0.0-alpha.50",
+          "publishedAt": "2026-10-02T16:27:50.611Z",
+          "tags": [
+            "next"
+          ]
+        }
+      ],
       "distTags": {
         "latest": {
           "version": "7.5.0",
           "publishedAt": "2026-09-29T17:06:38.258Z"
         },
         "next": {
-          "version": "8.0.0-alpha.49",
-          "publishedAt": "2026-09-29T17:04:17.388Z"
+          "version": "8.0.0-alpha.50",
+          "publishedAt": "2026-10-02T16:27:50.611Z"
         }
       },
       "weeklyDownloads": 7013194,
@@ -963,25 +971,25 @@
       "npmUrl": "https://www.npmjs.com/package/react-native-reanimated",
       "repoUrl": "https://github.com/software-mansion/react-native-reanimated",
       "latest": {
+        "version": "4.7.1",
+        "publishedAt": "2026-10-02T13:58:35.242Z"
+      },
+      "previous": {
         "version": "4.7.0",
         "publishedAt": "2026-09-18T14:34:51.410Z"
       },
-      "previous": {
-        "version": "4.6.0",
-        "publishedAt": "2026-08-21T14:10:04.709Z"
-      },
-      "bump": "minor",
+      "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "4.7.0",
-          "publishedAt": "2026-09-18T14:34:51.410Z"
+          "version": "4.7.1",
+          "publishedAt": "2026-10-02T13:58:35.242Z"
         }
       },
       "weeklyDownloads": 10308775,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/software-mansion/react-native-reanimated/releases/tag/4.7.0"
+        "url": "https://github.com/software-mansion/react-native-reanimated/releases/tag/4.7.1"
       }
     },
     "react-native-gesture-handler": {
@@ -1110,15 +1118,15 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-7c6ac13e-20260929",
-          "publishedAt": "2026-09-29T16:44:41.526Z",
+          "version": "0.0.0-experimental-278794d7-20261002",
+          "publishedAt": "2026-10-02T17:50:05.862Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "7.1.1-canary-7c6ac13e-20260929",
-          "publishedAt": "2026-09-29T16:40:10.006Z",
+          "version": "7.1.1-canary-278794d7-20261002",
+          "publishedAt": "2026-10-02T17:45:06.132Z",
           "tags": [
             "canary"
           ]
@@ -1141,12 +1149,12 @@
           "publishedAt": "2026-05-08T16:43:06.991Z"
         },
         "canary": {
-          "version": "7.1.1-canary-7c6ac13e-20260929",
-          "publishedAt": "2026-09-29T16:40:10.006Z"
+          "version": "7.1.1-canary-278794d7-20261002",
+          "publishedAt": "2026-10-02T17:45:06.132Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-7c6ac13e-20260929",
-          "publishedAt": "2026-09-29T16:44:41.526Z"
+          "version": "0.0.0-experimental-278794d7-20261002",
+          "publishedAt": "2026-10-02T17:50:05.862Z"
         },
         "rc": {
           "version": "6.0.0-rc.2",
@@ -1271,12 +1279,28 @@
   },
   "recent": [
     {
+      "name": "react-native-reanimated",
+      "group": "native",
+      "version": "4.7.1",
+      "publishedAt": "2026-10-02T13:58:35.242Z",
+      "bump": "patch",
+      "url": "https://github.com/software-mansion/react-native-reanimated/releases/tag/4.7.1"
+    },
+    {
+      "name": "motion",
+      "group": "forms-ui",
+      "version": "14.0.0",
+      "publishedAt": "2026-10-02T13:15:54.395Z",
+      "bump": "major",
+      "url": "https://github.com/motiondivision/motion/blob/HEAD/CHANGELOG.md"
+    },
+    {
       "name": "motion",
       "group": "forms-ui",
       "version": "13.5.1",
       "publishedAt": "2026-10-02T12:10:51.735Z",
       "bump": "patch",
-      "url": "https://github.com/motiondivision/motion/blob/HEAD/CHANGELOG.md"
+      "url": "https://www.npmjs.com/package/motion/v/13.5.1"
     },
     {
       "name": "@tanstack/react-query",
@@ -1532,7 +1556,7 @@
       "version": "4.7.0",
       "publishedAt": "2026-09-18T14:34:51.410Z",
       "bump": "minor",
-      "url": "https://github.com/software-mansion/react-native-reanimated/releases/tag/4.7.0"
+      "url": "https://www.npmjs.com/package/react-native-reanimated/v/4.7.0"
     },
     {
       "name": "expo",
@@ -1653,22 +1677,6 @@
       "publishedAt": "2026-09-14T10:44:16.651Z",
       "bump": "minor",
       "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.28.0"
-    },
-    {
-      "name": "react-native-gesture-handler",
-      "group": "native",
-      "version": "2.33.0",
-      "publishedAt": "2026-09-14T07:54:30.911Z",
-      "bump": "minor",
-      "url": "https://www.npmjs.com/package/react-native-gesture-handler/v/2.33.0"
-    },
-    {
-      "name": "@tanstack/react-router",
-      "group": "routing-data",
-      "version": "1.170.36",
-      "publishedAt": "2026-09-13T13:18:42.037Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/@tanstack/react-router/v/1.170.36"
     }
   ]
 }
