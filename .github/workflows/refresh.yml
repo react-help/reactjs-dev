@@ -1,0 +1,43 @@
+name: Refresh release data
+
+on:
+  schedule:
+    - cron: "17 */6 * * *" # every 6 hours, off the hour to avoid the top-of-hour rush
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+
+      # The fetch script only uses Node built-ins, so no npm install is needed.
+      - name: Fetch releases
+        run: node scripts/fetch.ts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- data/releases.json; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898099+github-actions[bot]@users.noreply.github.com"
+          git add data/releases.json
+          git commit -m "data: refresh releases"
+          git pull --rebase origin main
+          git push origin HEAD:main
