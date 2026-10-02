@@ -1,0 +1,1674 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-02T04:26:50.241Z",
+  "sources": [
+    "https://registry.npmjs.org",
+    "https://api.npmjs.org/downloads",
+    "https://api.github.com"
+  ],
+  "groups": [
+    {
+      "id": "core",
+      "name": "Core",
+      "packages": [
+        "react",
+        "react-dom",
+        "react-native",
+        "@types/react"
+      ]
+    },
+    {
+      "id": "frameworks",
+      "name": "Frameworks",
+      "packages": [
+        "next",
+        "expo",
+        "astro",
+        "vite"
+      ]
+    },
+    {
+      "id": "routing-data",
+      "name": "Routing & data",
+      "packages": [
+        "react-router",
+        "@tanstack/react-query",
+        "@tanstack/react-router",
+        "swr",
+        "@apollo/client"
+      ]
+    },
+    {
+      "id": "state",
+      "name": "State",
+      "packages": [
+        "zustand",
+        "@reduxjs/toolkit",
+        "jotai",
+        "valtio"
+      ]
+    },
+    {
+      "id": "forms-ui",
+      "name": "Forms & UI",
+      "packages": [
+        "react-hook-form",
+        "motion",
+        "@radix-ui/react-dialog",
+        "@mui/material"
+      ]
+    },
+    {
+      "id": "native",
+      "name": "Native",
+      "packages": [
+        "@react-navigation/native",
+        "react-native-reanimated",
+        "react-native-gesture-handler",
+        "react-native-screens"
+      ]
+    },
+    {
+      "id": "tooling",
+      "name": "Tooling",
+      "packages": [
+        "babel-plugin-react-compiler",
+        "eslint-plugin-react-hooks",
+        "@vitejs/plugin-react",
+        "react-devtools",
+        "@testing-library/react"
+      ]
+    }
+  ],
+  "packages": {
+    "react": {
+      "name": "react",
+      "group": "core",
+      "npmUrl": "https://www.npmjs.com/package/react",
+      "repoUrl": "https://github.com/react/react",
+      "latest": {
+        "version": "19.3.0",
+        "publishedAt": "2026-09-09T17:21:30.071Z"
+      },
+      "previous": {
+        "version": "19.2.8",
+        "publishedAt": "2026-07-21T15:41:28.716Z"
+      },
+      "bump": "minor",
+      "prereleases": [
+        {
+          "version": "0.0.0-experimental-7c6ac13e-20260929",
+          "publishedAt": "2026-09-29T16:44:51.132Z",
+          "tags": [
+            "experimental"
+          ]
+        },
+        {
+          "version": "19.3.0-canary-7c6ac13e-20260929",
+          "publishedAt": "2026-09-29T16:42:20.048Z",
+          "tags": [
+            "canary"
+          ]
+        }
+      ],
+      "distTags": {
+        "latest": {
+          "version": "19.3.0",
+          "publishedAt": "2026-09-09T17:21:30.071Z"
+        },
+        "next": {
+          "version": "19.3.0-canary-d5736f09-20260507",
+          "publishedAt": "2026-05-08T16:43:16.457Z"
+        },
+        "canary": {
+          "version": "19.3.0-canary-7c6ac13e-20260929",
+          "publishedAt": "2026-09-29T16:42:20.048Z"
+        },
+        "experimental": {
+          "version": "0.0.0-experimental-7c6ac13e-20260929",
+          "publishedAt": "2026-09-29T16:44:51.132Z"
+        },
+        "rc": {
+          "version": "19.0.0-rc.1",
+          "publishedAt": "2024-11-14T17:23:42.876Z"
+        },
+        "beta": {
+          "version": "19.0.0-beta-26f2496093-20240514",
+          "publishedAt": "2024-05-14T16:13:29.702Z"
+        }
+      },
+      "weeklyDownloads": 214361643,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/react/react/releases/tag/v19.3.0"
+      }
+    },
+    "react-dom": {
+      "name": "react-dom",
+      "group": "core",
+      "npmUrl": "https://www.npmjs.com/package/react-dom",
+      "repoUrl": "https://github.com/react/react",
+      "latest": {
+        "version": "19.3.0",
+        "publishedAt": "2026-09-09T17:17:39.744Z"
+      },
+      "previous": {
+        "version": "19.2.8",
+        "publishedAt": "2026-07-21T15:41:41.267Z"
+      },
+      "bump": "minor",
+      "prereleases": [
+        {
+          "version": "0.0.0-experimental-7c6ac13e-20260929",
+          "publishedAt": "2026-09-29T16:42:09.520Z",
+          "tags": [
+            "experimental"
+          ]
+        },
+        {
+          "version": "19.3.0-canary-7c6ac13e-20260929",
+          "publishedAt": "2026-09-29T16:41:02.444Z",
+          "tags": [
+            "canary"
+          ]
+        }
+      ],
+      "distTags": {
+        "latest": {
+          "version": "19.3.0",
+          "publishedAt": "2026-09-09T17:17:39.744Z"
+        },
+        "next": {
+          "version": "19.3.0-canary-d5736f09-20260507",
+          "publishedAt": "2026-05-08T16:43:27.237Z"
+        },
+        "canary": {
+          "version": "19.3.0-canary-7c6ac13e-20260929",
+          "publishedAt": "2026-09-29T16:41:02.444Z"
+        },
+        "experimental": {
+          "version": "0.0.0-experimental-7c6ac13e-20260929",
+          "publishedAt": "2026-09-29T16:42:09.520Z"
+        },
+        "rc": {
+          "version": "19.0.0-rc.1",
+          "publishedAt": "2024-11-14T17:23:52.461Z"
+        },
+        "beta": {
+          "version": "19.0.0-beta-26f2496093-20240514",
+          "publishedAt": "2024-05-14T16:14:18.389Z"
+        }
+      },
+      "weeklyDownloads": 202161626,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/react/react/releases/tag/v19.3.0"
+      }
+    },
+    "react-native": {
+      "name": "react-native",
+      "group": "core",
+      "npmUrl": "https://www.npmjs.com/package/react-native",
+      "repoUrl": "https://github.com/react/react-native",
+      "latest": {
+        "version": "0.87.1",
+        "publishedAt": "2026-08-26T15:36:54.923Z"
+      },
+      "previous": {
+        "version": "0.87.0",
+        "publishedAt": "2026-08-11T15:55:05.088Z"
+      },
+      "bump": "patch",
+      "prereleases": [
+        {
+          "version": "0.88.0-rc.3",
+          "publishedAt": "2026-09-28T11:30:47.323Z",
+          "tags": [
+            "next"
+          ]
+        }
+      ],
+      "distTags": {
+        "latest": {
+          "version": "0.87.1",
+          "publishedAt": "2026-08-26T15:36:54.923Z"
+        },
+        "next": {
+          "version": "0.88.0-rc.3",
+          "publishedAt": "2026-09-28T11:30:47.323Z"
+        }
+      },
+      "weeklyDownloads": 16025780,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/react/react-native/releases/tag/v0.87.1"
+      }
+    },
+    "@types/react": {
+      "name": "@types/react",
+      "group": "core",
+      "npmUrl": "https://www.npmjs.com/package/@types/react",
+      "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+      "latest": {
+        "version": "19.3.0",
+        "publishedAt": "2026-09-09T18:08:49.750Z"
+      },
+      "previous": {
+        "version": "19.2.18",
+        "publishedAt": "2026-07-30T21:54:03.456Z"
+      },
+      "bump": "minor",
+      "prereleases": [],
+      "distTags": {
+        "latest": {
+          "version": "19.3.0",
+          "publishedAt": "2026-09-09T18:08:49.750Z"
+        }
+      },
+      "weeklyDownloads": 196536115,
+      "releaseNotes": {
+        "kind": "npm",
+        "url": "https://www.npmjs.com/package/@types/react?activeTab=versions"
+      }
+    },
+    "next": {
+      "name": "next",
+      "group": "frameworks",
+      "npmUrl": "https://www.npmjs.com/package/next",
+      "repoUrl": "https://github.com/vercel/next.js",
+      "latest": {
+        "version": "16.3.8",
+        "publishedAt": "2026-09-30T16:07:21.198Z"
+      },
+      "previous": {
+        "version": "16.3.7",
+        "publishedAt": "2026-09-29T09:04:19.157Z"
+      },
+      "bump": "patch",
+      "prereleases": [
+        {
+          "version": "16.4.0-canary.57",
+          "publishedAt": "2026-10-02T03:53:27.177Z",
+          "tags": [
+            "canary"
+          ]
+        }
+      ],
+      "distTags": {
+        "latest": {
+          "version": "16.3.8",
+          "publishedAt": "2026-09-30T16:07:21.198Z"
+        },
+        "canary": {
+          "version": "16.4.0-canary.57",
+          "publishedAt": "2026-10-02T03:53:27.177Z"
+        },
+        "rc": {
+          "version": "15.0.0-rc.1",
+          "publishedAt": "2024-10-15T19:17:38.118Z"
+        },
+        "beta": {
+          "version": "16.0.0-beta.0",
+          "publishedAt": "2025-10-10T02:56:20.701Z"
+        }
+      },
+      "weeklyDownloads": 73025241,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.3.8"
+      }
+    },
+    "expo": {
+      "name": "expo",
+      "group": "frameworks",
+      "npmUrl": "https://www.npmjs.com/package/expo",
+      "repoUrl": "https://github.com/expo/expo",
+      "latest": {
+        "version": "57.0.26",
+        "publishedAt": "2026-09-29T10:57:08.644Z"
+      },
+      "previous": {
+        "version": "57.0.25",
+        "publishedAt": "2026-09-24T10:13:10.090Z"
+      },
+      "bump": "patch",
+      "prereleases": [
+        {
+          "version": "58.0.2",
+          "publishedAt": "2026-10-01T19:31:08.231Z",
+          "tags": [
+            "next"
+          ]
+        }
+      ],
+      "distTags": {
+        "latest": {
+          "version": "57.0.26",
+          "publishedAt": "2026-09-29T10:57:08.644Z"
+        },
+        "next": {
+          "version": "58.0.2",
+          "publishedAt": "2026-10-01T19:31:08.231Z"
+        },
+        "canary": {
+          "version": "58.0.0-canary-20260909-ea7a89a",
+          "publishedAt": "2026-09-09T09:25:22.062Z"
+        }
+      },
+      "weeklyDownloads": 11235967,
+      "releaseNotes": {
+        "kind": "changelog",
+        "url": "https://github.com/expo/expo/blob/HEAD/packages/expo/CHANGELOG.md"
+      }
+    },
+    "astro": {
+      "name": "astro",
+      "group": "frameworks",
+      "npmUrl": "https://www.npmjs.com/package/astro",
+      "repoUrl": "https://github.com/withastro/astro",
+      "latest": {
+        "version": "7.3.5",
+        "publishedAt": "2026-09-24T09:15:47.814Z"
+      },
+      "previous": {
+        "version": "7.3.4",
+        "publishedAt": "2026-09-22T18:56:49.511Z"
+      },
+      "bump": "patch",
+      "prereleases": [
+        {
+          "version": "7.4.0-beta.0",
+          "publishedAt": "2026-10-01T10:40:16.786Z",
+          "tags": [
+            "beta"
+          ]
+        }
+      ],
+      "distTags": {
+        "latest": {
+          "version": "7.3.5",
+          "publishedAt": "2026-09-24T09:15:47.814Z"
+        },
+        "rc": {
+          "version": "3.0.0-rc.11",
+          "publishedAt": "2023-08-29T19:52:17.167Z"
+        },
+        "beta": {
+          "version": "7.4.0-beta.0",
+          "publishedAt": "2026-10-01T10:40:16.786Z"
+        },
+        "alpha": {
+          "version": "7.0.0-alpha.2",
+          "publishedAt": "2026-06-08T17:04:56.184Z"
+        }
+      },
+      "weeklyDownloads": 7379434,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/withastro/astro/releases/tag/astro%407.3.5"
+      }
+    },
+    "vite": {
+      "name": "vite",
+      "group": "frameworks",
+      "npmUrl": "https://www.npmjs.com/package/vite",
+      "repoUrl": "https://github.com/vitejs/vite",
+      "latest": {
+        "version": "8.3.2",
+        "publishedAt": "2026-10-01T10:17:44.767Z"
+      },
+      "previous": {
+        "version": "8.3.1",
+        "publishedAt": "2026-09-24T12:26:19.940Z"
+      },
+      "bump": "patch",
+      "prereleases": [],
+      "distTags": {
+        "latest": {
+          "version": "8.3.2",
+          "publishedAt": "2026-10-01T10:17:44.767Z"
+        },
+        "beta": {
+          "version": "8.3.0-beta.1",
+          "publishedAt": "2026-09-07T11:40:50.018Z"
+        },
+        "alpha": {
+          "version": "6.0.0-alpha.24",
+          "publishedAt": "2024-09-04T09:15:20.820Z"
+        }
+      },
+      "weeklyDownloads": 221075899,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/vitejs/vite/releases/tag/v8.3.2"
+      }
+    },
+    "react-router": {
+      "name": "react-router",
+      "group": "routing-data",
+      "npmUrl": "https://www.npmjs.com/package/react-router",
+      "repoUrl": "https://github.com/remix-run/react-router",
+      "latest": {
+        "version": "8.4.0",
+        "publishedAt": "2026-09-15T15:23:42.214Z"
+      },
+      "previous": {
+        "version": "8.3.1",
+        "publishedAt": "2026-08-28T14:47:42.622Z"
+      },
+      "bump": "minor",
+      "prereleases": [],
+      "distTags": {
+        "latest": {
+          "version": "8.4.0",
+          "publishedAt": "2026-09-15T15:23:42.214Z"
+        },
+        "experimental": {
+          "version": "0.0.0-experimental-f20bcf6de",
+          "publishedAt": "2026-09-15T15:10:40.560Z"
+        }
+      },
+      "weeklyDownloads": 67524610,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/remix-run/react-router/releases/tag/react-router%408.4.0"
+      }
+    },
+    "@tanstack/react-query": {
+      "name": "@tanstack/react-query",
+      "group": "routing-data",
+      "npmUrl": "https://www.npmjs.com/package/@tanstack/react-query",
+      "repoUrl": "https://github.com/TanStack/query",
+      "latest": {
+        "version": "5.104.0",
+        "publishedAt": "2026-09-26T03:56:26.747Z"
+      },
+      "previous": {
+        "version": "5.103.3",
+        "publishedAt": "2026-09-26T00:17:07.889Z"
+      },
+      "bump": "minor",
+      "prereleases": [],
+      "distTags": {
+        "latest": {
+          "version": "5.104.0",
+          "publishedAt": "2026-09-26T03:56:26.747Z"
+        },
+        "rc": {
+          "version": "5.0.0-rc.16",
+          "publishedAt": "2023-10-16T07:02:34.690Z"
+        },
+        "beta": {
+          "version": "5.0.0-beta.35",
+          "publishedAt": "2023-09-22T11:42:52.492Z"
+        },
+        "alpha": {
+          "version": "5.0.0-alpha.91",
+          "publishedAt": "2023-07-24T09:07:07.930Z"
+        }
+      },
+      "weeklyDownloads": 79992960,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/TanStack/query/releases/tag/%40tanstack/react-query%405.104.0"
+      }
+    },
+    "@tanstack/react-router": {
+      "name": "@tanstack/react-router",
+      "group": "routing-data",
+      "npmUrl": "https://www.npmjs.com/package/@tanstack/react-router",
+      "repoUrl": "https://github.com/TanStack/router",
+      "latest": {
+        "version": "1.170.41",
+        "publishedAt": "2026-09-30T17:48:34.218Z"
+      },
+      "previous": {
+        "version": "1.170.40",
+        "publishedAt": "2026-09-27T14:11:47.693Z"
+      },
+      "bump": "patch",
+      "prereleases": [],
+      "distTags": {
+        "latest": {
+          "version": "1.170.41",
+          "publishedAt": "2026-09-30T17:48:34.218Z"
+        },
+        "beta": {
+          "version": "0.0.1-beta.286",
+          "publishedAt": "2023-12-27T21:06:49.850Z"
+        },
+        "alpha": {
+          "version": "1.132.0-alpha.25",
+          "publishedAt": "2025-09-22T01:27:44.255Z"
+        }
+      },
+      "weeklyDownloads": 27745033,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/TanStack/router/releases/tag/%40tanstack/react-router%401.170.41"
+      }
+    },
+    "swr": {
+      "name": "swr",
+      "group": "routing-data",
+      "npmUrl": "https://www.npmjs.com/package/swr",
+      "repoUrl": "https://github.com/vercel/swr",
+      "latest": {
+        "version": "2.5.1",
+        "publishedAt": "2026-08-12T13:53:07.470Z"
+      },
+      "previous": {
+        "version": "2.5.0",
+        "publishedAt": "2026-08-03T13:26:01.129Z"
+      },
+      "bump": "patch",
+      "prereleases": [
+        {
+          "version": "2.6.0-beta.0",
+          "publishedAt": "2026-09-22T11:55:22.701Z",
+          "tags": [
+            "beta"
+          ]
+        }
+      ],
+      "distTags": {
+        "latest": {
+          "version": "2.5.1",
+          "publishedAt": "2026-08-12T13:53:07.470Z"
+        },
+        "rc": {
+          "version": "2.0.0-rc.3",
+          "publishedAt": "2022-11-28T16:28:10.653Z"
+        },
+        "beta": {
+          "version": "2.6.0-beta.0",
+          "publishedAt": "2026-09-22T11:55:22.701Z"
+        }
+      },
+      "weeklyDownloads": 21184287,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/vercel/swr/releases/tag/v2.5.1"
+      }
+    },
+    "@apollo/client": {
+      "name": "@apollo/client",
+      "group": "routing-data",
+      "npmUrl": "https://www.npmjs.com/package/@apollo/client",
+      "repoUrl": "https://github.com/apollographql/apollo-client",
+      "latest": {
+        "version": "4.3.1",
+        "publishedAt": "2026-09-18T16:35:11.962Z"
+      },
+      "previous": {
+        "version": "4.3.0",
+        "publishedAt": "2026-09-11T19:08:47.583Z"
+      },
+      "bump": "patch",
+      "prereleases": [],
+      "distTags": {
+        "latest": {
+          "version": "4.3.1",
+          "publishedAt": "2026-09-18T16:35:11.962Z"
+        },
+        "next": {
+          "version": "4.3.0-rc.2",
+          "publishedAt": "2026-09-03T17:54:31.555Z"
+        },
+        "rc": {
+          "version": "4.3.0-rc.2",
+          "publishedAt": "2026-09-03T17:54:31.555Z"
+        },
+        "beta": {
+          "version": "4.0.12-beta.0",
+          "publishedAt": "2025-12-23T13:10:00.365Z"
+        },
+        "alpha": {
+          "version": "4.3.0-alpha.11",
+          "publishedAt": "2026-08-21T16:37:31.614Z"
+        }
+      },
+      "weeklyDownloads": 7501387,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.1"
+      }
+    },
+    "zustand": {
+      "name": "zustand",
+      "group": "state",
+      "npmUrl": "https://www.npmjs.com/package/zustand",
+      "repoUrl": "https://github.com/pmndrs/zustand",
+      "latest": {
+        "version": "5.0.15",
+        "publishedAt": "2026-08-13T00:39:55.466Z"
+      },
+      "previous": {
+        "version": "5.0.14",
+        "publishedAt": "2026-05-28T10:17:58.249Z"
+      },
+      "bump": "patch",
+      "prereleases": [],
+      "distTags": {
+        "latest": {
+          "version": "5.0.15",
+          "publishedAt": "2026-08-13T00:39:55.466Z"
+        }
+      },
+      "weeklyDownloads": 68225187,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.15"
+      }
+    },
+    "@reduxjs/toolkit": {
+      "name": "@reduxjs/toolkit",
+      "group": "state",
+      "npmUrl": "https://www.npmjs.com/package/@reduxjs/toolkit",
+      "repoUrl": "https://github.com/reduxjs/redux-toolkit",
+      "latest": {
+        "version": "2.13.0",
+        "publishedAt": "2026-09-29T02:48:23.306Z"
+      },
+      "previous": {
+        "version": "2.12.0",
+        "publishedAt": "2026-05-15T14:19:58.142Z"
+      },
+      "bump": "minor",
+      "prereleases": [],
+      "distTags": {
+        "latest": {
+          "version": "2.13.0",
+          "publishedAt": "2026-09-29T02:48:23.306Z"
+        },
+        "next": {
+          "version": "2.0.0-rc.3",
+          "publishedAt": "2023-12-02T04:15:38.010Z"
+        },
+        "rc": {
+          "version": "1.8.0-rc.0",
+          "publishedAt": "2022-02-27T02:37:12.791Z"
+        },
+        "beta": {
+          "version": "2.0.0-beta.4",
+          "publishedAt": "2023-10-28T23:22:25.129Z"
+        },
+        "alpha": {
+          "version": "2.0.0-alpha.6",
+          "publishedAt": "2023-05-16T14:09:15.407Z"
+        }
+      },
+      "weeklyDownloads": 36971253,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/reduxjs/redux-toolkit/releases/tag/v2.13.0"
+      }
+    },
+    "jotai": {
+      "name": "jotai",
+      "group": "state",
+      "npmUrl": "https://www.npmjs.com/package/jotai",
+      "repoUrl": "https://github.com/pmndrs/jotai",
+      "latest": {
+        "version": "3.0.1",
+        "publishedAt": "2026-09-29T14:18:19.043Z"
+      },
+      "previous": {
+        "version": "3.0.0",
+        "publishedAt": "2026-09-08T13:51:57.446Z"
+      },
+      "bump": "patch",
+      "prereleases": [],
+      "distTags": {
+        "latest": {
+          "version": "3.0.1",
+          "publishedAt": "2026-09-29T14:18:19.043Z"
+        }
+      },
+      "weeklyDownloads": 7655887,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/pmndrs/jotai/releases/tag/v3.0.1"
+      }
+    },
+    "valtio": {
+      "name": "valtio",
+      "group": "state",
+      "npmUrl": "https://www.npmjs.com/package/valtio",
+      "repoUrl": "https://github.com/pmndrs/valtio",
+      "latest": {
+        "version": "2.3.2",
+        "publishedAt": "2026-05-01T06:28:49.830Z"
+      },
+      "previous": {
+        "version": "2.3.1",
+        "publishedAt": "2026-03-03T05:53:01.448Z"
+      },
+      "bump": "patch",
+      "prereleases": [],
+      "distTags": {
+        "latest": {
+          "version": "2.3.2",
+          "publishedAt": "2026-05-01T06:28:49.830Z"
+        },
+        "next": {
+          "version": "2.0.0-rc.2",
+          "publishedAt": "2024-08-18T13:35:09.679Z"
+        }
+      },
+      "weeklyDownloads": 2382114,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/pmndrs/valtio/releases/tag/v2.3.2"
+      }
+    },
+    "react-hook-form": {
+      "name": "react-hook-form",
+      "group": "forms-ui",
+      "npmUrl": "https://www.npmjs.com/package/react-hook-form",
+      "repoUrl": "https://github.com/react-hook-form/react-hook-form",
+      "latest": {
+        "version": "7.89.0",
+        "publishedAt": "2026-09-26T00:59:18.254Z"
+      },
+      "previous": {
+        "version": "7.88.0",
+        "publishedAt": "2026-09-11T22:51:23.453Z"
+      },
+      "bump": "minor",
+      "prereleases": [
+        {
+          "version": "8.0.0-beta.4",
+          "publishedAt": "2026-09-26T01:05:10.114Z",
+          "tags": [
+            "beta"
+          ]
+        }
+      ],
+      "distTags": {
+        "latest": {
+          "version": "7.89.0",
+          "publishedAt": "2026-09-26T00:59:18.254Z"
+        },
+        "next": {
+          "version": "7.60.0-next.0",
+          "publishedAt": "2025-07-01T08:35:12.863Z"
+        },
+        "beta": {
+          "version": "8.0.0-beta.4",
+          "publishedAt": "2026-09-26T01:05:10.114Z"
+        },
+        "alpha": {
+          "version": "8.0.0-alpha.5",
+          "publishedAt": "2025-10-04T01:49:07.476Z"
+        }
+      },
+      "weeklyDownloads": 68373180,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/react-hook-form/react-hook-form/releases/tag/v7.89.0"
+      }
+    },
+    "motion": {
+      "name": "motion",
+      "group": "forms-ui",
+      "npmUrl": "https://www.npmjs.com/package/motion",
+      "repoUrl": "https://github.com/motiondivision/motion",
+      "latest": {
+        "version": "13.5.0",
+        "publishedAt": "2026-10-01T11:31:59.072Z"
+      },
+      "previous": {
+        "version": "13.4.6",
+        "publishedAt": "2026-09-29T12:53:33.899Z"
+      },
+      "bump": "minor",
+      "prereleases": [],
+      "distTags": {
+        "latest": {
+          "version": "13.5.0",
+          "publishedAt": "2026-10-01T11:31:59.072Z"
+        },
+        "canary": {
+          "version": "13.1.1-alpha.0",
+          "publishedAt": "2026-08-20T09:50:23.521Z"
+        },
+        "rc": {
+          "version": "10.0.0-rc.6",
+          "publishedAt": "2021-09-12T10:59:46.894Z"
+        },
+        "beta": {
+          "version": "3.2.4",
+          "publishedAt": "2016-07-21T23:11:27.595Z"
+        },
+        "alpha": {
+          "version": "10.5.0-alpha.1",
+          "publishedAt": "2021-12-11T14:03:21.576Z"
+        }
+      },
+      "weeklyDownloads": 27285934,
+      "releaseNotes": {
+        "kind": "changelog",
+        "url": "https://github.com/motiondivision/motion/blob/HEAD/CHANGELOG.md"
+      }
+    },
+    "@radix-ui/react-dialog": {
+      "name": "@radix-ui/react-dialog",
+      "group": "forms-ui",
+      "npmUrl": "https://www.npmjs.com/package/@radix-ui/react-dialog",
+      "repoUrl": "https://github.com/radix-ui/primitives",
+      "latest": {
+        "version": "1.1.23",
+        "publishedAt": "2026-07-24T23:51:17.929Z"
+      },
+      "previous": {
+        "version": "1.1.22",
+        "publishedAt": "2026-07-24T16:27:50.360Z"
+      },
+      "bump": "patch",
+      "prereleases": [
+        {
+          "version": "1.2.0-rc.1785512840124",
+          "publishedAt": "2026-07-31T15:49:47.168Z",
+          "tags": [
+            "next"
+          ]
+        }
+      ],
+      "distTags": {
+        "latest": {
+          "version": "1.1.23",
+          "publishedAt": "2026-07-24T23:51:17.929Z"
+        },
+        "next": {
+          "version": "1.2.0-rc.1785512840124",
+          "publishedAt": "2026-07-31T15:49:47.168Z"
+        }
+      },
+      "weeklyDownloads": 88118452,
+      "releaseNotes": {
+        "kind": "changelog",
+        "url": "https://github.com/radix-ui/primitives/blob/HEAD/packages/react/dialog/CHANGELOG.md"
+      }
+    },
+    "@mui/material": {
+      "name": "@mui/material",
+      "group": "forms-ui",
+      "npmUrl": "https://www.npmjs.com/package/@mui/material",
+      "repoUrl": "https://github.com/mui/material-ui",
+      "latest": {
+        "version": "9.4.0",
+        "publishedAt": "2026-08-27T15:17:01.745Z"
+      },
+      "previous": {
+        "version": "9.3.1",
+        "publishedAt": "2026-08-06T09:30:28.365Z"
+      },
+      "bump": "minor",
+      "prereleases": [],
+      "distTags": {
+        "latest": {
+          "version": "9.4.0",
+          "publishedAt": "2026-08-27T15:17:01.745Z"
+        },
+        "next": {
+          "version": "9.0.0-beta.1",
+          "publishedAt": "2026-04-02T13:36:54.959Z"
+        },
+        "canary": {
+          "version": "6.1.1-dev.20240919-130050-82a6448768",
+          "publishedAt": "2024-09-19T13:12:08.230Z"
+        }
+      },
+      "weeklyDownloads": 12255015,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/mui/material-ui/releases/tag/v9.4.0"
+      }
+    },
+    "@react-navigation/native": {
+      "name": "@react-navigation/native",
+      "group": "native",
+      "npmUrl": "https://www.npmjs.com/package/@react-navigation/native",
+      "repoUrl": "https://github.com/react-navigation/react-navigation",
+      "latest": {
+        "version": "7.5.0",
+        "publishedAt": "2026-09-29T17:06:38.258Z"
+      },
+      "previous": {
+        "version": "7.4.1",
+        "publishedAt": "2026-09-15T10:53:46.300Z"
+      },
+      "bump": "minor",
+      "prereleases": [],
+      "distTags": {
+        "latest": {
+          "version": "7.5.0",
+          "publishedAt": "2026-09-29T17:06:38.258Z"
+        },
+        "next": {
+          "version": "8.0.0-alpha.49",
+          "publishedAt": "2026-09-29T17:04:17.388Z"
+        }
+      },
+      "weeklyDownloads": 7013194,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/react-navigation/react-navigation/releases/tag/%40react-navigation/native%407.5.0"
+      }
+    },
+    "react-native-reanimated": {
+      "name": "react-native-reanimated",
+      "group": "native",
+      "npmUrl": "https://www.npmjs.com/package/react-native-reanimated",
+      "repoUrl": "https://github.com/software-mansion/react-native-reanimated",
+      "latest": {
+        "version": "4.7.0",
+        "publishedAt": "2026-09-18T14:34:51.410Z"
+      },
+      "previous": {
+        "version": "4.6.0",
+        "publishedAt": "2026-08-21T14:10:04.709Z"
+      },
+      "bump": "minor",
+      "prereleases": [],
+      "distTags": {
+        "latest": {
+          "version": "4.7.0",
+          "publishedAt": "2026-09-18T14:34:51.410Z"
+        }
+      },
+      "weeklyDownloads": 10308775,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/software-mansion/react-native-reanimated/releases/tag/4.7.0"
+      }
+    },
+    "react-native-gesture-handler": {
+      "name": "react-native-gesture-handler",
+      "group": "native",
+      "npmUrl": "https://www.npmjs.com/package/react-native-gesture-handler",
+      "repoUrl": "https://github.com/software-mansion/react-native-gesture-handler",
+      "latest": {
+        "version": "3.3.0",
+        "publishedAt": "2026-09-11T10:48:20.163Z"
+      },
+      "previous": {
+        "version": "3.2.1",
+        "publishedAt": "2026-08-14T09:50:45.599Z"
+      },
+      "bump": "minor",
+      "prereleases": [],
+      "distTags": {
+        "latest": {
+          "version": "3.3.0",
+          "publishedAt": "2026-09-11T10:48:20.163Z"
+        }
+      },
+      "weeklyDownloads": 10033947,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/software-mansion/react-native-gesture-handler/releases/tag/v3.3.0"
+      }
+    },
+    "react-native-screens": {
+      "name": "react-native-screens",
+      "group": "native",
+      "npmUrl": "https://www.npmjs.com/package/react-native-screens",
+      "repoUrl": "https://github.com/software-mansion/react-native-screens",
+      "latest": {
+        "version": "4.28.0",
+        "publishedAt": "2026-09-14T10:44:16.651Z"
+      },
+      "previous": {
+        "version": "4.27.0",
+        "publishedAt": "2026-08-07T07:03:35.657Z"
+      },
+      "bump": "minor",
+      "prereleases": [
+        {
+          "version": "5.0.0-alpha.3",
+          "publishedAt": "2026-09-17T13:57:27.395Z",
+          "tags": [
+            "next"
+          ]
+        }
+      ],
+      "distTags": {
+        "latest": {
+          "version": "4.28.0",
+          "publishedAt": "2026-09-14T10:44:16.651Z"
+        },
+        "next": {
+          "version": "5.0.0-alpha.3",
+          "publishedAt": "2026-09-17T13:57:27.395Z"
+        }
+      },
+      "weeklyDownloads": 10857674,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.28.0"
+      }
+    },
+    "babel-plugin-react-compiler": {
+      "name": "babel-plugin-react-compiler",
+      "group": "tooling",
+      "npmUrl": "https://www.npmjs.com/package/babel-plugin-react-compiler",
+      "repoUrl": "https://github.com/react/react",
+      "latest": {
+        "version": "1.0.0",
+        "publishedAt": "2025-10-07T19:19:01.781Z"
+      },
+      "previous": null,
+      "bump": null,
+      "prereleases": [
+        {
+          "version": "0.0.0-experimental-a1856f3-20260507",
+          "publishedAt": "2026-05-08T16:42:39.527Z",
+          "tags": [
+            "experimental"
+          ]
+        }
+      ],
+      "distTags": {
+        "latest": {
+          "version": "1.0.0",
+          "publishedAt": "2025-10-07T19:19:01.781Z"
+        },
+        "experimental": {
+          "version": "0.0.0-experimental-a1856f3-20260507",
+          "publishedAt": "2026-05-08T16:42:39.527Z"
+        },
+        "rc": {
+          "version": "19.1.0-rc.3",
+          "publishedAt": "2025-08-28T21:52:45.724Z"
+        },
+        "beta": {
+          "version": "19.0.0-beta-af1b7da-20250417",
+          "publishedAt": "2025-04-21T09:15:06.135Z"
+        }
+      },
+      "weeklyDownloads": 19619073,
+      "releaseNotes": {
+        "kind": "changelog",
+        "url": "https://github.com/react/react/blob/HEAD/compiler/CHANGELOG.md"
+      }
+    },
+    "eslint-plugin-react-hooks": {
+      "name": "eslint-plugin-react-hooks",
+      "group": "tooling",
+      "npmUrl": "https://www.npmjs.com/package/eslint-plugin-react-hooks",
+      "repoUrl": "https://github.com/react/react",
+      "latest": {
+        "version": "7.1.1",
+        "publishedAt": "2026-04-17T18:03:19.591Z"
+      },
+      "previous": {
+        "version": "7.1.0",
+        "publishedAt": "2026-04-16T22:50:56.995Z"
+      },
+      "bump": "patch",
+      "prereleases": [
+        {
+          "version": "0.0.0-experimental-7c6ac13e-20260929",
+          "publishedAt": "2026-09-29T16:44:41.526Z",
+          "tags": [
+            "experimental"
+          ]
+        },
+        {
+          "version": "7.1.1-canary-7c6ac13e-20260929",
+          "publishedAt": "2026-09-29T16:40:10.006Z",
+          "tags": [
+            "canary"
+          ]
+        },
+        {
+          "version": "7.1.1-canary-d5736f09-20260507",
+          "publishedAt": "2026-05-08T16:43:06.991Z",
+          "tags": [
+            "next"
+          ]
+        }
+      ],
+      "distTags": {
+        "latest": {
+          "version": "7.1.1",
+          "publishedAt": "2026-04-17T18:03:19.591Z"
+        },
+        "next": {
+          "version": "7.1.1-canary-d5736f09-20260507",
+          "publishedAt": "2026-05-08T16:43:06.991Z"
+        },
+        "canary": {
+          "version": "7.1.1-canary-7c6ac13e-20260929",
+          "publishedAt": "2026-09-29T16:40:10.006Z"
+        },
+        "experimental": {
+          "version": "0.0.0-experimental-7c6ac13e-20260929",
+          "publishedAt": "2026-09-29T16:44:41.526Z"
+        },
+        "rc": {
+          "version": "6.0.0-rc.2",
+          "publishedAt": "2025-08-28T22:00:04.644Z"
+        },
+        "beta": {
+          "version": "5.1.0-beta-26f2496093-20240514",
+          "publishedAt": "2024-05-14T16:12:35.931Z"
+        }
+      },
+      "weeklyDownloads": 115920148,
+      "releaseNotes": {
+        "kind": "changelog",
+        "url": "https://github.com/react/react/blob/HEAD/packages/eslint-plugin-react-hooks/CHANGELOG.md"
+      }
+    },
+    "@vitejs/plugin-react": {
+      "name": "@vitejs/plugin-react",
+      "group": "tooling",
+      "npmUrl": "https://www.npmjs.com/package/@vitejs/plugin-react",
+      "repoUrl": "https://github.com/vitejs/vite-plugin-react",
+      "latest": {
+        "version": "6.1.1",
+        "publishedAt": "2026-08-28T03:30:56.619Z"
+      },
+      "previous": {
+        "version": "6.1.0",
+        "publishedAt": "2026-08-20T02:49:46.306Z"
+      },
+      "bump": "patch",
+      "prereleases": [],
+      "distTags": {
+        "latest": {
+          "version": "6.1.1",
+          "publishedAt": "2026-08-28T03:30:56.619Z"
+        },
+        "beta": {
+          "version": "6.0.0-beta.0",
+          "publishedAt": "2026-03-03T06:52:06.644Z"
+        },
+        "alpha": {
+          "version": "3.0.0-alpha.2",
+          "publishedAt": "2022-11-30T17:02:51.411Z"
+        }
+      },
+      "weeklyDownloads": 111519909,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/vitejs/vite-plugin-react/releases/tag/plugin-react%406.1.1"
+      }
+    },
+    "react-devtools": {
+      "name": "react-devtools",
+      "group": "tooling",
+      "npmUrl": "https://www.npmjs.com/package/react-devtools",
+      "repoUrl": "https://github.com/react/react",
+      "latest": {
+        "version": "8.0.0",
+        "publishedAt": "2026-09-09T17:27:15.999Z"
+      },
+      "previous": {
+        "version": "7.0.1",
+        "publishedAt": "2025-10-20T18:06:14.287Z"
+      },
+      "bump": "major",
+      "prereleases": [],
+      "distTags": {
+        "latest": {
+          "version": "8.0.0",
+          "publishedAt": "2026-09-09T17:27:15.999Z"
+        },
+        "next": {
+          "version": "4.0.6",
+          "publishedAt": "2019-08-26T15:45:43.521Z"
+        },
+        "alpha": {
+          "version": "3.5.0-alpha.0",
+          "publishedAt": "2018-12-14T18:29:05.851Z"
+        }
+      },
+      "weeklyDownloads": 211366,
+      "releaseNotes": {
+        "kind": "changelog",
+        "url": "https://github.com/react/react/blob/HEAD/packages/react-devtools/CHANGELOG.md"
+      }
+    },
+    "@testing-library/react": {
+      "name": "@testing-library/react",
+      "group": "tooling",
+      "npmUrl": "https://www.npmjs.com/package/@testing-library/react",
+      "repoUrl": "https://github.com/testing-library/react-testing-library",
+      "latest": {
+        "version": "16.3.3",
+        "publishedAt": "2026-08-27T17:41:18.735Z"
+      },
+      "previous": {
+        "version": "16.3.2",
+        "publishedAt": "2026-01-19T10:59:08.185Z"
+      },
+      "bump": "patch",
+      "prereleases": [],
+      "distTags": {
+        "latest": {
+          "version": "16.3.3",
+          "publishedAt": "2026-08-27T17:41:18.735Z"
+        },
+        "beta": {
+          "version": "11.0.0-beta.1",
+          "publishedAt": "2020-08-30T03:34:36.124Z"
+        },
+        "alpha": {
+          "version": "14.0.0-alpha.3",
+          "publishedAt": "2023-02-16T22:51:01.618Z"
+        }
+      },
+      "weeklyDownloads": 74291301,
+      "releaseNotes": {
+        "kind": "release",
+        "url": "https://github.com/testing-library/react-testing-library/releases/tag/v16.3.3"
+      }
+    }
+  },
+  "recent": [
+    {
+      "name": "motion",
+      "group": "forms-ui",
+      "version": "13.5.0",
+      "publishedAt": "2026-10-01T11:31:59.072Z",
+      "bump": "minor",
+      "url": "https://github.com/motiondivision/motion/blob/HEAD/CHANGELOG.md"
+    },
+    {
+      "name": "vite",
+      "group": "frameworks",
+      "version": "8.3.2",
+      "publishedAt": "2026-10-01T10:17:44.767Z",
+      "bump": "patch",
+      "url": "https://github.com/vitejs/vite/releases/tag/v8.3.2"
+    },
+    {
+      "name": "@tanstack/react-router",
+      "group": "routing-data",
+      "version": "1.170.41",
+      "publishedAt": "2026-09-30T17:48:34.218Z",
+      "bump": "patch",
+      "url": "https://github.com/TanStack/router/releases/tag/%40tanstack/react-router%401.170.41"
+    },
+    {
+      "name": "next",
+      "group": "frameworks",
+      "version": "15.5.27",
+      "publishedAt": "2026-09-30T16:19:50.862Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/next/v/15.5.27"
+    },
+    {
+      "name": "next",
+      "group": "frameworks",
+      "version": "16.3.8",
+      "publishedAt": "2026-09-30T16:07:21.198Z",
+      "bump": "patch",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.8"
+    },
+    {
+      "name": "@react-navigation/native",
+      "group": "native",
+      "version": "7.5.0",
+      "publishedAt": "2026-09-29T17:06:38.258Z",
+      "bump": "minor",
+      "url": "https://github.com/react-navigation/react-navigation/releases/tag/%40react-navigation/native%407.5.0"
+    },
+    {
+      "name": "jotai",
+      "group": "state",
+      "version": "3.0.1",
+      "publishedAt": "2026-09-29T14:18:19.043Z",
+      "bump": "patch",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v3.0.1"
+    },
+    {
+      "name": "motion",
+      "group": "forms-ui",
+      "version": "13.4.6",
+      "publishedAt": "2026-09-29T12:53:33.899Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/motion/v/13.4.6"
+    },
+    {
+      "name": "expo",
+      "group": "frameworks",
+      "version": "56.0.23",
+      "publishedAt": "2026-09-29T11:21:21.278Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/expo/v/56.0.23"
+    },
+    {
+      "name": "expo",
+      "group": "frameworks",
+      "version": "57.0.26",
+      "publishedAt": "2026-09-29T10:57:08.644Z",
+      "bump": "patch",
+      "url": "https://github.com/expo/expo/blob/HEAD/packages/expo/CHANGELOG.md"
+    },
+    {
+      "name": "next",
+      "group": "frameworks",
+      "version": "16.3.7",
+      "publishedAt": "2026-09-29T09:04:19.157Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/next/v/16.3.7"
+    },
+    {
+      "name": "motion",
+      "group": "forms-ui",
+      "version": "13.4.5",
+      "publishedAt": "2026-09-29T04:40:18.685Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/motion/v/13.4.5"
+    },
+    {
+      "name": "@reduxjs/toolkit",
+      "group": "state",
+      "version": "2.13.0",
+      "publishedAt": "2026-09-29T02:48:23.306Z",
+      "bump": "minor",
+      "url": "https://github.com/reduxjs/redux-toolkit/releases/tag/v2.13.0"
+    },
+    {
+      "name": "@tanstack/react-router",
+      "group": "routing-data",
+      "version": "1.170.40",
+      "publishedAt": "2026-09-27T14:11:47.693Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/@tanstack/react-router/v/1.170.40"
+    },
+    {
+      "name": "@tanstack/react-query",
+      "group": "routing-data",
+      "version": "5.104.0",
+      "publishedAt": "2026-09-26T03:56:26.747Z",
+      "bump": "minor",
+      "url": "https://github.com/TanStack/query/releases/tag/%40tanstack/react-query%405.104.0"
+    },
+    {
+      "name": "react-hook-form",
+      "group": "forms-ui",
+      "version": "7.89.0",
+      "publishedAt": "2026-09-26T00:59:18.254Z",
+      "bump": "minor",
+      "url": "https://github.com/react-hook-form/react-hook-form/releases/tag/v7.89.0"
+    },
+    {
+      "name": "@tanstack/react-query",
+      "group": "routing-data",
+      "version": "5.103.3",
+      "publishedAt": "2026-09-26T00:17:07.889Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/@tanstack/react-query/v/5.103.3"
+    },
+    {
+      "name": "motion",
+      "group": "forms-ui",
+      "version": "13.4.4",
+      "publishedAt": "2026-09-25T10:06:19.859Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/motion/v/13.4.4"
+    },
+    {
+      "name": "vite",
+      "group": "frameworks",
+      "version": "8.3.1",
+      "publishedAt": "2026-09-24T12:26:19.940Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/vite/v/8.3.1"
+    },
+    {
+      "name": "motion",
+      "group": "forms-ui",
+      "version": "13.4.3",
+      "publishedAt": "2026-09-24T11:51:17.709Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/motion/v/13.4.3"
+    },
+    {
+      "name": "expo",
+      "group": "frameworks",
+      "version": "57.0.25",
+      "publishedAt": "2026-09-24T10:13:10.090Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/expo/v/57.0.25"
+    },
+    {
+      "name": "astro",
+      "group": "frameworks",
+      "version": "7.3.5",
+      "publishedAt": "2026-09-24T09:15:47.814Z",
+      "bump": "patch",
+      "url": "https://github.com/withastro/astro/releases/tag/astro%407.3.5"
+    },
+    {
+      "name": "motion",
+      "group": "forms-ui",
+      "version": "13.4.2",
+      "publishedAt": "2026-09-23T15:24:29.525Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/motion/v/13.4.2"
+    },
+    {
+      "name": "@tanstack/react-router",
+      "group": "routing-data",
+      "version": "1.170.39",
+      "publishedAt": "2026-09-23T13:37:21.581Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/@tanstack/react-router/v/1.170.39"
+    },
+    {
+      "name": "astro",
+      "group": "frameworks",
+      "version": "7.3.4",
+      "publishedAt": "2026-09-22T18:56:49.511Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/astro/v/7.3.4"
+    },
+    {
+      "name": "next",
+      "group": "frameworks",
+      "version": "15.5.26",
+      "publishedAt": "2026-09-22T17:03:27.353Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/next/v/15.5.26"
+    },
+    {
+      "name": "motion",
+      "group": "forms-ui",
+      "version": "13.4.1",
+      "publishedAt": "2026-09-22T16:40:39.745Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/motion/v/13.4.1"
+    },
+    {
+      "name": "next",
+      "group": "frameworks",
+      "version": "16.3.6",
+      "publishedAt": "2026-09-22T16:19:00.458Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/next/v/16.3.6"
+    },
+    {
+      "name": "@tanstack/react-query",
+      "group": "routing-data",
+      "version": "5.103.2",
+      "publishedAt": "2026-09-21T09:33:10.783Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/@tanstack/react-query/v/5.103.2"
+    },
+    {
+      "name": "@apollo/client",
+      "group": "routing-data",
+      "version": "4.3.1",
+      "publishedAt": "2026-09-18T16:35:11.962Z",
+      "bump": "patch",
+      "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.1"
+    },
+    {
+      "name": "react-native-reanimated",
+      "group": "native",
+      "version": "4.7.0",
+      "publishedAt": "2026-09-18T14:34:51.410Z",
+      "bump": "minor",
+      "url": "https://github.com/software-mansion/react-native-reanimated/releases/tag/4.7.0"
+    },
+    {
+      "name": "expo",
+      "group": "frameworks",
+      "version": "57.0.24",
+      "publishedAt": "2026-09-18T08:07:12.211Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/expo/v/57.0.24"
+    },
+    {
+      "name": "expo",
+      "group": "frameworks",
+      "version": "56.0.22",
+      "publishedAt": "2026-09-17T22:09:28.356Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/expo/v/56.0.22"
+    },
+    {
+      "name": "@tanstack/react-router",
+      "group": "routing-data",
+      "version": "1.170.38",
+      "publishedAt": "2026-09-16T21:57:42.189Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/@tanstack/react-router/v/1.170.38"
+    },
+    {
+      "name": "@tanstack/react-router",
+      "group": "routing-data",
+      "version": "1.170.37",
+      "publishedAt": "2026-09-16T21:17:11.781Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/@tanstack/react-router/v/1.170.37"
+    },
+    {
+      "name": "astro",
+      "group": "frameworks",
+      "version": "7.3.3",
+      "publishedAt": "2026-09-16T19:45:24.214Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/astro/v/7.3.3"
+    },
+    {
+      "name": "@tanstack/react-query",
+      "group": "routing-data",
+      "version": "5.103.1",
+      "publishedAt": "2026-09-16T15:01:15.056Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/@tanstack/react-query/v/5.103.1"
+    },
+    {
+      "name": "motion",
+      "group": "forms-ui",
+      "version": "13.4.0",
+      "publishedAt": "2026-09-16T13:10:18.420Z",
+      "bump": "minor",
+      "url": "https://www.npmjs.com/package/motion/v/13.4.0"
+    },
+    {
+      "name": "@tanstack/react-query",
+      "group": "routing-data",
+      "version": "5.103.0",
+      "publishedAt": "2026-09-16T07:08:58.778Z",
+      "bump": "minor",
+      "url": "https://www.npmjs.com/package/@tanstack/react-query/v/5.103.0"
+    },
+    {
+      "name": "expo",
+      "group": "frameworks",
+      "version": "57.0.23",
+      "publishedAt": "2026-09-15T15:59:52.493Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/expo/v/57.0.23"
+    },
+    {
+      "name": "react-router",
+      "group": "routing-data",
+      "version": "8.4.0",
+      "publishedAt": "2026-09-15T15:23:42.214Z",
+      "bump": "minor",
+      "url": "https://github.com/remix-run/react-router/releases/tag/react-router%408.4.0"
+    },
+    {
+      "name": "react-router",
+      "group": "routing-data",
+      "version": "7.18.4",
+      "publishedAt": "2026-09-15T15:08:29.127Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/react-router/v/7.18.4"
+    },
+    {
+      "name": "@react-navigation/native",
+      "group": "native",
+      "version": "7.4.1",
+      "publishedAt": "2026-09-15T10:53:46.300Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/@react-navigation/native/v/7.4.1"
+    },
+    {
+      "name": "@react-navigation/native",
+      "group": "native",
+      "version": "7.4.0",
+      "publishedAt": "2026-09-15T07:03:14.997Z",
+      "bump": "minor",
+      "url": "https://www.npmjs.com/package/@react-navigation/native/v/7.4.0"
+    },
+    {
+      "name": "motion",
+      "group": "forms-ui",
+      "version": "13.3.0",
+      "publishedAt": "2026-09-14T14:56:09.680Z",
+      "bump": "minor",
+      "url": "https://www.npmjs.com/package/motion/v/13.3.0"
+    },
+    {
+      "name": "react-native-screens",
+      "group": "native",
+      "version": "4.28.0",
+      "publishedAt": "2026-09-14T10:44:16.651Z",
+      "bump": "minor",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.28.0"
+    },
+    {
+      "name": "react-native-gesture-handler",
+      "group": "native",
+      "version": "2.33.0",
+      "publishedAt": "2026-09-14T07:54:30.911Z",
+      "bump": "minor",
+      "url": "https://www.npmjs.com/package/react-native-gesture-handler/v/2.33.0"
+    },
+    {
+      "name": "@tanstack/react-router",
+      "group": "routing-data",
+      "version": "1.170.36",
+      "publishedAt": "2026-09-13T13:18:42.037Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/@tanstack/react-router/v/1.170.36"
+    },
+    {
+      "name": "react-hook-form",
+      "group": "forms-ui",
+      "version": "7.88.0",
+      "publishedAt": "2026-09-11T22:51:23.453Z",
+      "bump": "minor",
+      "url": "https://www.npmjs.com/package/react-hook-form/v/7.88.0"
+    },
+    {
+      "name": "@apollo/client",
+      "group": "routing-data",
+      "version": "4.3.0",
+      "publishedAt": "2026-09-11T19:08:47.583Z",
+      "bump": "minor",
+      "url": "https://www.npmjs.com/package/@apollo/client/v/4.3.0"
+    }
+  ]
+}

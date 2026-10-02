@@ -1,0 +1,21 @@
+{
+  "name": "reactjs-dev",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Independent, auto-updating release tracker for the React ecosystem. Not affiliated with the React Foundation.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "fetch": "node scripts/fetch.ts",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^7.3.5",
+    "typescript": "^7.0.2"
+  }
+}
