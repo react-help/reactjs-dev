@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    background: #141210; color: #ece7e1;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    display: flex; flex-direction: column; justify-content: space-between;
+    padding: 72px 80px; box-sizing: border-box;
+  }
+  .brand { display: flex; align-items: center; gap: 22px; font: 600 34px ui-monospace, "SF Mono", Menlo, monospace; }
+  h1 { font-size: 76px; line-height: 1.04; letter-spacing: -0.03em; margin: 0 0 22px; font-weight: 700; max-width: 900px; }
+  p { margin: 0; font-size: 30px; color: #a39a91; }
+  .rows { display: grid; gap: 12px; position: absolute; right: 80px; top: 72px; }
+  .row { display: flex; gap: 10px; justify-content: flex-end; }
+  .bar { height: 14px; border-radius: 7px; background: #2c2824; }
+  .bar.hot { background: #f2a93b; }
+  .foot { display: flex; justify-content: space-between; font-size: 22px; color: #a39a91; border-top: 1px solid #2c2824; padding-top: 26px; }
+  .foot b { color: #f2a93b; font-weight: 600; font-family: ui-monospace, "SF Mono", Menlo, monospace; }
+</style>
+</head>
+<body>
+  <div class="brand">
+    <svg width="72" height="72" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#262220"/><path d="M7 23h5.5v-5.5H18V12h3.5" fill="none" stroke="#ECE7E1" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24.5" cy="12" r="2.75" fill="#F2A93B"/></svg>
+    reactjs.dev
+  </div>
+  <div class="rows" aria-hidden="true">
+    <div class="row"><div class="bar hot" style="width:120px"></div><div class="bar" style="width:60px"></div></div>
+    <div class="row"><div class="bar" style="width:150px"></div><div class="bar" style="width:40px"></div></div>
+    <div class="row"><div class="bar hot" style="width:90px"></div><div class="bar" style="width:70px"></div></div>
+    <div class="row"><div class="bar" style="width:130px"></div><div class="bar" style="width:50px"></div></div>
+  </div>
+  <div>
+    <h1>React ecosystem release tracker</h1>
+    <p>Latest, canary and prerelease versions at a glance. Refreshed every six hours.</p>
+  </div>
+  <div class="foot"><span>Independent project · not affiliated with the React Foundation</span><b>latest · canary · rc</b></div>
+</body>
+</html>
