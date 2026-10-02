@@ -1,0 +1,91 @@
+---
+import { compactNumber, isNew, NOTES_LABEL, versionParts } from "../lib/format.ts";
+import type { Group, PackageData } from "../lib/types.ts";
+import RelTime from "./RelTime.astro";
+
+interface Props {
+  group: Group;
+  packages: PackageData[];
+}
+const { group, packages } = Astro.props;
+const headingId = `${group.id}-title`;
+const nf = new Intl.NumberFormat("en");
+---
+
+<section class="group" id={group.id} data-group>
+  <div class="group-head">
+    <h2 id={headingId}>{group.name}</h2>
+    <span data-count>{packages.length} packages</span>
+  </div>
+  <div class="table-wrap">
+    <table aria-labelledby={headingId}>
+      <colgroup>
+        <col class="c-pkg" /><col class="c-ver" /><col class="c-date" /><col class="c-pre" /><col class="c-dl" /><col
+          class="c-notes"
+        />
+      </colgroup>
+      <thead>
+        <tr>
+          <th scope="col">Package</th>
+          <th scope="col">Latest</th>
+          <th scope="col">Released</th>
+          <th scope="col">Prerelease</th>
+          <th scope="col" class="dl">Weekly</th>
+          <th scope="col" class="notes"><span class="visually-hidden">Release notes</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          packages.map((pkg) => (
+            <tr
+              class:list={{ "is-new": isNew(pkg.latest.publishedAt) }}
+              data-name={pkg.name}
+              data-published={pkg.latest.publishedAt}
+            >
+              <th scope="row" class="pkg">
+                <a href={pkg.npmUrl}>{pkg.name}</a>
+                <span class="badge">new</span>
+              </th>
+              <td
+                class:list={["ver", pkg.bump]}
+                title={pkg.previous ? `${pkg.bump ?? "same"} bump from ${pkg.previous.version}` : undefined}
+              >
+                {versionParts(pkg.latest.version, pkg.previous?.version, pkg.bump).map((part) => (
+                  <span class={part.changed ? "changed" : "same"}>{part.text}</span>
+                ))}
+                {pkg.previous && <small>from {pkg.previous.version}</small>}
+              </td>
+              <td class="date">
+                <RelTime iso={pkg.latest.publishedAt} />
+              </td>
+              <td class="pre">
+                {pkg.prereleases.length ? (
+                  <ul>
+                    {pkg.prereleases.map((p) => (
+                      <li title={`${p.version} (${p.tags.join(", ")})`}>
+                        <span class="tag">@{p.tags.join(" @")}</span>
+                        {p.version}
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <span class="none">–</span>
+                )}
+              </td>
+              <td class="dl" title={pkg.weeklyDownloads !== null ? `${nf.format(pkg.weeklyDownloads)} downloads last week` : undefined}>
+                {compactNumber(pkg.weeklyDownloads)}
+                <span class="dl-unit">/wk</span>
+              </td>
+              <td class="notes">
+                <a href={pkg.releaseNotes.url} aria-label={`${pkg.name} ${pkg.latest.version}: ${NOTES_LABEL[pkg.releaseNotes.kind]}`}>
+                  {NOTES_LABEL[pkg.releaseNotes.kind]}
+                  <span aria-hidden="true">↗</span>
+                </a>
+              </td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+</section>

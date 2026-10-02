@@ -1,0 +1,136 @@
+---
+import data from "../../data/releases.json";
+import CanaryStrip from "../components/CanaryStrip.astro";
+import GroupTable from "../components/GroupTable.astro";
+import Mark from "../components/Mark.astro";
+import RelTime from "../components/RelTime.astro";
+import Base from "../layouts/Base.astro";
+import type { ReleasesFile } from "../lib/types.ts";
+
+const releases = data as ReleasesFile;
+const groups = releases.groups.filter((g) => g.packages.length);
+const packageCount = Object.keys(releases.packages).length;
+const REPO = "https://github.com/react-help/reactjs-dev";
+---
+
+<Base
+  title="React ecosystem release tracker"
+  description="Latest, canary and prerelease versions of React, React Native, Next.js, Expo and the wider React ecosystem at a glance. Refreshed from npm and GitHub every six hours."
+>
+  <div class="wrap">
+    <header>
+      <div class="topbar">
+        <a class="brand" href="/" aria-label="reactjs.dev home"><Mark size={28} />reactjs.dev</a>
+        <a class="docs-link" href="https://react.dev">Looking for the official docs? <strong>react.dev ↗</strong></a>
+      </div>
+      <div class="intro">
+        <h1>React ecosystem release tracker</h1>
+        <p>
+          Current versions, prereleases and release notes for {packageCount} packages across the React ecosystem, pulled
+          from npm and GitHub every six hours.
+        </p>
+        <div class="meta">
+          <span><span class="pulse" aria-hidden="true"></span>Data updated <RelTime iso={releases.updatedAt} /></span>
+          <span><a href="/releases.json">releases.json</a> · <a href="/feed.xml">RSS</a></span>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <CanaryStrip data={releases} />
+
+      <div class="controls">
+        <div class="filter">
+          <label for="filter" class="visually-hidden">Filter packages</label>
+          <input id="filter" type="search" placeholder="Filter packages" autocomplete="off" spellcheck="false" />
+          <kbd aria-hidden="true">/</kbd>
+        </div>
+        <nav class="jump" aria-label="Jump to group">
+          {groups.map((g) => <a href={`#${g.id}`}>{g.name}</a>)}
+        </nav>
+        <span class="legend"><i aria-hidden="true"></i>Released in the last 7 days</span>
+      </div>
+
+      {groups.map((g) => <GroupTable group={g} packages={g.packages.map((n) => releases.packages[n])} />)}
+      <p class="empty" id="empty" role="status">No packages match that filter.</p>
+    </main>
+
+    <footer class="footer">
+      <p class="disclaimer">Independent project, not affiliated with the React Foundation.</p>
+      <p><a href="https://react.dev">Official React documentation: react.dev</a></p>
+      <p>Data from npm and GitHub.</p>
+      <nav aria-label="Project">
+        <a href={REPO}>Source on GitHub</a>
+        <a href={`${REPO}/blob/main/packages.config.ts`}>Suggest a package</a>
+        <a href="/releases.json">releases.json</a>
+        <a href="/feed.xml">RSS feed</a>
+      </nav>
+    </footer>
+  </div>
+
+  <script>
+    import { absoluteTime, isNew, relativeTime } from "../lib/format.ts";
+
+    // ----- relative times and "new this week", kept fresh without reload -----
+    const localAbs = new Intl.DateTimeFormat(undefined, { dateStyle: "medium", timeStyle: "short" });
+    function tick() {
+      const now = Date.now();
+      for (const el of document.querySelectorAll<HTMLTimeElement>("time[data-rel]")) {
+        el.textContent = relativeTime(el.dateTime, now);
+        el.title = el.dateTime ? localAbs.format(new Date(el.dateTime)) : absoluteTime(null);
+      }
+      for (const el of document.querySelectorAll<HTMLElement>("[data-published]")) {
+        el.classList.toggle("is-new", isNew(el.dataset.published || null, now));
+      }
+    }
+    tick();
+    setInterval(tick, 60_000);
+
+    // ----- filter -----
+    const input = document.getElementById("filter") as HTMLInputElement;
+    const empty = document.getElementById("empty")!;
+    const groups = [...document.querySelectorAll<HTMLElement>("[data-group]")];
+
+    function applyFilter() {
+      const q = input.value.trim().toLowerCase();
+      let total = 0;
+      for (const group of groups) {
+        const groupName = group.querySelector("h2")!.textContent!.toLowerCase();
+        const rows = [...group.querySelectorAll<HTMLTableRowElement>("tr[data-name]")];
+        let shown = 0;
+        for (const row of rows) {
+          const match = !q || row.dataset.name!.toLowerCase().includes(q) || groupName.includes(q);
+          row.hidden = !match;
+          if (match) shown++;
+        }
+        group.hidden = shown === 0;
+        group.querySelector("[data-count]")!.textContent = q
+          ? `${shown} of ${rows.length} packages`
+          : `${rows.length} packages`;
+        total += shown;
+      }
+      empty.classList.toggle("show", total === 0);
+      const url = new URL(location.href);
+      if (q) url.searchParams.set("q", q);
+      else url.searchParams.delete("q");
+      history.replaceState(null, "", url);
+    }
+
+    input.value = new URLSearchParams(location.search).get("q") ?? "";
+    if (input.value) applyFilter();
+    input.addEventListener("input", applyFilter);
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        input.value = "";
+        applyFilter();
+      }
+    });
+    document.addEventListener("keydown", (e) => {
+      const target = e.target as HTMLElement;
+      if (e.key === "/" && !/^(INPUT|TEXTAREA|SELECT)$/.test(target.tagName) && !target.isContentEditable) {
+        e.preventDefault();
+        input.focus();
+      }
+    });
+  </script>
+</Base>

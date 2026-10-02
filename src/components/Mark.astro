@@ -1,0 +1,19 @@
+---
+/** Version-steps mark: a staircase of bumps ending at the latest release. */
+interface Props {
+  size?: number;
+}
+const { size = 28 } = Astro.props;
+---
+
+<svg class="mark" width={size} height={size} viewBox="0 0 32 32" aria-hidden="true">
+  <rect width="32" height="32" rx="7" fill="var(--mark-bg)"></rect>
+  <path
+    d="M7 23h5.5v-5.5H18V12h3.5"
+    fill="none"
+    stroke="var(--mark-fg)"
+    stroke-width="2.75"
+    stroke-linecap="round"
+    stroke-linejoin="round"></path>
+  <circle cx="24.5" cy="12" r="2.75" fill="var(--mark-accent)"></circle>
+</svg>

@@ -1,0 +1,19 @@
+---
+import { absoluteTime, relativeTime } from "../lib/format.ts";
+
+/** Relative time that the client script keeps fresh; absolute time on hover. */
+interface Props {
+  iso: string | null;
+}
+const { iso } = Astro.props;
+---
+
+{
+  iso ? (
+    <time datetime={iso} title={absoluteTime(iso)} data-rel>
+      {relativeTime(iso)}
+    </time>
+  ) : (
+    <span class="none">–</span>
+  )
+}

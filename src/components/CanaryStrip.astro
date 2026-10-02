@@ -1,0 +1,46 @@
+---
+import { CANARY_STRIP, CANARY_STRIP_TAGS } from "../../packages.config.ts";
+import { isNew } from "../lib/format.ts";
+import type { ReleasesFile } from "../lib/types.ts";
+import RelTime from "./RelTime.astro";
+
+interface Props {
+  data: ReleasesFile;
+}
+const { data } = Astro.props;
+const pkgs = CANARY_STRIP.map((n) => data.packages[n]).filter(Boolean);
+---
+
+<section class="strip" aria-labelledby="strip-title">
+  <div class="strip-head">
+    <h2 id="strip-title">React channels</h2>
+    <span>latest · canary · experimental</span>
+  </div>
+  <div class="strip-grid">
+    {
+      pkgs.map((pkg) => (
+        <div class="strip-pkg">
+          <div class="strip-name">
+            <a href={pkg.npmUrl}>{pkg.name}</a>
+          </div>
+          {CANARY_STRIP_TAGS.map((tag) => {
+            const t = pkg.distTags[tag];
+            return (
+              <div class:list={["strip-cell", { "is-new": t && isNew(t.publishedAt) }]} data-published={t?.publishedAt}>
+                <span class="tag-label">@{tag}</span>
+                {t ? (
+                  <>
+                    <code class="strip-version">{t.version}</code>
+                    <RelTime iso={t.publishedAt} />
+                  </>
+                ) : (
+                  <span class="none">not published</span>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      ))
+    }
+  </div>
+</section>
