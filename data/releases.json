@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-04T06:00:53.964Z",
+  "updatedAt": "2026-10-04T12:29:11.436Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -137,7 +137,7 @@
           "publishedAt": "2024-05-14T16:13:29.702Z"
         }
       },
-      "weeklyDownloads": 218142744,
+      "weeklyDownloads": 222767611,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/react/react/releases/tag/v19.3.0"
@@ -199,7 +199,7 @@
           "publishedAt": "2024-05-14T16:14:18.389Z"
         }
       },
-      "weeklyDownloads": 205683116,
+      "weeklyDownloads": 210124779,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/react/react/releases/tag/v19.3.0"
@@ -238,7 +238,7 @@
           "publishedAt": "2026-09-28T11:30:47.323Z"
         }
       },
-      "weeklyDownloads": 16370313,
+      "weeklyDownloads": 16711406,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/react/react-native/releases/tag/v0.87.1"
@@ -265,7 +265,7 @@
           "publishedAt": "2026-09-09T18:08:49.750Z"
         }
       },
-      "weeklyDownloads": 199812361,
+      "weeklyDownloads": 203764706,
       "releaseNotes": {
         "kind": "npm",
         "url": "https://www.npmjs.com/package/@types/react?activeTab=versions"
@@ -312,7 +312,7 @@
           "publishedAt": "2025-10-10T02:56:20.701Z"
         }
       },
-      "weeklyDownloads": 74675385,
+      "weeklyDownloads": 76367573,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.3.8"
@@ -355,7 +355,7 @@
           "publishedAt": "2026-09-09T09:25:22.062Z"
         }
       },
-      "weeklyDownloads": 11516219,
+      "weeklyDownloads": 11814219,
       "releaseNotes": {
         "kind": "changelog",
         "url": "https://github.com/expo/expo/blob/HEAD/packages/expo/CHANGELOG.md"
@@ -402,7 +402,7 @@
           "publishedAt": "2026-06-08T17:04:56.184Z"
         }
       },
-      "weeklyDownloads": 7556428,
+      "weeklyDownloads": 7848161,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/withastro/astro/releases/tag/astro%407.3.5"
@@ -437,7 +437,7 @@
           "publishedAt": "2024-09-04T09:15:20.820Z"
         }
       },
-      "weeklyDownloads": 225080956,
+      "weeklyDownloads": 230293805,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/vitejs/vite/releases/tag/v8.3.2"
@@ -468,7 +468,7 @@
           "publishedAt": "2026-09-15T15:10:40.560Z"
         }
       },
-      "weeklyDownloads": 68206086,
+      "weeklyDownloads": 68636492,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/remix-run/react-router/releases/tag/react-router%408.4.0"
@@ -507,7 +507,7 @@
           "publishedAt": "2023-07-24T09:07:07.930Z"
         }
       },
-      "weeklyDownloads": 80915709,
+      "weeklyDownloads": 82137711,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/TanStack/query/releases/tag/%40tanstack/react-query%405.104.1"
@@ -542,7 +542,7 @@
           "publishedAt": "2025-09-22T01:27:44.255Z"
         }
       },
-      "weeklyDownloads": 26859108,
+      "weeklyDownloads": 25609219,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/TanStack/router/releases/tag/%40tanstack/react-router%401.170.41"
@@ -585,7 +585,7 @@
           "publishedAt": "2026-09-22T11:55:22.701Z"
         }
       },
-      "weeklyDownloads": 21609475,
+      "weeklyDownloads": 22029085,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/vercel/swr/releases/tag/v2.5.1"
@@ -628,7 +628,7 @@
           "publishedAt": "2026-08-21T16:37:31.614Z"
         }
       },
-      "weeklyDownloads": 7576864,
+      "weeklyDownloads": 7610861,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.1"
@@ -655,7 +655,7 @@
           "publishedAt": "2026-08-13T00:39:55.466Z"
         }
       },
-      "weeklyDownloads": 69436046,
+      "weeklyDownloads": 70867638,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.15"
@@ -698,7 +698,7 @@
           "publishedAt": "2023-05-16T14:09:15.407Z"
         }
       },
-      "weeklyDownloads": 37514424,
+      "weeklyDownloads": 37990935,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/reduxjs/redux-toolkit/releases/tag/v2.13.0"
@@ -725,7 +725,7 @@
           "publishedAt": "2026-09-29T14:18:19.043Z"
         }
       },
-      "weeklyDownloads": 7809521,
+      "weeklyDownloads": 7960499,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/pmndrs/jotai/releases/tag/v3.0.1"
@@ -756,7 +756,7 @@
           "publishedAt": "2024-08-18T13:35:09.679Z"
         }
       },
-      "weeklyDownloads": 2451976,
+      "weeklyDownloads": 2529611,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/pmndrs/valtio/releases/tag/v2.3.2"
@@ -803,7 +803,7 @@
           "publishedAt": "2025-10-04T01:49:07.476Z"
         }
       },
-      "weeklyDownloads": 69090162,
+      "weeklyDownloads": 69921792,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/react-hook-form/react-hook-form/releases/tag/v7.89.0"
@@ -846,7 +846,7 @@
           "publishedAt": "2021-12-11T14:03:21.576Z"
         }
       },
-      "weeklyDownloads": 27703892,
+      "weeklyDownloads": 28053069,
       "releaseNotes": {
         "kind": "changelog",
         "url": "https://github.com/motiondivision/motion/blob/HEAD/CHANGELOG.md"
@@ -885,7 +885,7 @@
           "publishedAt": "2026-07-31T15:49:47.168Z"
         }
       },
-      "weeklyDownloads": 89251464,
+      "weeklyDownloads": 91089113,
       "releaseNotes": {
         "kind": "changelog",
         "url": "https://github.com/radix-ui/primitives/blob/HEAD/packages/react/dialog/CHANGELOG.md"
@@ -920,7 +920,7 @@
           "publishedAt": "2024-09-19T13:12:08.230Z"
         }
       },
-      "weeklyDownloads": 12448460,
+      "weeklyDownloads": 12468337,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/mui/material-ui/releases/tag/v9.4.0"
@@ -959,7 +959,7 @@
           "publishedAt": "2026-10-02T16:27:50.611Z"
         }
       },
-      "weeklyDownloads": 7136490,
+      "weeklyDownloads": 7221822,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/react-navigation/react-navigation/releases/tag/%40react-navigation/native%407.5.0"
@@ -986,7 +986,7 @@
           "publishedAt": "2026-10-02T13:58:35.242Z"
         }
       },
-      "weeklyDownloads": 10547914,
+      "weeklyDownloads": 10805663,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/software-mansion/react-native-reanimated/releases/tag/4.7.1"
@@ -1013,7 +1013,7 @@
           "publishedAt": "2026-09-11T10:48:20.163Z"
         }
       },
-      "weeklyDownloads": 10289989,
+      "weeklyDownloads": 10547507,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/software-mansion/react-native-gesture-handler/releases/tag/v3.3.0"
@@ -1052,7 +1052,7 @@
           "publishedAt": "2026-09-17T13:57:27.395Z"
         }
       },
-      "weeklyDownloads": 11123507,
+      "weeklyDownloads": 11435683,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.28.0"
@@ -1096,7 +1096,7 @@
           "publishedAt": "2025-04-21T09:15:06.135Z"
         }
       },
-      "weeklyDownloads": 20064130,
+      "weeklyDownloads": 20549522,
       "releaseNotes": {
         "kind": "changelog",
         "url": "https://github.com/react/react/blob/HEAD/compiler/CHANGELOG.md"
@@ -1165,7 +1165,7 @@
           "publishedAt": "2024-05-14T16:12:35.931Z"
         }
       },
-      "weeklyDownloads": 117759257,
+      "weeklyDownloads": 120139281,
       "releaseNotes": {
         "kind": "changelog",
         "url": "https://github.com/react/react/blob/HEAD/packages/eslint-plugin-react-hooks/CHANGELOG.md"
@@ -1200,7 +1200,7 @@
           "publishedAt": "2022-11-30T17:02:51.411Z"
         }
       },
-      "weeklyDownloads": 113385850,
+      "weeklyDownloads": 115938935,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/vitejs/vite-plugin-react/releases/tag/plugin-react%406.1.1"
@@ -1235,7 +1235,7 @@
           "publishedAt": "2018-12-14T18:29:05.851Z"
         }
       },
-      "weeklyDownloads": 215136,
+      "weeklyDownloads": 221014,
       "releaseNotes": {
         "kind": "changelog",
         "url": "https://github.com/react/react/blob/HEAD/packages/react-devtools/CHANGELOG.md"
@@ -1270,7 +1270,7 @@
           "publishedAt": "2023-02-16T22:51:01.618Z"
         }
       },
-      "weeklyDownloads": 75986599,
+      "weeklyDownloads": 78781276,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/testing-library/react-testing-library/releases/tag/v16.3.3"
