@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-05T14:52:21.297Z",
+  "updatedAt": "2026-10-06T00:07:42.234Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -287,8 +287,8 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "16.4.0-canary.60",
-          "publishedAt": "2026-10-05T00:01:23.030Z",
+          "version": "16.4.0-canary.61",
+          "publishedAt": "2026-10-05T23:55:30.748Z",
           "tags": [
             "canary"
           ]
@@ -300,8 +300,8 @@
           "publishedAt": "2026-09-30T16:07:21.198Z"
         },
         "canary": {
-          "version": "16.4.0-canary.60",
-          "publishedAt": "2026-10-05T00:01:23.030Z"
+          "version": "16.4.0-canary.61",
+          "publishedAt": "2026-10-05T23:55:30.748Z"
         },
         "rc": {
           "version": "15.0.0-rc.1",
@@ -334,8 +334,8 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "58.0.3",
-          "publishedAt": "2026-10-03T13:25:05.996Z",
+          "version": "58.0.5",
+          "publishedAt": "2026-10-05T23:28:43.351Z",
           "tags": [
             "next"
           ]
@@ -347,8 +347,8 @@
           "publishedAt": "2026-09-29T10:57:08.644Z"
         },
         "next": {
-          "version": "58.0.3",
-          "publishedAt": "2026-10-03T13:25:05.996Z"
+          "version": "58.0.5",
+          "publishedAt": "2026-10-05T23:28:43.351Z"
         },
         "canary": {
           "version": "58.0.0-canary-20260909-ea7a89a",
@@ -597,19 +597,19 @@
       "npmUrl": "https://www.npmjs.com/package/@apollo/client",
       "repoUrl": "https://github.com/apollographql/apollo-client",
       "latest": {
-        "version": "4.3.1",
-        "publishedAt": "2026-09-18T16:35:11.962Z"
+        "version": "4.3.2",
+        "publishedAt": "2026-10-05T22:01:42.086Z"
       },
       "previous": {
-        "version": "4.3.0",
-        "publishedAt": "2026-09-11T19:08:47.583Z"
+        "version": "4.3.1",
+        "publishedAt": "2026-09-18T16:35:11.962Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "4.3.1",
-          "publishedAt": "2026-09-18T16:35:11.962Z"
+          "version": "4.3.2",
+          "publishedAt": "2026-10-05T22:01:42.086Z"
         },
         "next": {
           "version": "4.3.0-rc.2",
@@ -631,7 +631,7 @@
       "weeklyDownloads": 7623190,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.1"
+        "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.2"
       }
     },
     "zustand": {
@@ -858,31 +858,23 @@
       "npmUrl": "https://www.npmjs.com/package/@radix-ui/react-dialog",
       "repoUrl": "https://github.com/radix-ui/primitives",
       "latest": {
+        "version": "1.2.0",
+        "publishedAt": "2026-10-05T23:08:45.228Z"
+      },
+      "previous": {
         "version": "1.1.23",
         "publishedAt": "2026-07-24T23:51:17.929Z"
       },
-      "previous": {
-        "version": "1.1.22",
-        "publishedAt": "2026-07-24T16:27:50.360Z"
-      },
-      "bump": "patch",
-      "prereleases": [
-        {
-          "version": "1.2.0-rc.1785512840124",
-          "publishedAt": "2026-07-31T15:49:47.168Z",
-          "tags": [
-            "next"
-          ]
-        }
-      ],
+      "bump": "minor",
+      "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "1.1.23",
-          "publishedAt": "2026-07-24T23:51:17.929Z"
+          "version": "1.2.0",
+          "publishedAt": "2026-10-05T23:08:45.228Z"
         },
         "next": {
-          "version": "1.2.0-rc.1785512840124",
-          "publishedAt": "2026-07-31T15:49:47.168Z"
+          "version": "1.2.0-rc.1791238396519",
+          "publishedAt": "2026-10-05T22:17:37.134Z"
         }
       },
       "weeklyDownloads": 91859169,
@@ -1279,6 +1271,22 @@
   },
   "recent": [
     {
+      "name": "@radix-ui/react-dialog",
+      "group": "forms-ui",
+      "version": "1.2.0",
+      "publishedAt": "2026-10-05T23:08:45.228Z",
+      "bump": "minor",
+      "url": "https://github.com/radix-ui/primitives/blob/HEAD/packages/react/dialog/CHANGELOG.md"
+    },
+    {
+      "name": "@apollo/client",
+      "group": "routing-data",
+      "version": "4.3.2",
+      "publishedAt": "2026-10-05T22:01:42.086Z",
+      "bump": "patch",
+      "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.2"
+    },
+    {
       "name": "@vitejs/plugin-react",
       "group": "tooling",
       "version": "6.1.2",
@@ -1556,7 +1564,7 @@
       "version": "4.3.1",
       "publishedAt": "2026-09-18T16:35:11.962Z",
       "bump": "patch",
-      "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.1"
+      "url": "https://www.npmjs.com/package/@apollo/client/v/4.3.1"
     },
     {
       "name": "react-native-reanimated",
@@ -1661,22 +1669,6 @@
       "publishedAt": "2026-09-15T10:53:46.300Z",
       "bump": "patch",
       "url": "https://www.npmjs.com/package/@react-navigation/native/v/7.4.1"
-    },
-    {
-      "name": "@react-navigation/native",
-      "group": "native",
-      "version": "7.4.0",
-      "publishedAt": "2026-09-15T07:03:14.997Z",
-      "bump": "minor",
-      "url": "https://www.npmjs.com/package/@react-navigation/native/v/7.4.0"
-    },
-    {
-      "name": "motion",
-      "group": "forms-ui",
-      "version": "13.3.0",
-      "publishedAt": "2026-09-14T14:56:09.680Z",
-      "bump": "minor",
-      "url": "https://www.npmjs.com/package/motion/v/13.3.0"
     }
   ]
 }
