@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06T00:07:42.234Z",
+  "updatedAt": "2026-10-06T06:29:34.200Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -414,19 +414,19 @@
       "npmUrl": "https://www.npmjs.com/package/vite",
       "repoUrl": "https://github.com/vitejs/vite",
       "latest": {
-        "version": "8.3.2",
-        "publishedAt": "2026-10-01T10:17:44.767Z"
+        "version": "8.3.3",
+        "publishedAt": "2026-10-06T04:10:19.326Z"
       },
       "previous": {
-        "version": "8.3.1",
-        "publishedAt": "2026-09-24T12:26:19.940Z"
+        "version": "8.3.2",
+        "publishedAt": "2026-10-01T10:17:44.767Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "8.3.2",
-          "publishedAt": "2026-10-01T10:17:44.767Z"
+          "version": "8.3.3",
+          "publishedAt": "2026-10-06T04:10:19.326Z"
         },
         "beta": {
           "version": "8.3.0-beta.1",
@@ -440,7 +440,7 @@
       "weeklyDownloads": 232152443,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/vitejs/vite/releases/tag/v8.3.2"
+        "url": "https://github.com/vitejs/vite/releases/tag/v8.3.3"
       }
     },
     "react-router": {
@@ -866,15 +866,23 @@
         "publishedAt": "2026-07-24T23:51:17.929Z"
       },
       "bump": "minor",
-      "prereleases": [],
+      "prereleases": [
+        {
+          "version": "1.2.1-rc.1791245332176",
+          "publishedAt": "2026-10-06T00:12:03.884Z",
+          "tags": [
+            "next"
+          ]
+        }
+      ],
       "distTags": {
         "latest": {
           "version": "1.2.0",
           "publishedAt": "2026-10-05T23:08:45.228Z"
         },
         "next": {
-          "version": "1.2.0-rc.1791238396519",
-          "publishedAt": "2026-10-05T22:17:37.134Z"
+          "version": "1.2.1-rc.1791245332176",
+          "publishedAt": "2026-10-06T00:12:03.884Z"
         }
       },
       "weeklyDownloads": 91859169,
@@ -1271,6 +1279,46 @@
   },
   "recent": [
     {
+      "name": "vite",
+      "group": "frameworks",
+      "version": "6.4.4",
+      "publishedAt": "2026-10-06T05:49:07.089Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/vite/v/6.4.4"
+    },
+    {
+      "name": "vite",
+      "group": "frameworks",
+      "version": "7.3.7",
+      "publishedAt": "2026-10-06T05:11:19.017Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/vite/v/7.3.7"
+    },
+    {
+      "name": "vite",
+      "group": "frameworks",
+      "version": "8.1.6",
+      "publishedAt": "2026-10-06T04:51:51.393Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/vite/v/8.1.6"
+    },
+    {
+      "name": "vite",
+      "group": "frameworks",
+      "version": "8.2.4",
+      "publishedAt": "2026-10-06T04:48:20.112Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/vite/v/8.2.4"
+    },
+    {
+      "name": "vite",
+      "group": "frameworks",
+      "version": "8.3.3",
+      "publishedAt": "2026-10-06T04:10:19.326Z",
+      "bump": "patch",
+      "url": "https://github.com/vitejs/vite/releases/tag/v8.3.3"
+    },
+    {
       "name": "@radix-ui/react-dialog",
       "group": "forms-ui",
       "version": "1.2.0",
@@ -1340,7 +1388,7 @@
       "version": "8.3.2",
       "publishedAt": "2026-10-01T10:17:44.767Z",
       "bump": "patch",
-      "url": "https://github.com/vitejs/vite/releases/tag/v8.3.2"
+      "url": "https://www.npmjs.com/package/vite/v/8.3.2"
     },
     {
       "name": "@tanstack/react-router",
@@ -1629,46 +1677,6 @@
       "publishedAt": "2026-09-16T13:10:18.420Z",
       "bump": "minor",
       "url": "https://www.npmjs.com/package/motion/v/13.4.0"
-    },
-    {
-      "name": "@tanstack/react-query",
-      "group": "routing-data",
-      "version": "5.103.0",
-      "publishedAt": "2026-09-16T07:08:58.778Z",
-      "bump": "minor",
-      "url": "https://www.npmjs.com/package/@tanstack/react-query/v/5.103.0"
-    },
-    {
-      "name": "expo",
-      "group": "frameworks",
-      "version": "57.0.23",
-      "publishedAt": "2026-09-15T15:59:52.493Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/expo/v/57.0.23"
-    },
-    {
-      "name": "react-router",
-      "group": "routing-data",
-      "version": "8.4.0",
-      "publishedAt": "2026-09-15T15:23:42.214Z",
-      "bump": "minor",
-      "url": "https://github.com/remix-run/react-router/releases/tag/react-router%408.4.0"
-    },
-    {
-      "name": "react-router",
-      "group": "routing-data",
-      "version": "7.18.4",
-      "publishedAt": "2026-09-15T15:08:29.127Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/react-router/v/7.18.4"
-    },
-    {
-      "name": "@react-navigation/native",
-      "group": "native",
-      "version": "7.4.1",
-      "publishedAt": "2026-09-15T10:53:46.300Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/@react-navigation/native/v/7.4.1"
     }
   ]
 }
