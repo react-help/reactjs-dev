@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06T18:27:11.570Z",
+  "updatedAt": "2026-10-07T06:08:22.685Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -221,8 +221,8 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.88.0-rc.3",
-          "publishedAt": "2026-09-28T11:30:47.323Z",
+          "version": "0.88.0-rc.4",
+          "publishedAt": "2026-10-06T22:43:59.784Z",
           "tags": [
             "next"
           ]
@@ -234,8 +234,8 @@
           "publishedAt": "2026-08-26T15:36:54.923Z"
         },
         "next": {
-          "version": "0.88.0-rc.3",
-          "publishedAt": "2026-09-28T11:30:47.323Z"
+          "version": "0.88.0-rc.4",
+          "publishedAt": "2026-10-06T22:43:59.784Z"
         }
       },
       "weeklyDownloads": 16885150,
@@ -277,18 +277,18 @@
       "npmUrl": "https://www.npmjs.com/package/next",
       "repoUrl": "https://github.com/vercel/next.js",
       "latest": {
+        "version": "16.4.0",
+        "publishedAt": "2026-10-06T18:35:31.699Z"
+      },
+      "previous": {
         "version": "16.3.8",
         "publishedAt": "2026-09-30T16:07:21.198Z"
       },
-      "previous": {
-        "version": "16.3.7",
-        "publishedAt": "2026-09-29T09:04:19.157Z"
-      },
-      "bump": "patch",
+      "bump": "minor",
       "prereleases": [
         {
-          "version": "16.4.0-canary.63",
-          "publishedAt": "2026-10-06T17:35:06.931Z",
+          "version": "16.5.0-canary.1",
+          "publishedAt": "2026-10-07T00:04:23.312Z",
           "tags": [
             "canary"
           ]
@@ -296,12 +296,12 @@
       ],
       "distTags": {
         "latest": {
-          "version": "16.3.8",
-          "publishedAt": "2026-09-30T16:07:21.198Z"
+          "version": "16.4.0",
+          "publishedAt": "2026-10-06T18:35:31.699Z"
         },
         "canary": {
-          "version": "16.4.0-canary.63",
-          "publishedAt": "2026-10-06T17:35:06.931Z"
+          "version": "16.5.0-canary.1",
+          "publishedAt": "2026-10-07T00:04:23.312Z"
         },
         "rc": {
           "version": "15.0.0-rc.1",
@@ -314,8 +314,8 @@
       },
       "weeklyDownloads": 76902421,
       "releaseNotes": {
-        "kind": "release",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.3.8"
+        "kind": "tag",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0"
       }
     },
     "expo": {
@@ -1271,6 +1271,14 @@
   },
   "recent": [
     {
+      "name": "next",
+      "group": "frameworks",
+      "version": "16.4.0",
+      "publishedAt": "2026-10-06T18:35:31.699Z",
+      "bump": "minor",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0"
+    },
+    {
       "name": "astro",
       "group": "frameworks",
       "version": "7.3.6",
@@ -1420,7 +1428,7 @@
       "version": "16.3.8",
       "publishedAt": "2026-09-30T16:07:21.198Z",
       "bump": "patch",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.8"
+      "url": "https://www.npmjs.com/package/next/v/16.3.8"
     },
     {
       "name": "@react-navigation/native",
@@ -1661,14 +1669,6 @@
       "publishedAt": "2026-09-16T21:17:11.781Z",
       "bump": "patch",
       "url": "https://www.npmjs.com/package/@tanstack/react-router/v/1.170.37"
-    },
-    {
-      "name": "astro",
-      "group": "frameworks",
-      "version": "7.3.3",
-      "publishedAt": "2026-09-16T19:45:24.214Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/astro/v/7.3.3"
     }
   ]
 }
