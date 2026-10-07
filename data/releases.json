@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T06:08:22.685Z",
+  "updatedAt": "2026-10-07T13:33:32.671Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -287,8 +287,8 @@
       "bump": "minor",
       "prereleases": [
         {
-          "version": "16.5.0-canary.1",
-          "publishedAt": "2026-10-07T00:04:23.312Z",
+          "version": "16.5.0-canary.2",
+          "publishedAt": "2026-10-07T07:48:47.956Z",
           "tags": [
             "canary"
           ]
@@ -300,8 +300,8 @@
           "publishedAt": "2026-10-06T18:35:31.699Z"
         },
         "canary": {
-          "version": "16.5.0-canary.1",
-          "publishedAt": "2026-10-07T00:04:23.312Z"
+          "version": "16.5.0-canary.2",
+          "publishedAt": "2026-10-07T07:48:47.956Z"
         },
         "rc": {
           "version": "15.0.0-rc.1",
@@ -314,7 +314,7 @@
       },
       "weeklyDownloads": 76902421,
       "releaseNotes": {
-        "kind": "tag",
+        "kind": "release",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0"
       }
     },
