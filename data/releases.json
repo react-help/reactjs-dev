@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08T13:42:33.823Z",
+  "updatedAt": "2026-10-08T23:25:28.063Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -97,15 +97,15 @@
       "bump": "minor",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-d75b0697-20261006",
-          "publishedAt": "2026-10-07T16:35:10.551Z",
+          "version": "0.0.0-experimental-b618bbb4-20261007",
+          "publishedAt": "2026-10-08T16:33:04.026Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "19.3.0-canary-d75b0697-20261006",
-          "publishedAt": "2026-10-07T16:30:24.578Z",
+          "version": "19.3.0-canary-b618bbb4-20261007",
+          "publishedAt": "2026-10-08T16:32:09.985Z",
           "tags": [
             "canary"
           ]
@@ -121,12 +121,12 @@
           "publishedAt": "2026-05-08T16:43:16.457Z"
         },
         "canary": {
-          "version": "19.3.0-canary-d75b0697-20261006",
-          "publishedAt": "2026-10-07T16:30:24.578Z"
+          "version": "19.3.0-canary-b618bbb4-20261007",
+          "publishedAt": "2026-10-08T16:32:09.985Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-d75b0697-20261006",
-          "publishedAt": "2026-10-07T16:35:10.551Z"
+          "version": "0.0.0-experimental-b618bbb4-20261007",
+          "publishedAt": "2026-10-08T16:33:04.026Z"
         },
         "rc": {
           "version": "19.0.0-rc.1",
@@ -159,17 +159,17 @@
       "bump": "minor",
       "prereleases": [
         {
-          "version": "19.3.0-canary-d75b0697-20261006",
-          "publishedAt": "2026-10-07T16:34:48.051Z",
+          "version": "0.0.0-experimental-b618bbb4-20261007",
+          "publishedAt": "2026-10-08T16:33:40.301Z",
           "tags": [
-            "canary"
+            "experimental"
           ]
         },
         {
-          "version": "0.0.0-experimental-d75b0697-20261006",
-          "publishedAt": "2026-10-07T16:33:52.112Z",
+          "version": "19.3.0-canary-b618bbb4-20261007",
+          "publishedAt": "2026-10-08T16:33:26.285Z",
           "tags": [
-            "experimental"
+            "canary"
           ]
         }
       ],
@@ -183,12 +183,12 @@
           "publishedAt": "2026-05-08T16:43:27.237Z"
         },
         "canary": {
-          "version": "19.3.0-canary-d75b0697-20261006",
-          "publishedAt": "2026-10-07T16:34:48.051Z"
+          "version": "19.3.0-canary-b618bbb4-20261007",
+          "publishedAt": "2026-10-08T16:33:26.285Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-d75b0697-20261006",
-          "publishedAt": "2026-10-07T16:33:52.112Z"
+          "version": "0.0.0-experimental-b618bbb4-20261007",
+          "publishedAt": "2026-10-08T16:33:40.301Z"
         },
         "rc": {
           "version": "19.0.0-rc.1",
@@ -287,8 +287,8 @@
       "bump": "minor",
       "prereleases": [
         {
-          "version": "16.5.0-canary.3",
-          "publishedAt": "2026-10-08T00:15:58.340Z",
+          "version": "16.5.0-canary.4",
+          "publishedAt": "2026-10-08T16:17:52.510Z",
           "tags": [
             "canary"
           ]
@@ -300,8 +300,8 @@
           "publishedAt": "2026-10-06T18:35:31.699Z"
         },
         "canary": {
-          "version": "16.5.0-canary.3",
-          "publishedAt": "2026-10-08T00:15:58.340Z"
+          "version": "16.5.0-canary.4",
+          "publishedAt": "2026-10-08T16:17:52.510Z"
         },
         "rc": {
           "version": "15.0.0-rc.1",
@@ -367,19 +367,19 @@
       "npmUrl": "https://www.npmjs.com/package/astro",
       "repoUrl": "https://github.com/withastro/astro",
       "latest": {
-        "version": "7.3.7",
-        "publishedAt": "2026-10-07T21:37:30.003Z"
+        "version": "7.3.8",
+        "publishedAt": "2026-10-08T15:41:04.794Z"
       },
       "previous": {
-        "version": "7.3.6",
-        "publishedAt": "2026-10-06T12:45:48.470Z"
+        "version": "7.3.7",
+        "publishedAt": "2026-10-07T21:37:30.003Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "7.3.7",
-          "publishedAt": "2026-10-07T21:37:30.003Z"
+          "version": "7.3.8",
+          "publishedAt": "2026-10-08T15:41:04.794Z"
         },
         "rc": {
           "version": "3.0.0-rc.11",
@@ -397,7 +397,7 @@
       "weeklyDownloads": 7930766,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/withastro/astro/releases/tag/astro%407.3.7"
+        "url": "https://github.com/withastro/astro/releases/tag/astro%407.3.8"
       }
     },
     "vite": {
@@ -1110,15 +1110,15 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-d75b0697-20261006",
-          "publishedAt": "2026-10-07T16:33:26.284Z",
+          "version": "0.0.0-experimental-b618bbb4-20261007",
+          "publishedAt": "2026-10-08T16:32:31.445Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "7.1.1-canary-d75b0697-20261006",
-          "publishedAt": "2026-10-07T16:31:22.724Z",
+          "version": "7.1.1-canary-b618bbb4-20261007",
+          "publishedAt": "2026-10-08T16:31:10.888Z",
           "tags": [
             "canary"
           ]
@@ -1141,12 +1141,12 @@
           "publishedAt": "2026-05-08T16:43:06.991Z"
         },
         "canary": {
-          "version": "7.1.1-canary-d75b0697-20261006",
-          "publishedAt": "2026-10-07T16:31:22.724Z"
+          "version": "7.1.1-canary-b618bbb4-20261007",
+          "publishedAt": "2026-10-08T16:31:10.888Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-d75b0697-20261006",
-          "publishedAt": "2026-10-07T16:33:26.284Z"
+          "version": "0.0.0-experimental-b618bbb4-20261007",
+          "publishedAt": "2026-10-08T16:32:31.445Z"
         },
         "rc": {
           "version": "6.0.0-rc.2",
@@ -1271,6 +1271,14 @@
   },
   "recent": [
     {
+      "name": "astro",
+      "group": "frameworks",
+      "version": "7.3.8",
+      "publishedAt": "2026-10-08T15:41:04.794Z",
+      "bump": "patch",
+      "url": "https://github.com/withastro/astro/releases/tag/astro%407.3.8"
+    },
+    {
       "name": "vite",
       "group": "frameworks",
       "version": "8.3.4",
@@ -1292,7 +1300,7 @@
       "version": "7.3.7",
       "publishedAt": "2026-10-07T21:37:30.003Z",
       "bump": "patch",
-      "url": "https://github.com/withastro/astro/releases/tag/astro%407.3.7"
+      "url": "https://www.npmjs.com/package/astro/v/7.3.7"
     },
     {
       "name": "next",
@@ -1661,14 +1669,6 @@
       "publishedAt": "2026-09-18T14:34:51.410Z",
       "bump": "minor",
       "url": "https://www.npmjs.com/package/react-native-reanimated/v/4.7.0"
-    },
-    {
-      "name": "expo",
-      "group": "frameworks",
-      "version": "57.0.24",
-      "publishedAt": "2026-09-18T08:07:12.211Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/expo/v/57.0.24"
     }
   ]
 }
