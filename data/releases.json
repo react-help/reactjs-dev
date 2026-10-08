@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08T06:14:30.601Z",
+  "updatedAt": "2026-10-08T13:42:33.823Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -406,19 +406,19 @@
       "npmUrl": "https://www.npmjs.com/package/vite",
       "repoUrl": "https://github.com/vitejs/vite",
       "latest": {
-        "version": "8.3.3",
-        "publishedAt": "2026-10-06T04:10:19.326Z"
+        "version": "8.3.4",
+        "publishedAt": "2026-10-08T12:07:04.441Z"
       },
       "previous": {
-        "version": "8.3.2",
-        "publishedAt": "2026-10-01T10:17:44.767Z"
+        "version": "8.3.3",
+        "publishedAt": "2026-10-06T04:10:19.326Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "8.3.3",
-          "publishedAt": "2026-10-06T04:10:19.326Z"
+          "version": "8.3.4",
+          "publishedAt": "2026-10-08T12:07:04.441Z"
         },
         "beta": {
           "version": "8.3.0-beta.1",
@@ -432,7 +432,7 @@
       "weeklyDownloads": 232152443,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/vitejs/vite/releases/tag/v8.3.3"
+        "url": "https://github.com/vitejs/vite/releases/tag/v8.3.4"
       }
     },
     "react-router": {
@@ -589,19 +589,19 @@
       "npmUrl": "https://www.npmjs.com/package/@apollo/client",
       "repoUrl": "https://github.com/apollographql/apollo-client",
       "latest": {
-        "version": "4.3.2",
-        "publishedAt": "2026-10-05T22:01:42.086Z"
+        "version": "4.3.3",
+        "publishedAt": "2026-10-08T09:32:26.025Z"
       },
       "previous": {
-        "version": "4.3.1",
-        "publishedAt": "2026-09-18T16:35:11.962Z"
+        "version": "4.3.2",
+        "publishedAt": "2026-10-05T22:01:42.086Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "4.3.2",
-          "publishedAt": "2026-10-05T22:01:42.086Z"
+          "version": "4.3.3",
+          "publishedAt": "2026-10-08T09:32:26.025Z"
         },
         "next": {
           "version": "4.3.0-rc.2",
@@ -623,7 +623,7 @@
       "weeklyDownloads": 7623190,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.2"
+        "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.3"
       }
     },
     "zustand": {
@@ -1271,6 +1271,22 @@
   },
   "recent": [
     {
+      "name": "vite",
+      "group": "frameworks",
+      "version": "8.3.4",
+      "publishedAt": "2026-10-08T12:07:04.441Z",
+      "bump": "patch",
+      "url": "https://github.com/vitejs/vite/releases/tag/v8.3.4"
+    },
+    {
+      "name": "@apollo/client",
+      "group": "routing-data",
+      "version": "4.3.3",
+      "publishedAt": "2026-10-08T09:32:26.025Z",
+      "bump": "patch",
+      "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.3"
+    },
+    {
       "name": "astro",
       "group": "frameworks",
       "version": "7.3.7",
@@ -1340,7 +1356,7 @@
       "version": "8.3.3",
       "publishedAt": "2026-10-06T04:10:19.326Z",
       "bump": "patch",
-      "url": "https://github.com/vitejs/vite/releases/tag/v8.3.3"
+      "url": "https://www.npmjs.com/package/vite/v/8.3.3"
     },
     {
       "name": "@radix-ui/react-dialog",
@@ -1356,7 +1372,7 @@
       "version": "4.3.2",
       "publishedAt": "2026-10-05T22:01:42.086Z",
       "bump": "patch",
-      "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.2"
+      "url": "https://www.npmjs.com/package/@apollo/client/v/4.3.2"
     },
     {
       "name": "@vitejs/plugin-react",
@@ -1653,22 +1669,6 @@
       "publishedAt": "2026-09-18T08:07:12.211Z",
       "bump": "patch",
       "url": "https://www.npmjs.com/package/expo/v/57.0.24"
-    },
-    {
-      "name": "expo",
-      "group": "frameworks",
-      "version": "56.0.22",
-      "publishedAt": "2026-09-17T22:09:28.356Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/expo/v/56.0.22"
-    },
-    {
-      "name": "@tanstack/react-router",
-      "group": "routing-data",
-      "version": "1.170.38",
-      "publishedAt": "2026-09-16T21:57:42.189Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/@tanstack/react-router/v/1.170.38"
     }
   ]
 }
