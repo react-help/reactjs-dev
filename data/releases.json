@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-09T06:17:30.747Z",
+  "updatedAt": "2026-10-09T18:24:02.886Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -287,8 +287,8 @@
       "bump": "minor",
       "prereleases": [
         {
-          "version": "16.5.0-canary.5",
-          "publishedAt": "2026-10-09T00:04:32.340Z",
+          "version": "16.5.0-canary.6",
+          "publishedAt": "2026-10-09T16:19:03.368Z",
           "tags": [
             "canary"
           ]
@@ -300,8 +300,8 @@
           "publishedAt": "2026-10-06T18:35:31.699Z"
         },
         "canary": {
-          "version": "16.5.0-canary.5",
-          "publishedAt": "2026-10-09T00:04:32.340Z"
+          "version": "16.5.0-canary.6",
+          "publishedAt": "2026-10-09T16:19:03.368Z"
         },
         "rc": {
           "version": "15.0.0-rc.1",
@@ -334,8 +334,8 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "58.0.6",
-          "publishedAt": "2026-10-06T17:29:56.122Z",
+          "version": "58.0.7",
+          "publishedAt": "2026-10-09T17:45:16.355Z",
           "tags": [
             "next"
           ]
@@ -347,8 +347,8 @@
           "publishedAt": "2026-10-06T12:10:58.345Z"
         },
         "next": {
-          "version": "58.0.6",
-          "publishedAt": "2026-10-06T17:29:56.122Z"
+          "version": "58.0.7",
+          "publishedAt": "2026-10-09T17:45:16.355Z"
         },
         "canary": {
           "version": "58.0.0-canary-20260909-ea7a89a",
@@ -889,19 +889,19 @@
       "npmUrl": "https://www.npmjs.com/package/@mui/material",
       "repoUrl": "https://github.com/mui/material-ui",
       "latest": {
-        "version": "9.4.0",
-        "publishedAt": "2026-08-27T15:17:01.745Z"
+        "version": "9.5.0",
+        "publishedAt": "2026-10-09T09:12:59.956Z"
       },
       "previous": {
-        "version": "9.3.1",
-        "publishedAt": "2026-08-06T09:30:28.365Z"
+        "version": "9.4.0",
+        "publishedAt": "2026-08-27T15:17:01.745Z"
       },
       "bump": "minor",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "9.4.0",
-          "publishedAt": "2026-08-27T15:17:01.745Z"
+          "version": "9.5.0",
+          "publishedAt": "2026-10-09T09:12:59.956Z"
         },
         "next": {
           "version": "9.0.0-beta.1",
@@ -915,7 +915,7 @@
       "weeklyDownloads": 10064674,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/mui/material-ui/releases/tag/v9.4.0"
+        "url": "https://github.com/mui/material-ui/releases/tag/v9.5.0"
       }
     },
     "@react-navigation/native": {
@@ -1017,27 +1017,19 @@
       "npmUrl": "https://www.npmjs.com/package/react-native-screens",
       "repoUrl": "https://github.com/software-mansion/react-native-screens",
       "latest": {
+        "version": "4.29.0",
+        "publishedAt": "2026-10-09T10:10:29.678Z"
+      },
+      "previous": {
         "version": "4.28.0",
         "publishedAt": "2026-09-14T10:44:16.651Z"
       },
-      "previous": {
-        "version": "4.27.0",
-        "publishedAt": "2026-08-07T07:03:35.657Z"
-      },
       "bump": "minor",
-      "prereleases": [
-        {
-          "version": "5.0.0-alpha.3",
-          "publishedAt": "2026-09-17T13:57:27.395Z",
-          "tags": [
-            "next"
-          ]
-        }
-      ],
+      "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "4.28.0",
-          "publishedAt": "2026-09-14T10:44:16.651Z"
+          "version": "4.29.0",
+          "publishedAt": "2026-10-09T10:10:29.678Z"
         },
         "next": {
           "version": "5.0.0-alpha.3",
@@ -1047,7 +1039,7 @@
       "weeklyDownloads": 9798362,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.28.0"
+        "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.29.0"
       }
     },
     "babel-plugin-react-compiler": {
@@ -1270,6 +1262,22 @@
     }
   },
   "recent": [
+    {
+      "name": "react-native-screens",
+      "group": "native",
+      "version": "4.29.0",
+      "publishedAt": "2026-10-09T10:10:29.678Z",
+      "bump": "minor",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.29.0"
+    },
+    {
+      "name": "@mui/material",
+      "group": "forms-ui",
+      "version": "9.5.0",
+      "publishedAt": "2026-10-09T09:12:59.956Z",
+      "bump": "minor",
+      "url": "https://github.com/mui/material-ui/releases/tag/v9.5.0"
+    },
     {
       "name": "astro",
       "group": "frameworks",
@@ -1653,22 +1661,6 @@
       "publishedAt": "2026-09-21T09:33:10.783Z",
       "bump": "patch",
       "url": "https://www.npmjs.com/package/@tanstack/react-query/v/5.103.2"
-    },
-    {
-      "name": "@apollo/client",
-      "group": "routing-data",
-      "version": "4.3.1",
-      "publishedAt": "2026-09-18T16:35:11.962Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/@apollo/client/v/4.3.1"
-    },
-    {
-      "name": "react-native-reanimated",
-      "group": "native",
-      "version": "4.7.0",
-      "publishedAt": "2026-09-18T14:34:51.410Z",
-      "bump": "minor",
-      "url": "https://www.npmjs.com/package/react-native-reanimated/v/4.7.0"
     }
   ]
 }
