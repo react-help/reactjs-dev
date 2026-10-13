@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T15:39:09.707Z",
+  "updatedAt": "2026-10-13T00:47:58.969Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -97,15 +97,15 @@
       "bump": "minor",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-b618bbb4-20261007",
-          "publishedAt": "2026-10-08T16:33:04.026Z",
+          "version": "0.0.0-experimental-9f2e1f88-20261012",
+          "publishedAt": "2026-10-12T16:30:27.102Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "19.3.0-canary-b618bbb4-20261007",
-          "publishedAt": "2026-10-08T16:32:09.985Z",
+          "version": "19.3.0-canary-9f2e1f88-20261012",
+          "publishedAt": "2026-10-12T16:29:53.723Z",
           "tags": [
             "canary"
           ]
@@ -121,12 +121,12 @@
           "publishedAt": "2026-05-08T16:43:16.457Z"
         },
         "canary": {
-          "version": "19.3.0-canary-b618bbb4-20261007",
-          "publishedAt": "2026-10-08T16:32:09.985Z"
+          "version": "19.3.0-canary-9f2e1f88-20261012",
+          "publishedAt": "2026-10-12T16:29:53.723Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-b618bbb4-20261007",
-          "publishedAt": "2026-10-08T16:33:04.026Z"
+          "version": "0.0.0-experimental-9f2e1f88-20261012",
+          "publishedAt": "2026-10-12T16:30:27.102Z"
         },
         "rc": {
           "version": "19.0.0-rc.1",
@@ -159,15 +159,15 @@
       "bump": "minor",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-b618bbb4-20261007",
-          "publishedAt": "2026-10-08T16:33:40.301Z",
+          "version": "0.0.0-experimental-9f2e1f88-20261012",
+          "publishedAt": "2026-10-12T16:32:54.586Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "19.3.0-canary-b618bbb4-20261007",
-          "publishedAt": "2026-10-08T16:33:26.285Z",
+          "version": "19.3.0-canary-9f2e1f88-20261012",
+          "publishedAt": "2026-10-12T16:30:07.930Z",
           "tags": [
             "canary"
           ]
@@ -183,12 +183,12 @@
           "publishedAt": "2026-05-08T16:43:27.237Z"
         },
         "canary": {
-          "version": "19.3.0-canary-b618bbb4-20261007",
-          "publishedAt": "2026-10-08T16:33:26.285Z"
+          "version": "19.3.0-canary-9f2e1f88-20261012",
+          "publishedAt": "2026-10-12T16:30:07.930Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-b618bbb4-20261007",
-          "publishedAt": "2026-10-08T16:33:40.301Z"
+          "version": "0.0.0-experimental-9f2e1f88-20261012",
+          "publishedAt": "2026-10-12T16:32:54.586Z"
         },
         "rc": {
           "version": "19.0.0-rc.1",
@@ -221,8 +221,8 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.88.0-rc.4",
-          "publishedAt": "2026-10-06T22:43:59.784Z",
+          "version": "0.88.0-rc.5",
+          "publishedAt": "2026-10-12T22:01:02.833Z",
           "tags": [
             "next"
           ]
@@ -234,8 +234,8 @@
           "publishedAt": "2026-08-26T15:36:54.923Z"
         },
         "next": {
-          "version": "0.88.0-rc.4",
-          "publishedAt": "2026-10-06T22:43:59.784Z"
+          "version": "0.88.0-rc.5",
+          "publishedAt": "2026-10-12T22:01:02.833Z"
         }
       },
       "weeklyDownloads": 14533826,
@@ -287,8 +287,8 @@
       "bump": "minor",
       "prereleases": [
         {
-          "version": "16.5.0-canary.8",
-          "publishedAt": "2026-10-10T23:57:59.436Z",
+          "version": "16.5.0-canary.9",
+          "publishedAt": "2026-10-12T23:57:12.571Z",
           "tags": [
             "canary"
           ]
@@ -300,8 +300,8 @@
           "publishedAt": "2026-10-06T18:35:31.699Z"
         },
         "canary": {
-          "version": "16.5.0-canary.8",
-          "publishedAt": "2026-10-10T23:57:59.436Z"
+          "version": "16.5.0-canary.9",
+          "publishedAt": "2026-10-12T23:57:12.571Z"
         },
         "rc": {
           "version": "15.0.0-rc.1",
@@ -503,19 +503,19 @@
       "npmUrl": "https://www.npmjs.com/package/@tanstack/react-router",
       "repoUrl": "https://github.com/TanStack/router",
       "latest": {
-        "version": "1.170.42",
-        "publishedAt": "2026-10-10T07:29:52.636Z"
+        "version": "1.170.44",
+        "publishedAt": "2026-10-12T23:58:15.565Z"
       },
       "previous": {
-        "version": "1.170.41",
-        "publishedAt": "2026-09-30T17:48:34.218Z"
+        "version": "1.170.43",
+        "publishedAt": "2026-10-12T23:20:33.824Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "1.170.42",
-          "publishedAt": "2026-10-10T07:29:52.636Z"
+          "version": "1.170.44",
+          "publishedAt": "2026-10-12T23:58:15.565Z"
         },
         "beta": {
           "version": "0.0.1-beta.286",
@@ -529,7 +529,7 @@
       "weeklyDownloads": 19703959,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/TanStack/router/releases/tag/%40tanstack/react-router%401.170.42"
+        "url": "https://github.com/TanStack/router/releases/tag/%40tanstack/react-router%401.170.44"
       }
     },
     "swr": {
@@ -834,19 +834,19 @@
       "npmUrl": "https://www.npmjs.com/package/@radix-ui/react-dialog",
       "repoUrl": "https://github.com/radix-ui/primitives",
       "latest": {
+        "version": "1.3.1",
+        "publishedAt": "2026-10-12T21:03:50.186Z"
+      },
+      "previous": {
         "version": "1.3.0",
         "publishedAt": "2026-10-12T00:47:44.694Z"
       },
-      "previous": {
-        "version": "1.2.0",
-        "publishedAt": "2026-10-05T23:08:45.228Z"
-      },
-      "bump": "minor",
+      "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "1.3.0",
-          "publishedAt": "2026-10-12T00:47:44.694Z"
+          "version": "1.3.1",
+          "publishedAt": "2026-10-12T21:03:50.186Z"
         },
         "next": {
           "version": "1.3.0-rc.1791763750187",
@@ -1086,15 +1086,15 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-b618bbb4-20261007",
-          "publishedAt": "2026-10-08T16:32:31.445Z",
+          "version": "0.0.0-experimental-9f2e1f88-20261012",
+          "publishedAt": "2026-10-12T16:30:32.216Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "7.1.1-canary-b618bbb4-20261007",
-          "publishedAt": "2026-10-08T16:31:10.888Z",
+          "version": "7.1.1-canary-9f2e1f88-20261012",
+          "publishedAt": "2026-10-12T16:29:39.443Z",
           "tags": [
             "canary"
           ]
@@ -1117,12 +1117,12 @@
           "publishedAt": "2026-05-08T16:43:06.991Z"
         },
         "canary": {
-          "version": "7.1.1-canary-b618bbb4-20261007",
-          "publishedAt": "2026-10-08T16:31:10.888Z"
+          "version": "7.1.1-canary-9f2e1f88-20261012",
+          "publishedAt": "2026-10-12T16:29:39.443Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-b618bbb4-20261007",
-          "publishedAt": "2026-10-08T16:32:31.445Z"
+          "version": "0.0.0-experimental-9f2e1f88-20261012",
+          "publishedAt": "2026-10-12T16:30:32.216Z"
         },
         "rc": {
           "version": "6.0.0-rc.2",
@@ -1247,6 +1247,30 @@
   },
   "recent": [
     {
+      "name": "@tanstack/react-router",
+      "group": "routing-data",
+      "version": "1.170.44",
+      "publishedAt": "2026-10-12T23:58:15.565Z",
+      "bump": "patch",
+      "url": "https://github.com/TanStack/router/releases/tag/%40tanstack/react-router%401.170.44"
+    },
+    {
+      "name": "@tanstack/react-router",
+      "group": "routing-data",
+      "version": "1.170.43",
+      "publishedAt": "2026-10-12T23:20:33.824Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/@tanstack/react-router/v/1.170.43"
+    },
+    {
+      "name": "@radix-ui/react-dialog",
+      "group": "forms-ui",
+      "version": "1.3.1",
+      "publishedAt": "2026-10-12T21:03:50.186Z",
+      "bump": "patch",
+      "url": "https://github.com/radix-ui/primitives/blob/HEAD/packages/react/dialog/CHANGELOG.md"
+    },
+    {
       "name": "expo",
       "group": "frameworks",
       "version": "57.0.28",
@@ -1260,7 +1284,7 @@
       "version": "1.3.0",
       "publishedAt": "2026-10-12T00:47:44.694Z",
       "bump": "minor",
-      "url": "https://github.com/radix-ui/primitives/blob/HEAD/packages/react/dialog/CHANGELOG.md"
+      "url": "https://www.npmjs.com/package/@radix-ui/react-dialog/v/1.3.0"
     },
     {
       "name": "@tanstack/react-query",
@@ -1284,7 +1308,7 @@
       "version": "1.170.42",
       "publishedAt": "2026-10-10T07:29:52.636Z",
       "bump": "patch",
-      "url": "https://github.com/TanStack/router/releases/tag/%40tanstack/react-router%401.170.42"
+      "url": "https://www.npmjs.com/package/@tanstack/react-router/v/1.170.42"
     },
     {
       "name": "motion",
@@ -1621,30 +1645,6 @@
       "publishedAt": "2026-09-24T11:51:17.709Z",
       "bump": "patch",
       "url": "https://www.npmjs.com/package/motion/v/13.4.3"
-    },
-    {
-      "name": "expo",
-      "group": "frameworks",
-      "version": "57.0.25",
-      "publishedAt": "2026-09-24T10:13:10.090Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/expo/v/57.0.25"
-    },
-    {
-      "name": "astro",
-      "group": "frameworks",
-      "version": "7.3.5",
-      "publishedAt": "2026-09-24T09:15:47.814Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/astro/v/7.3.5"
-    },
-    {
-      "name": "motion",
-      "group": "forms-ui",
-      "version": "13.4.2",
-      "publishedAt": "2026-09-23T15:24:29.525Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/motion/v/13.4.2"
     }
   ]
 }
