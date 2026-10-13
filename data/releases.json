@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T00:47:58.969Z",
+  "updatedAt": "2026-10-13T14:20:21.924Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -332,15 +332,23 @@
         "publishedAt": "2026-10-06T12:10:58.345Z"
       },
       "bump": "patch",
-      "prereleases": [],
+      "prereleases": [
+        {
+          "version": "58.0.8",
+          "publishedAt": "2026-10-13T09:10:42.850Z",
+          "tags": [
+            "next"
+          ]
+        }
+      ],
       "distTags": {
         "latest": {
           "version": "57.0.28",
           "publishedAt": "2026-10-12T14:28:59.784Z"
         },
         "next": {
-          "version": "58.0.7",
-          "publishedAt": "2026-10-09T17:45:16.355Z"
+          "version": "58.0.8",
+          "publishedAt": "2026-10-13T09:10:42.850Z"
         },
         "canary": {
           "version": "58.0.0-canary-20260909-ea7a89a",
@@ -791,19 +799,19 @@
       "npmUrl": "https://www.npmjs.com/package/motion",
       "repoUrl": "https://github.com/motiondivision/motion",
       "latest": {
-        "version": "14.1.0",
-        "publishedAt": "2026-10-09T19:38:43.711Z"
+        "version": "14.2.0",
+        "publishedAt": "2026-10-13T11:31:57.230Z"
       },
       "previous": {
-        "version": "14.0.0",
-        "publishedAt": "2026-10-02T13:15:54.395Z"
+        "version": "14.1.1",
+        "publishedAt": "2026-10-13T09:04:46.754Z"
       },
       "bump": "minor",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "14.1.0",
-          "publishedAt": "2026-10-09T19:38:43.711Z"
+          "version": "14.2.0",
+          "publishedAt": "2026-10-13T11:31:57.230Z"
         },
         "canary": {
           "version": "13.1.1-alpha.0",
@@ -842,15 +850,23 @@
         "publishedAt": "2026-10-12T00:47:44.694Z"
       },
       "bump": "patch",
-      "prereleases": [],
+      "prereleases": [
+        {
+          "version": "1.3.2-rc.1791897977948",
+          "publishedAt": "2026-10-13T13:30:26.897Z",
+          "tags": [
+            "next"
+          ]
+        }
+      ],
       "distTags": {
         "latest": {
           "version": "1.3.1",
           "publishedAt": "2026-10-12T21:03:50.186Z"
         },
         "next": {
-          "version": "1.3.0-rc.1791763750187",
-          "publishedAt": "2026-10-12T00:12:23.696Z"
+          "version": "1.3.2-rc.1791897977948",
+          "publishedAt": "2026-10-13T13:30:26.897Z"
         }
       },
       "weeklyDownloads": 73924228,
@@ -1247,6 +1263,22 @@
   },
   "recent": [
     {
+      "name": "motion",
+      "group": "forms-ui",
+      "version": "14.2.0",
+      "publishedAt": "2026-10-13T11:31:57.230Z",
+      "bump": "minor",
+      "url": "https://github.com/motiondivision/motion/blob/HEAD/CHANGELOG.md"
+    },
+    {
+      "name": "motion",
+      "group": "forms-ui",
+      "version": "14.1.1",
+      "publishedAt": "2026-10-13T09:04:46.754Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/motion/v/14.1.1"
+    },
+    {
       "name": "@tanstack/react-router",
       "group": "routing-data",
       "version": "1.170.44",
@@ -1316,7 +1348,7 @@
       "version": "14.1.0",
       "publishedAt": "2026-10-09T19:38:43.711Z",
       "bump": "minor",
-      "url": "https://github.com/motiondivision/motion/blob/HEAD/CHANGELOG.md"
+      "url": "https://www.npmjs.com/package/motion/v/14.1.0"
     },
     {
       "name": "react-native-screens",
@@ -1629,22 +1661,6 @@
       "publishedAt": "2026-09-25T10:06:19.859Z",
       "bump": "patch",
       "url": "https://www.npmjs.com/package/motion/v/13.4.4"
-    },
-    {
-      "name": "vite",
-      "group": "frameworks",
-      "version": "8.3.1",
-      "publishedAt": "2026-09-24T12:26:19.940Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/vite/v/8.3.1"
-    },
-    {
-      "name": "motion",
-      "group": "forms-ui",
-      "version": "13.4.3",
-      "publishedAt": "2026-09-24T11:51:17.709Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/motion/v/13.4.3"
     }
   ]
 }
