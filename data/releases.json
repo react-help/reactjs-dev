@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T17:18:20.154Z",
+  "updatedAt": "2026-10-14T21:46:46.098Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -247,18 +247,18 @@
       "npmUrl": "https://www.npmjs.com/package/next",
       "repoUrl": "https://github.com/vercel/next.js",
       "latest": {
+        "version": "16.4.1",
+        "publishedAt": "2026-10-14T17:43:55.246Z"
+      },
+      "previous": {
         "version": "16.4.0",
         "publishedAt": "2026-10-06T18:35:31.699Z"
       },
-      "previous": {
-        "version": "16.3.8",
-        "publishedAt": "2026-09-30T16:07:21.198Z"
-      },
-      "bump": "minor",
+      "bump": "patch",
       "prereleases": [
         {
-          "version": "16.5.0-canary.10",
-          "publishedAt": "2026-10-13T23:58:39.433Z",
+          "version": "16.5.0-canary.11",
+          "publishedAt": "2026-10-14T19:02:15.282Z",
           "tags": [
             "canary"
           ]
@@ -266,12 +266,12 @@
       ],
       "distTags": {
         "latest": {
-          "version": "16.4.0",
-          "publishedAt": "2026-10-06T18:35:31.699Z"
+          "version": "16.4.1",
+          "publishedAt": "2026-10-14T17:43:55.246Z"
         },
         "canary": {
-          "version": "16.5.0-canary.10",
-          "publishedAt": "2026-10-13T23:58:39.433Z"
+          "version": "16.5.0-canary.11",
+          "publishedAt": "2026-10-14T19:02:15.282Z"
         },
         "rc": {
           "version": "15.0.0-rc.1",
@@ -285,7 +285,7 @@
       "weeklyDownloads": 67469854,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0"
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.1"
       }
     },
     "expo": {
@@ -411,15 +411,23 @@
         "publishedAt": "2026-08-28T14:47:42.622Z"
       },
       "bump": "minor",
-      "prereleases": [],
+      "prereleases": [
+        {
+          "version": "0.0.0-experimental-f1bb8ea3f",
+          "publishedAt": "2026-10-14T20:57:50.677Z",
+          "tags": [
+            "experimental"
+          ]
+        }
+      ],
       "distTags": {
         "latest": {
           "version": "8.4.0",
           "publishedAt": "2026-09-15T15:23:42.214Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-f20bcf6de",
-          "publishedAt": "2026-09-15T15:10:40.560Z"
+          "version": "0.0.0-experimental-f1bb8ea3f",
+          "publishedAt": "2026-10-14T20:57:50.677Z"
         }
       },
       "weeklyDownloads": 56830544,
@@ -1225,6 +1233,22 @@
   },
   "recent": [
     {
+      "name": "next",
+      "group": "frameworks",
+      "version": "16.4.1",
+      "publishedAt": "2026-10-14T17:43:55.246Z",
+      "bump": "patch",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.1"
+    },
+    {
+      "name": "next",
+      "group": "frameworks",
+      "version": "15.5.28",
+      "publishedAt": "2026-10-14T17:36:08.917Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/next/v/15.5.28"
+    },
+    {
       "name": "react-dom",
       "group": "core",
       "version": "19.1.10",
@@ -1454,7 +1478,7 @@
       "version": "16.4.0",
       "publishedAt": "2026-10-06T18:35:31.699Z",
       "bump": "minor",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.0"
+      "url": "https://www.npmjs.com/package/next/v/16.4.0"
     },
     {
       "name": "astro",
@@ -1607,22 +1631,6 @@
       "publishedAt": "2026-09-30T16:07:21.198Z",
       "bump": "patch",
       "url": "https://www.npmjs.com/package/next/v/16.3.8"
-    },
-    {
-      "name": "@react-navigation/native",
-      "group": "native",
-      "version": "7.5.0",
-      "publishedAt": "2026-09-29T17:06:38.258Z",
-      "bump": "minor",
-      "url": "https://www.npmjs.com/package/@react-navigation/native/v/7.5.0"
-    },
-    {
-      "name": "jotai",
-      "group": "state",
-      "version": "3.0.1",
-      "publishedAt": "2026-09-29T14:18:19.043Z",
-      "bump": "patch",
-      "url": "https://github.com/pmndrs/jotai/releases/tag/v3.0.1"
     }
   ]
 }
