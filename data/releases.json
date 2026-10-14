@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T05:01:41.739Z",
+  "updatedAt": "2026-10-14T12:02:09.000Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -1017,15 +1017,23 @@
         "publishedAt": "2026-10-09T10:10:29.678Z"
       },
       "bump": "minor",
-      "prereleases": [],
+      "prereleases": [
+        {
+          "version": "5.0.0-alpha.4",
+          "publishedAt": "2026-10-14T09:22:44.388Z",
+          "tags": [
+            "next"
+          ]
+        }
+      ],
       "distTags": {
         "latest": {
           "version": "4.30.0",
           "publishedAt": "2026-10-13T14:30:23.133Z"
         },
         "next": {
-          "version": "5.0.0-alpha.3",
-          "publishedAt": "2026-09-17T13:57:27.395Z"
+          "version": "5.0.0-alpha.4",
+          "publishedAt": "2026-10-14T09:22:44.388Z"
         }
       },
       "weeklyDownloads": 10091978,
