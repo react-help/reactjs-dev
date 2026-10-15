@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T04:49:30.912Z",
+  "updatedAt": "2026-10-15T11:39:25.359Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -287,8 +287,8 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "16.5.0-canary.12",
-          "publishedAt": "2026-10-14T23:56:42.797Z",
+          "version": "16.5.0-canary.13",
+          "publishedAt": "2026-10-15T10:14:24.314Z",
           "tags": [
             "canary"
           ]
@@ -300,8 +300,8 @@
           "publishedAt": "2026-10-14T17:43:55.246Z"
         },
         "canary": {
-          "version": "16.5.0-canary.12",
-          "publishedAt": "2026-10-14T23:56:42.797Z"
+          "version": "16.5.0-canary.13",
+          "publishedAt": "2026-10-15T10:14:24.314Z"
         },
         "rc": {
           "version": "15.0.0-rc.1",
@@ -480,19 +480,19 @@
       "npmUrl": "https://www.npmjs.com/package/@tanstack/react-query",
       "repoUrl": "https://github.com/TanStack/query",
       "latest": {
-        "version": "5.104.2",
-        "publishedAt": "2026-10-11T19:35:15.506Z"
+        "version": "5.104.3",
+        "publishedAt": "2026-10-15T07:53:35.788Z"
       },
       "previous": {
-        "version": "5.104.1",
-        "publishedAt": "2026-10-02T10:04:57.020Z"
+        "version": "5.104.2",
+        "publishedAt": "2026-10-11T19:35:15.506Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "5.104.2",
-          "publishedAt": "2026-10-11T19:35:15.506Z"
+          "version": "5.104.3",
+          "publishedAt": "2026-10-15T07:53:35.788Z"
         },
         "rc": {
           "version": "5.0.0-rc.16",
@@ -510,7 +510,7 @@
       "weeklyDownloads": 65108522,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/TanStack/query/releases/tag/%40tanstack/react-query%405.104.2"
+        "url": "https://github.com/TanStack/query/releases/tag/%40tanstack/react-query%405.104.3"
       }
     },
     "@tanstack/react-router": {
@@ -1271,6 +1271,14 @@
   },
   "recent": [
     {
+      "name": "@tanstack/react-query",
+      "group": "routing-data",
+      "version": "5.104.3",
+      "publishedAt": "2026-10-15T07:53:35.788Z",
+      "bump": "patch",
+      "url": "https://github.com/TanStack/query/releases/tag/%40tanstack/react-query%405.104.3"
+    },
+    {
       "name": "next",
       "group": "frameworks",
       "version": "16.4.1",
@@ -1436,7 +1444,7 @@
       "version": "5.104.2",
       "publishedAt": "2026-10-11T19:35:15.506Z",
       "bump": "patch",
-      "url": "https://github.com/TanStack/query/releases/tag/%40tanstack/react-query%405.104.2"
+      "url": "https://www.npmjs.com/package/@tanstack/react-query/v/5.104.2"
     },
     {
       "name": "react-hook-form",
@@ -1661,14 +1669,6 @@
       "publishedAt": "2026-09-30T16:19:50.862Z",
       "bump": "patch",
       "url": "https://www.npmjs.com/package/next/v/15.5.27"
-    },
-    {
-      "name": "next",
-      "group": "frameworks",
-      "version": "16.3.8",
-      "publishedAt": "2026-09-30T16:07:21.198Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/next/v/16.3.8"
     }
   ]
 }
