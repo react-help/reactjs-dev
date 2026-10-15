@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T17:07:42.818Z",
+  "updatedAt": "2026-10-15T21:29:38.524Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -269,27 +269,19 @@
       "npmUrl": "https://www.npmjs.com/package/next",
       "repoUrl": "https://github.com/vercel/next.js",
       "latest": {
+        "version": "16.4.2",
+        "publishedAt": "2026-10-15T20:57:24.007Z"
+      },
+      "previous": {
         "version": "16.4.1",
         "publishedAt": "2026-10-14T17:43:55.246Z"
       },
-      "previous": {
-        "version": "16.4.0",
-        "publishedAt": "2026-10-06T18:35:31.699Z"
-      },
       "bump": "patch",
-      "prereleases": [
-        {
-          "version": "16.5.0-canary.14",
-          "publishedAt": "2026-10-15T14:05:05.078Z",
-          "tags": [
-            "canary"
-          ]
-        }
-      ],
+      "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "16.4.1",
-          "publishedAt": "2026-10-14T17:43:55.246Z"
+          "version": "16.4.2",
+          "publishedAt": "2026-10-15T20:57:24.007Z"
         },
         "canary": {
           "version": "16.5.0-canary.14",
@@ -307,7 +299,7 @@
       "weeklyDownloads": 67469854,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.1"
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.2"
       }
     },
     "expo": {
@@ -316,23 +308,23 @@
       "npmUrl": "https://www.npmjs.com/package/expo",
       "repoUrl": "https://github.com/expo/expo",
       "latest": {
-        "version": "57.0.30",
-        "publishedAt": "2026-10-15T14:38:57.611Z"
+        "version": "58.0.11",
+        "publishedAt": "2026-10-15T19:40:12.002Z"
       },
       "previous": {
-        "version": "57.0.29",
-        "publishedAt": "2026-10-14T16:32:28.791Z"
+        "version": "58.0.10",
+        "publishedAt": "2026-10-14T22:11:39.587Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "57.0.30",
-          "publishedAt": "2026-10-15T14:38:57.611Z"
+          "version": "58.0.11",
+          "publishedAt": "2026-10-15T19:40:12.002Z"
         },
         "next": {
-          "version": "58.0.10",
-          "publishedAt": "2026-10-14T22:11:39.587Z"
+          "version": "58.0.11",
+          "publishedAt": "2026-10-15T19:40:12.002Z"
         },
         "canary": {
           "version": "58.0.0-canary-20260909-ea7a89a",
@@ -341,8 +333,8 @@
       },
       "weeklyDownloads": 10949617,
       "releaseNotes": {
-        "kind": "changelog",
-        "url": "https://github.com/expo/expo/blob/HEAD/packages/expo/CHANGELOG.md"
+        "kind": "release",
+        "url": "https://github.com/expo/expo/releases/tag/expo%4058.0.11"
       }
     },
     "astro": {
@@ -1255,6 +1247,22 @@
   },
   "recent": [
     {
+      "name": "next",
+      "group": "frameworks",
+      "version": "16.4.2",
+      "publishedAt": "2026-10-15T20:57:24.007Z",
+      "bump": "patch",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.2"
+    },
+    {
+      "name": "expo",
+      "group": "frameworks",
+      "version": "58.0.11",
+      "publishedAt": "2026-10-15T19:40:12.002Z",
+      "bump": "patch",
+      "url": "https://github.com/expo/expo/releases/tag/expo%4058.0.11"
+    },
+    {
       "name": "astro",
       "group": "frameworks",
       "version": "7.4.0",
@@ -1268,7 +1276,7 @@
       "version": "57.0.30",
       "publishedAt": "2026-10-15T14:38:57.611Z",
       "bump": "patch",
-      "url": "https://github.com/expo/expo/blob/HEAD/packages/expo/CHANGELOG.md"
+      "url": "https://www.npmjs.com/package/expo/v/57.0.30"
     },
     {
       "name": "motion",
@@ -1295,12 +1303,20 @@
       "url": "https://github.com/TanStack/query/releases/tag/%40tanstack/react-query%405.104.3"
     },
     {
+      "name": "expo",
+      "group": "frameworks",
+      "version": "58.0.10",
+      "publishedAt": "2026-10-14T22:11:39.587Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/expo/v/58.0.10"
+    },
+    {
       "name": "next",
       "group": "frameworks",
       "version": "16.4.1",
       "publishedAt": "2026-10-14T17:43:55.246Z",
       "bump": "patch",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.1"
+      "url": "https://www.npmjs.com/package/next/v/16.4.1"
     },
     {
       "name": "next",
@@ -1391,6 +1407,14 @@
       "url": "https://github.com/react-navigation/react-navigation/releases/tag/%40react-navigation%2Fnative%407.5.1"
     },
     {
+      "name": "expo",
+      "group": "frameworks",
+      "version": "58.0.9",
+      "publishedAt": "2026-10-13T17:46:29.399Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/expo/v/58.0.9"
+    },
+    {
       "name": "react-native-screens",
       "group": "native",
       "version": "4.30.0",
@@ -1405,6 +1429,14 @@
       "publishedAt": "2026-10-13T11:31:57.230Z",
       "bump": "minor",
       "url": "https://www.npmjs.com/package/motion/v/14.2.0"
+    },
+    {
+      "name": "expo",
+      "group": "frameworks",
+      "version": "58.0.8",
+      "publishedAt": "2026-10-13T09:10:42.850Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/expo/v/58.0.8"
     },
     {
       "name": "motion",
@@ -1487,6 +1519,14 @@
       "url": "https://www.npmjs.com/package/motion/v/14.1.0"
     },
     {
+      "name": "expo",
+      "group": "frameworks",
+      "version": "58.0.7",
+      "publishedAt": "2026-10-09T17:45:16.355Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/expo/v/58.0.7"
+    },
+    {
       "name": "react-native-screens",
       "group": "native",
       "version": "4.29.0",
@@ -1543,6 +1583,14 @@
       "url": "https://www.npmjs.com/package/next/v/16.4.0"
     },
     {
+      "name": "expo",
+      "group": "frameworks",
+      "version": "58.0.6",
+      "publishedAt": "2026-10-06T17:29:56.122Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/expo/v/58.0.6"
+    },
+    {
       "name": "astro",
       "group": "frameworks",
       "version": "7.3.6",
@@ -1597,62 +1645,6 @@
       "publishedAt": "2026-10-06T04:10:19.326Z",
       "bump": "patch",
       "url": "https://www.npmjs.com/package/vite/v/8.3.3"
-    },
-    {
-      "name": "@radix-ui/react-dialog",
-      "group": "forms-ui",
-      "version": "1.2.0",
-      "publishedAt": "2026-10-05T23:08:45.228Z",
-      "bump": "minor",
-      "url": "https://www.npmjs.com/package/@radix-ui/react-dialog/v/1.2.0"
-    },
-    {
-      "name": "@apollo/client",
-      "group": "routing-data",
-      "version": "4.3.2",
-      "publishedAt": "2026-10-05T22:01:42.086Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/@apollo/client/v/4.3.2"
-    },
-    {
-      "name": "@vitejs/plugin-react",
-      "group": "tooling",
-      "version": "6.1.2",
-      "publishedAt": "2026-10-05T10:08:27.143Z",
-      "bump": "patch",
-      "url": "https://github.com/vitejs/vite-plugin-react/releases/tag/plugin-react%406.1.2"
-    },
-    {
-      "name": "react-native-reanimated",
-      "group": "native",
-      "version": "4.7.1",
-      "publishedAt": "2026-10-02T13:58:35.242Z",
-      "bump": "patch",
-      "url": "https://github.com/software-mansion/react-native-reanimated/releases/tag/4.7.1"
-    },
-    {
-      "name": "motion",
-      "group": "forms-ui",
-      "version": "14.0.0",
-      "publishedAt": "2026-10-02T13:15:54.395Z",
-      "bump": "major",
-      "url": "https://www.npmjs.com/package/motion/v/14.0.0"
-    },
-    {
-      "name": "motion",
-      "group": "forms-ui",
-      "version": "13.5.1",
-      "publishedAt": "2026-10-02T12:10:51.735Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/motion/v/13.5.1"
-    },
-    {
-      "name": "@tanstack/react-query",
-      "group": "routing-data",
-      "version": "5.104.1",
-      "publishedAt": "2026-10-02T10:04:57.020Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/@tanstack/react-query/v/5.104.1"
     }
   ]
 }
