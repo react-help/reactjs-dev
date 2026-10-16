@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T16:44:57.665Z",
+  "updatedAt": "2026-10-16T21:18:53.749Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -316,19 +316,19 @@
       "npmUrl": "https://www.npmjs.com/package/expo",
       "repoUrl": "https://github.com/expo/expo",
       "latest": {
-        "version": "58.0.13",
-        "publishedAt": "2026-10-16T15:43:20.342Z"
+        "version": "58.0.14",
+        "publishedAt": "2026-10-16T19:51:22.633Z"
       },
       "previous": {
-        "version": "58.0.12",
-        "publishedAt": "2026-10-16T06:23:51.559Z"
+        "version": "58.0.13",
+        "publishedAt": "2026-10-16T15:43:20.342Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "58.0.13",
-          "publishedAt": "2026-10-16T15:43:20.342Z"
+          "version": "58.0.14",
+          "publishedAt": "2026-10-16T19:51:22.633Z"
         },
         "next": {
           "version": "58.0.11",
@@ -342,7 +342,7 @@
       "weeklyDownloads": 10949617,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/expo/expo/releases/tag/expo%4058.0.13"
+        "url": "https://github.com/expo/expo/releases/tag/expo%4058.0.14"
       }
     },
     "astro": {
@@ -503,19 +503,19 @@
       "npmUrl": "https://www.npmjs.com/package/@tanstack/react-router",
       "repoUrl": "https://github.com/TanStack/router",
       "latest": {
-        "version": "1.170.44",
-        "publishedAt": "2026-10-12T23:58:15.565Z"
+        "version": "1.170.45",
+        "publishedAt": "2026-10-16T21:11:23.380Z"
       },
       "previous": {
-        "version": "1.170.43",
-        "publishedAt": "2026-10-12T23:20:33.824Z"
+        "version": "1.170.44",
+        "publishedAt": "2026-10-12T23:58:15.565Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "1.170.44",
-          "publishedAt": "2026-10-12T23:58:15.565Z"
+          "version": "1.170.45",
+          "publishedAt": "2026-10-16T21:11:23.380Z"
         },
         "beta": {
           "version": "0.0.1-beta.286",
@@ -529,7 +529,7 @@
       "weeklyDownloads": 19881375,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/TanStack/router/releases/tag/%40tanstack/react-router%401.170.44"
+        "url": "https://github.com/TanStack/router/releases/tag/%40tanstack/react-router%401.170.45"
       }
     },
     "swr": {
@@ -581,19 +581,19 @@
       "npmUrl": "https://www.npmjs.com/package/@apollo/client",
       "repoUrl": "https://github.com/apollographql/apollo-client",
       "latest": {
-        "version": "4.3.3",
-        "publishedAt": "2026-10-08T09:32:26.025Z"
+        "version": "4.3.4",
+        "publishedAt": "2026-10-16T17:33:54.458Z"
       },
       "previous": {
-        "version": "4.3.2",
-        "publishedAt": "2026-10-05T22:01:42.086Z"
+        "version": "4.3.3",
+        "publishedAt": "2026-10-08T09:32:26.025Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "4.3.3",
-          "publishedAt": "2026-10-08T09:32:26.025Z"
+          "version": "4.3.4",
+          "publishedAt": "2026-10-16T17:33:54.458Z"
         },
         "next": {
           "version": "4.3.0-rc.2",
@@ -615,7 +615,7 @@
       "weeklyDownloads": 6442135,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.3"
+        "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.4"
       }
     },
     "zustand": {
@@ -974,25 +974,25 @@
       "npmUrl": "https://www.npmjs.com/package/react-native-gesture-handler",
       "repoUrl": "https://github.com/software-mansion/react-native-gesture-handler",
       "latest": {
-        "version": "3.3.0",
-        "publishedAt": "2026-09-11T10:48:20.163Z"
+        "version": "3.4.0",
+        "publishedAt": "2026-10-16T16:49:26.075Z"
       },
       "previous": {
-        "version": "3.2.1",
-        "publishedAt": "2026-08-14T09:50:45.599Z"
+        "version": "3.3.0",
+        "publishedAt": "2026-09-11T10:48:20.163Z"
       },
       "bump": "minor",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "3.3.0",
-          "publishedAt": "2026-09-11T10:48:20.163Z"
+          "version": "3.4.0",
+          "publishedAt": "2026-10-16T16:49:26.075Z"
         }
       },
       "weeklyDownloads": 9358855,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/software-mansion/react-native-gesture-handler/releases/tag/v3.3.0"
+        "url": "https://github.com/software-mansion/react-native-gesture-handler/releases/tag/v3.4.0"
       }
     },
     "react-native-screens": {
@@ -1255,12 +1255,44 @@
   },
   "recent": [
     {
+      "name": "@tanstack/react-router",
+      "group": "routing-data",
+      "version": "1.170.45",
+      "publishedAt": "2026-10-16T21:11:23.380Z",
+      "bump": "patch",
+      "url": "https://github.com/TanStack/router/releases/tag/%40tanstack/react-router%401.170.45"
+    },
+    {
+      "name": "expo",
+      "group": "frameworks",
+      "version": "58.0.14",
+      "publishedAt": "2026-10-16T19:51:22.633Z",
+      "bump": "patch",
+      "url": "https://github.com/expo/expo/releases/tag/expo%4058.0.14"
+    },
+    {
+      "name": "@apollo/client",
+      "group": "routing-data",
+      "version": "4.3.4",
+      "publishedAt": "2026-10-16T17:33:54.458Z",
+      "bump": "patch",
+      "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.4"
+    },
+    {
+      "name": "react-native-gesture-handler",
+      "group": "native",
+      "version": "3.4.0",
+      "publishedAt": "2026-10-16T16:49:26.075Z",
+      "bump": "minor",
+      "url": "https://github.com/software-mansion/react-native-gesture-handler/releases/tag/v3.4.0"
+    },
+    {
       "name": "expo",
       "group": "frameworks",
       "version": "58.0.13",
       "publishedAt": "2026-10-16T15:43:20.342Z",
       "bump": "patch",
-      "url": "https://github.com/expo/expo/releases/tag/expo%4058.0.13"
+      "url": "https://www.npmjs.com/package/expo/v/58.0.13"
     },
     {
       "name": "react-native-gesture-handler",
@@ -1484,7 +1516,7 @@
       "version": "1.170.44",
       "publishedAt": "2026-10-12T23:58:15.565Z",
       "bump": "patch",
-      "url": "https://github.com/TanStack/router/releases/tag/%40tanstack/react-router%401.170.44"
+      "url": "https://www.npmjs.com/package/@tanstack/react-router/v/1.170.44"
     },
     {
       "name": "@tanstack/react-router",
@@ -1596,7 +1628,7 @@
       "version": "4.3.3",
       "publishedAt": "2026-10-08T09:32:26.025Z",
       "bump": "patch",
-      "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.3"
+      "url": "https://www.npmjs.com/package/@apollo/client/v/4.3.3"
     },
     {
       "name": "astro",
@@ -1621,38 +1653,6 @@
       "publishedAt": "2026-10-06T17:29:56.122Z",
       "bump": "patch",
       "url": "https://www.npmjs.com/package/expo/v/58.0.6"
-    },
-    {
-      "name": "astro",
-      "group": "frameworks",
-      "version": "7.3.6",
-      "publishedAt": "2026-10-06T12:45:48.470Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/astro/v/7.3.6"
-    },
-    {
-      "name": "expo",
-      "group": "frameworks",
-      "version": "57.0.27",
-      "publishedAt": "2026-10-06T12:10:58.345Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/expo/v/57.0.27"
-    },
-    {
-      "name": "vite",
-      "group": "frameworks",
-      "version": "6.4.4",
-      "publishedAt": "2026-10-06T05:49:07.089Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/vite/v/6.4.4"
-    },
-    {
-      "name": "vite",
-      "group": "frameworks",
-      "version": "7.3.7",
-      "publishedAt": "2026-10-06T05:11:19.017Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/vite/v/7.3.7"
     }
   ]
 }
