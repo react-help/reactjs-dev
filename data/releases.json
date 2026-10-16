@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T21:29:38.524Z",
+  "updatedAt": "2026-10-16T04:39:46.481Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -232,7 +232,7 @@
       },
       "weeklyDownloads": 14689002,
       "releaseNotes": {
-        "kind": "tag",
+        "kind": "release",
         "url": "https://github.com/react/react-native/releases/tag/v0.88.0"
       }
     },
@@ -277,15 +277,23 @@
         "publishedAt": "2026-10-14T17:43:55.246Z"
       },
       "bump": "patch",
-      "prereleases": [],
+      "prereleases": [
+        {
+          "version": "16.5.0-canary.15",
+          "publishedAt": "2026-10-15T23:52:37.197Z",
+          "tags": [
+            "canary"
+          ]
+        }
+      ],
       "distTags": {
         "latest": {
           "version": "16.4.2",
           "publishedAt": "2026-10-15T20:57:24.007Z"
         },
         "canary": {
-          "version": "16.5.0-canary.14",
-          "publishedAt": "2026-10-15T14:05:05.078Z"
+          "version": "16.5.0-canary.15",
+          "publishedAt": "2026-10-15T23:52:37.197Z"
         },
         "rc": {
           "version": "15.0.0-rc.1",
