@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T04:39:46.481Z",
+  "updatedAt": "2026-10-16T11:33:12.286Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -316,19 +316,19 @@
       "npmUrl": "https://www.npmjs.com/package/expo",
       "repoUrl": "https://github.com/expo/expo",
       "latest": {
-        "version": "58.0.11",
-        "publishedAt": "2026-10-15T19:40:12.002Z"
+        "version": "58.0.12",
+        "publishedAt": "2026-10-16T06:23:51.559Z"
       },
       "previous": {
-        "version": "58.0.10",
-        "publishedAt": "2026-10-14T22:11:39.587Z"
+        "version": "58.0.11",
+        "publishedAt": "2026-10-15T19:40:12.002Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "58.0.11",
-          "publishedAt": "2026-10-15T19:40:12.002Z"
+          "version": "58.0.12",
+          "publishedAt": "2026-10-16T06:23:51.559Z"
         },
         "next": {
           "version": "58.0.11",
@@ -342,7 +342,7 @@
       "weeklyDownloads": 10949617,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/expo/expo/releases/tag/expo%4058.0.11"
+        "url": "https://github.com/expo/expo/releases/tag/expo%4058.0.12"
       }
     },
     "astro": {
@@ -1255,6 +1255,22 @@
   },
   "recent": [
     {
+      "name": "react-native-gesture-handler",
+      "group": "native",
+      "version": "2.33.1",
+      "publishedAt": "2026-10-16T09:14:42.130Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/react-native-gesture-handler/v/2.33.1"
+    },
+    {
+      "name": "expo",
+      "group": "frameworks",
+      "version": "58.0.12",
+      "publishedAt": "2026-10-16T06:23:51.559Z",
+      "bump": "patch",
+      "url": "https://github.com/expo/expo/releases/tag/expo%4058.0.12"
+    },
+    {
       "name": "next",
       "group": "frameworks",
       "version": "16.4.2",
@@ -1268,7 +1284,7 @@
       "version": "58.0.11",
       "publishedAt": "2026-10-15T19:40:12.002Z",
       "bump": "patch",
-      "url": "https://github.com/expo/expo/releases/tag/expo%4058.0.11"
+      "url": "https://www.npmjs.com/package/expo/v/58.0.11"
     },
     {
       "name": "astro",
@@ -1637,22 +1653,6 @@
       "publishedAt": "2026-10-06T04:51:51.393Z",
       "bump": "patch",
       "url": "https://www.npmjs.com/package/vite/v/8.1.6"
-    },
-    {
-      "name": "vite",
-      "group": "frameworks",
-      "version": "8.2.4",
-      "publishedAt": "2026-10-06T04:48:20.112Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/vite/v/8.2.4"
-    },
-    {
-      "name": "vite",
-      "group": "frameworks",
-      "version": "8.3.3",
-      "publishedAt": "2026-10-06T04:10:19.326Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/vite/v/8.3.3"
     }
   ]
 }
