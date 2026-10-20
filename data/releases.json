@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T04:59:00.612Z",
+  "updatedAt": "2026-10-20T17:16:34.990Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -97,15 +97,15 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-ba39b32a-20261019",
-          "publishedAt": "2026-10-19T16:41:34.626Z",
+          "version": "0.0.0-experimental-a6792708-20261019",
+          "publishedAt": "2026-10-20T16:29:00.848Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "19.3.0-canary-ba39b32a-20261019",
-          "publishedAt": "2026-10-19T16:38:44.255Z",
+          "version": "19.3.0-canary-a6792708-20261019",
+          "publishedAt": "2026-10-20T16:27:59.732Z",
           "tags": [
             "canary"
           ]
@@ -121,12 +121,12 @@
           "publishedAt": "2026-05-08T16:43:16.457Z"
         },
         "canary": {
-          "version": "19.3.0-canary-ba39b32a-20261019",
-          "publishedAt": "2026-10-19T16:38:44.255Z"
+          "version": "19.3.0-canary-a6792708-20261019",
+          "publishedAt": "2026-10-20T16:27:59.732Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-ba39b32a-20261019",
-          "publishedAt": "2026-10-19T16:41:34.626Z"
+          "version": "0.0.0-experimental-a6792708-20261019",
+          "publishedAt": "2026-10-20T16:29:00.848Z"
         },
         "rc": {
           "version": "19.0.0-rc.1",
@@ -159,17 +159,17 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-ba39b32a-20261019",
-          "publishedAt": "2026-10-19T16:43:14.295Z",
+          "version": "19.3.0-canary-a6792708-20261019",
+          "publishedAt": "2026-10-20T16:31:38.301Z",
           "tags": [
-            "experimental"
+            "canary"
           ]
         },
         {
-          "version": "19.3.0-canary-ba39b32a-20261019",
-          "publishedAt": "2026-10-19T16:41:11.275Z",
+          "version": "0.0.0-experimental-a6792708-20261019",
+          "publishedAt": "2026-10-20T16:29:51.821Z",
           "tags": [
-            "canary"
+            "experimental"
           ]
         }
       ],
@@ -183,12 +183,12 @@
           "publishedAt": "2026-05-08T16:43:27.237Z"
         },
         "canary": {
-          "version": "19.3.0-canary-ba39b32a-20261019",
-          "publishedAt": "2026-10-19T16:41:11.275Z"
+          "version": "19.3.0-canary-a6792708-20261019",
+          "publishedAt": "2026-10-20T16:31:38.301Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-ba39b32a-20261019",
-          "publishedAt": "2026-10-19T16:43:14.295Z"
+          "version": "0.0.0-experimental-a6792708-20261019",
+          "publishedAt": "2026-10-20T16:29:51.821Z"
         },
         "rc": {
           "version": "19.0.0-rc.1",
@@ -1086,15 +1086,15 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-ba39b32a-20261019",
-          "publishedAt": "2026-10-19T16:46:08.758Z",
+          "version": "0.0.0-experimental-a6792708-20261019",
+          "publishedAt": "2026-10-20T16:28:42.193Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "7.1.1-canary-ba39b32a-20261019",
-          "publishedAt": "2026-10-19T16:40:34.282Z",
+          "version": "7.1.1-canary-a6792708-20261019",
+          "publishedAt": "2026-10-20T16:26:57.604Z",
           "tags": [
             "canary"
           ]
@@ -1117,12 +1117,12 @@
           "publishedAt": "2026-05-08T16:43:06.991Z"
         },
         "canary": {
-          "version": "7.1.1-canary-ba39b32a-20261019",
-          "publishedAt": "2026-10-19T16:40:34.282Z"
+          "version": "7.1.1-canary-a6792708-20261019",
+          "publishedAt": "2026-10-20T16:26:57.604Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-ba39b32a-20261019",
-          "publishedAt": "2026-10-19T16:46:08.758Z"
+          "version": "0.0.0-experimental-a6792708-20261019",
+          "publishedAt": "2026-10-20T16:28:42.193Z"
         },
         "rc": {
           "version": "6.0.0-rc.2",
