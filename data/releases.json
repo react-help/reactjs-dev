@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T17:19:15.525Z",
+  "updatedAt": "2026-10-21T21:47:52.461Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -316,19 +316,19 @@
       "npmUrl": "https://www.npmjs.com/package/expo",
       "repoUrl": "https://github.com/expo/expo",
       "latest": {
-        "version": "58.0.16",
-        "publishedAt": "2026-10-19T14:28:59.230Z"
+        "version": "58.0.17",
+        "publishedAt": "2026-10-21T19:19:23.403Z"
       },
       "previous": {
-        "version": "58.0.15",
-        "publishedAt": "2026-10-19T13:22:10.673Z"
+        "version": "58.0.16",
+        "publishedAt": "2026-10-19T14:28:59.230Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "58.0.16",
-          "publishedAt": "2026-10-19T14:28:59.230Z"
+          "version": "58.0.17",
+          "publishedAt": "2026-10-21T19:19:23.403Z"
         },
         "next": {
           "version": "58.0.11",
@@ -342,7 +342,7 @@
       "weeklyDownloads": 7086674,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/expo/expo/releases/tag/expo%4058.0.16"
+        "url": "https://github.com/expo/expo/releases/tag/expo%4058.0.17"
       }
     },
     "astro": {
@@ -1249,6 +1249,22 @@
     {
       "name": "expo",
       "group": "frameworks",
+      "version": "58.0.17",
+      "publishedAt": "2026-10-21T19:19:23.403Z",
+      "bump": "patch",
+      "url": "https://github.com/expo/expo/releases/tag/expo%4058.0.17"
+    },
+    {
+      "name": "expo",
+      "group": "frameworks",
+      "version": "54.0.38",
+      "publishedAt": "2026-10-21T17:25:00.274Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/expo/v/54.0.38"
+    },
+    {
+      "name": "expo",
+      "group": "frameworks",
       "version": "55.0.32",
       "publishedAt": "2026-10-21T15:16:09.028Z",
       "bump": "patch",
@@ -1324,7 +1340,7 @@
       "version": "58.0.16",
       "publishedAt": "2026-10-19T14:28:59.230Z",
       "bump": "patch",
-      "url": "https://github.com/expo/expo/releases/tag/expo%4058.0.16"
+      "url": "https://www.npmjs.com/package/expo/v/58.0.16"
     },
     {
       "name": "astro",
@@ -1629,22 +1645,6 @@
       "publishedAt": "2026-10-13T09:04:46.754Z",
       "bump": "patch",
       "url": "https://www.npmjs.com/package/motion/v/14.1.1"
-    },
-    {
-      "name": "@tanstack/react-router",
-      "group": "routing-data",
-      "version": "1.170.44",
-      "publishedAt": "2026-10-12T23:58:15.565Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/@tanstack/react-router/v/1.170.44"
-    },
-    {
-      "name": "@tanstack/react-router",
-      "group": "routing-data",
-      "version": "1.170.43",
-      "publishedAt": "2026-10-12T23:20:33.824Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/@tanstack/react-router/v/1.170.43"
     }
   ]
 }
