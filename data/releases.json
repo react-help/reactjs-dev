@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T21:42:14.893Z",
+  "updatedAt": "2026-10-21T04:58:06.206Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -279,8 +279,8 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "16.5.0-canary.20",
-          "publishedAt": "2026-10-20T19:00:44.430Z",
+          "version": "16.5.0-canary.21",
+          "publishedAt": "2026-10-20T23:59:47.325Z",
           "tags": [
             "canary"
           ]
@@ -292,8 +292,8 @@
           "publishedAt": "2026-10-15T20:57:24.007Z"
         },
         "canary": {
-          "version": "16.5.0-canary.20",
-          "publishedAt": "2026-10-20T19:00:44.430Z"
+          "version": "16.5.0-canary.21",
+          "publishedAt": "2026-10-20T23:59:47.325Z"
         },
         "rc": {
           "version": "15.0.0-rc.1",
@@ -783,19 +783,19 @@
       "npmUrl": "https://www.npmjs.com/package/motion",
       "repoUrl": "https://github.com/motiondivision/motion",
       "latest": {
-        "version": "14.4.0",
-        "publishedAt": "2026-10-19T09:44:53.345Z"
+        "version": "14.5.0",
+        "publishedAt": "2026-10-21T04:35:59.498Z"
       },
       "previous": {
-        "version": "14.3.1",
-        "publishedAt": "2026-10-19T07:47:07.949Z"
+        "version": "14.4.0",
+        "publishedAt": "2026-10-19T09:44:53.345Z"
       },
       "bump": "minor",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "14.4.0",
-          "publishedAt": "2026-10-19T09:44:53.345Z"
+          "version": "14.5.0",
+          "publishedAt": "2026-10-21T04:35:59.498Z"
         },
         "canary": {
           "version": "13.1.1-alpha.0",
@@ -1247,6 +1247,14 @@
   },
   "recent": [
     {
+      "name": "motion",
+      "group": "forms-ui",
+      "version": "14.5.0",
+      "publishedAt": "2026-10-21T04:35:59.498Z",
+      "bump": "minor",
+      "url": "https://github.com/motiondivision/motion/blob/HEAD/CHANGELOG.md"
+    },
+    {
       "name": "@apollo/client",
       "group": "routing-data",
       "version": "4.3.5",
@@ -1300,7 +1308,7 @@
       "version": "14.4.0",
       "publishedAt": "2026-10-19T09:44:53.345Z",
       "bump": "minor",
-      "url": "https://github.com/motiondivision/motion/blob/HEAD/CHANGELOG.md"
+      "url": "https://www.npmjs.com/package/motion/v/14.4.0"
     },
     {
       "name": "motion",
@@ -1637,14 +1645,6 @@
       "publishedAt": "2026-10-10T07:29:52.636Z",
       "bump": "patch",
       "url": "https://www.npmjs.com/package/@tanstack/react-router/v/1.170.42"
-    },
-    {
-      "name": "motion",
-      "group": "forms-ui",
-      "version": "14.1.0",
-      "publishedAt": "2026-10-09T19:38:43.711Z",
-      "bump": "minor",
-      "url": "https://www.npmjs.com/package/motion/v/14.1.0"
     }
   ]
 }
