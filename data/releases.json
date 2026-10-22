@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T04:58:49.994Z",
+  "updatedAt": "2026-10-22T12:01:43.952Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -783,19 +783,19 @@
       "npmUrl": "https://www.npmjs.com/package/motion",
       "repoUrl": "https://github.com/motiondivision/motion",
       "latest": {
-        "version": "14.5.0",
-        "publishedAt": "2026-10-21T04:35:59.498Z"
+        "version": "14.6.0",
+        "publishedAt": "2026-10-22T08:17:20.723Z"
       },
       "previous": {
-        "version": "14.4.0",
-        "publishedAt": "2026-10-19T09:44:53.345Z"
+        "version": "14.5.0",
+        "publishedAt": "2026-10-21T04:35:59.498Z"
       },
       "bump": "minor",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "14.5.0",
-          "publishedAt": "2026-10-21T04:35:59.498Z"
+          "version": "14.6.0",
+          "publishedAt": "2026-10-22T08:17:20.723Z"
         },
         "canary": {
           "version": "13.1.1-alpha.0",
@@ -1247,6 +1247,14 @@
   },
   "recent": [
     {
+      "name": "motion",
+      "group": "forms-ui",
+      "version": "14.6.0",
+      "publishedAt": "2026-10-22T08:17:20.723Z",
+      "bump": "minor",
+      "url": "https://github.com/motiondivision/motion/blob/HEAD/CHANGELOG.md"
+    },
+    {
       "name": "zustand",
       "group": "state",
       "version": "5.0.16",
@@ -1324,7 +1332,7 @@
       "version": "14.5.0",
       "publishedAt": "2026-10-21T04:35:59.498Z",
       "bump": "minor",
-      "url": "https://github.com/motiondivision/motion/blob/HEAD/CHANGELOG.md"
+      "url": "https://www.npmjs.com/package/motion/v/14.5.0"
     },
     {
       "name": "@apollo/client",
@@ -1637,14 +1645,6 @@
       "publishedAt": "2026-10-13T11:31:57.230Z",
       "bump": "minor",
       "url": "https://www.npmjs.com/package/motion/v/14.2.0"
-    },
-    {
-      "name": "expo",
-      "group": "frameworks",
-      "version": "58.0.8",
-      "publishedAt": "2026-10-13T09:10:42.850Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/expo/v/58.0.8"
     }
   ]
 }
