@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T12:01:43.952Z",
+  "updatedAt": "2026-10-22T17:16:54.584Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -97,15 +97,15 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-ab0d927f-20261020",
-          "publishedAt": "2026-10-21T16:27:22.154Z",
+          "version": "0.0.0-experimental-9ffcb463-20261021",
+          "publishedAt": "2026-10-22T17:13:15.386Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "19.3.0-canary-ab0d927f-20261020",
-          "publishedAt": "2026-10-21T16:25:18.485Z",
+          "version": "19.3.0-canary-9ffcb463-20261021",
+          "publishedAt": "2026-10-22T16:39:44.435Z",
           "tags": [
             "canary"
           ]
@@ -121,12 +121,12 @@
           "publishedAt": "2026-05-08T16:43:16.457Z"
         },
         "canary": {
-          "version": "19.3.0-canary-ab0d927f-20261020",
-          "publishedAt": "2026-10-21T16:25:18.485Z"
+          "version": "19.3.0-canary-9ffcb463-20261021",
+          "publishedAt": "2026-10-22T16:39:44.435Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-ab0d927f-20261020",
-          "publishedAt": "2026-10-21T16:27:22.154Z"
+          "version": "0.0.0-experimental-9ffcb463-20261021",
+          "publishedAt": "2026-10-22T17:13:15.386Z"
         },
         "rc": {
           "version": "19.0.0-rc.1",
@@ -159,15 +159,15 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-ab0d927f-20261020",
-          "publishedAt": "2026-10-21T16:31:52.772Z",
+          "version": "0.0.0-experimental-9ffcb463-20261021",
+          "publishedAt": "2026-10-22T17:13:57.561Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "19.3.0-canary-ab0d927f-20261020",
-          "publishedAt": "2026-10-21T16:30:48.775Z",
+          "version": "19.3.0-canary-9ffcb463-20261021",
+          "publishedAt": "2026-10-22T16:32:58.909Z",
           "tags": [
             "canary"
           ]
@@ -183,12 +183,12 @@
           "publishedAt": "2026-05-08T16:43:27.237Z"
         },
         "canary": {
-          "version": "19.3.0-canary-ab0d927f-20261020",
-          "publishedAt": "2026-10-21T16:30:48.775Z"
+          "version": "19.3.0-canary-9ffcb463-20261021",
+          "publishedAt": "2026-10-22T16:32:58.909Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-ab0d927f-20261020",
-          "publishedAt": "2026-10-21T16:31:52.772Z"
+          "version": "0.0.0-experimental-9ffcb463-20261021",
+          "publishedAt": "2026-10-22T17:13:57.561Z"
         },
         "rc": {
           "version": "19.0.0-rc.1",
@@ -279,8 +279,8 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "16.5.0-canary.21",
-          "publishedAt": "2026-10-20T23:59:47.325Z",
+          "version": "16.5.0-canary.23",
+          "publishedAt": "2026-10-22T12:05:31.424Z",
           "tags": [
             "canary"
           ]
@@ -292,8 +292,8 @@
           "publishedAt": "2026-10-15T20:57:24.007Z"
         },
         "canary": {
-          "version": "16.5.0-canary.21",
-          "publishedAt": "2026-10-20T23:59:47.325Z"
+          "version": "16.5.0-canary.23",
+          "publishedAt": "2026-10-22T12:05:31.424Z"
         },
         "rc": {
           "version": "15.0.0-rc.1",
@@ -1086,15 +1086,15 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-ab0d927f-20261020",
-          "publishedAt": "2026-10-21T16:27:47.537Z",
+          "version": "0.0.0-experimental-9ffcb463-20261021",
+          "publishedAt": "2026-10-22T17:13:20.132Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "7.1.1-canary-ab0d927f-20261020",
-          "publishedAt": "2026-10-21T16:26:16.309Z",
+          "version": "7.1.1-canary-9ffcb463-20261021",
+          "publishedAt": "2026-10-22T16:32:23.742Z",
           "tags": [
             "canary"
           ]
@@ -1117,12 +1117,12 @@
           "publishedAt": "2026-05-08T16:43:06.991Z"
         },
         "canary": {
-          "version": "7.1.1-canary-ab0d927f-20261020",
-          "publishedAt": "2026-10-21T16:26:16.309Z"
+          "version": "7.1.1-canary-9ffcb463-20261021",
+          "publishedAt": "2026-10-22T16:32:23.742Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-ab0d927f-20261020",
-          "publishedAt": "2026-10-21T16:27:47.537Z"
+          "version": "0.0.0-experimental-9ffcb463-20261021",
+          "publishedAt": "2026-10-22T17:13:20.132Z"
         },
         "rc": {
           "version": "6.0.0-rc.2",
