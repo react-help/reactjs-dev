@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T17:16:54.584Z",
+  "updatedAt": "2026-10-22T21:42:45.071Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -495,19 +495,19 @@
       "npmUrl": "https://www.npmjs.com/package/@tanstack/react-router",
       "repoUrl": "https://github.com/TanStack/router",
       "latest": {
-        "version": "1.170.45",
-        "publishedAt": "2026-10-16T21:11:23.380Z"
+        "version": "1.170.46",
+        "publishedAt": "2026-10-22T20:10:14.318Z"
       },
       "previous": {
-        "version": "1.170.44",
-        "publishedAt": "2026-10-12T23:58:15.565Z"
+        "version": "1.170.45",
+        "publishedAt": "2026-10-16T21:11:23.380Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "1.170.45",
-          "publishedAt": "2026-10-16T21:11:23.380Z"
+          "version": "1.170.46",
+          "publishedAt": "2026-10-22T20:10:14.318Z"
         },
         "beta": {
           "version": "0.0.1-beta.286",
@@ -521,7 +521,7 @@
       "weeklyDownloads": 12275215,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/TanStack/router/releases/tag/%40tanstack/react-router%401.170.45"
+        "url": "https://github.com/TanStack/router/releases/tag/%40tanstack/react-router%401.170.46"
       }
     },
     "swr": {
@@ -1247,6 +1247,14 @@
   },
   "recent": [
     {
+      "name": "@tanstack/react-router",
+      "group": "routing-data",
+      "version": "1.170.46",
+      "publishedAt": "2026-10-22T20:10:14.318Z",
+      "bump": "patch",
+      "url": "https://github.com/TanStack/router/releases/tag/%40tanstack/react-router%401.170.46"
+    },
+    {
       "name": "motion",
       "group": "forms-ui",
       "version": "14.6.0",
@@ -1412,7 +1420,7 @@
       "version": "1.170.45",
       "publishedAt": "2026-10-16T21:11:23.380Z",
       "bump": "patch",
-      "url": "https://github.com/TanStack/router/releases/tag/%40tanstack/react-router%401.170.45"
+      "url": "https://www.npmjs.com/package/@tanstack/react-router/v/1.170.45"
     },
     {
       "name": "expo",
@@ -1637,14 +1645,6 @@
       "publishedAt": "2026-10-13T14:30:23.133Z",
       "bump": "minor",
       "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.30.0"
-    },
-    {
-      "name": "motion",
-      "group": "forms-ui",
-      "version": "14.2.0",
-      "publishedAt": "2026-10-13T11:31:57.230Z",
-      "bump": "minor",
-      "url": "https://www.npmjs.com/package/motion/v/14.2.0"
     }
   ]
 }
