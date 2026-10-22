@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T21:47:52.461Z",
+  "updatedAt": "2026-10-22T04:58:49.994Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -616,25 +616,25 @@
       "npmUrl": "https://www.npmjs.com/package/zustand",
       "repoUrl": "https://github.com/pmndrs/zustand",
       "latest": {
-        "version": "5.0.15",
-        "publishedAt": "2026-08-13T00:39:55.466Z"
+        "version": "5.0.16",
+        "publishedAt": "2026-10-22T04:32:02.337Z"
       },
       "previous": {
-        "version": "5.0.14",
-        "publishedAt": "2026-05-28T10:17:58.249Z"
+        "version": "5.0.15",
+        "publishedAt": "2026-08-13T00:39:55.466Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "5.0.15",
-          "publishedAt": "2026-08-13T00:39:55.466Z"
+          "version": "5.0.16",
+          "publishedAt": "2026-10-22T04:32:02.337Z"
         }
       },
       "weeklyDownloads": 37735389,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.15"
+        "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.16"
       }
     },
     "@reduxjs/toolkit": {
@@ -1247,6 +1247,14 @@
   },
   "recent": [
     {
+      "name": "zustand",
+      "group": "state",
+      "version": "5.0.16",
+      "publishedAt": "2026-10-22T04:32:02.337Z",
+      "bump": "patch",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.16"
+    },
+    {
       "name": "expo",
       "group": "frameworks",
       "version": "58.0.17",
@@ -1637,14 +1645,6 @@
       "publishedAt": "2026-10-13T09:10:42.850Z",
       "bump": "patch",
       "url": "https://www.npmjs.com/package/expo/v/58.0.8"
-    },
-    {
-      "name": "motion",
-      "group": "forms-ui",
-      "version": "14.1.1",
-      "publishedAt": "2026-10-13T09:04:46.754Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/motion/v/14.1.1"
     }
   ]
 }
