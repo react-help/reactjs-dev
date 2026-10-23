@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T11:47:36.936Z",
+  "updatedAt": "2026-10-23T17:14:51.158Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -97,15 +97,15 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-9ffcb463-20261021",
-          "publishedAt": "2026-10-22T17:13:15.386Z",
+          "version": "0.0.0-experimental-a6b912fb-20261023",
+          "publishedAt": "2026-10-23T16:30:48.191Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "19.3.0-canary-9ffcb463-20261021",
-          "publishedAt": "2026-10-22T16:39:44.435Z",
+          "version": "19.3.0-canary-a6b912fb-20261023",
+          "publishedAt": "2026-10-23T16:30:08.678Z",
           "tags": [
             "canary"
           ]
@@ -121,12 +121,12 @@
           "publishedAt": "2026-05-08T16:43:16.457Z"
         },
         "canary": {
-          "version": "19.3.0-canary-9ffcb463-20261021",
-          "publishedAt": "2026-10-22T16:39:44.435Z"
+          "version": "19.3.0-canary-a6b912fb-20261023",
+          "publishedAt": "2026-10-23T16:30:08.678Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-9ffcb463-20261021",
-          "publishedAt": "2026-10-22T17:13:15.386Z"
+          "version": "0.0.0-experimental-a6b912fb-20261023",
+          "publishedAt": "2026-10-23T16:30:48.191Z"
         },
         "rc": {
           "version": "19.0.0-rc.1",
@@ -159,15 +159,15 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-9ffcb463-20261021",
-          "publishedAt": "2026-10-22T17:13:57.561Z",
+          "version": "0.0.0-experimental-a6b912fb-20261023",
+          "publishedAt": "2026-10-23T16:30:41.053Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "19.3.0-canary-9ffcb463-20261021",
-          "publishedAt": "2026-10-22T16:32:58.909Z",
+          "version": "19.3.0-canary-a6b912fb-20261023",
+          "publishedAt": "2026-10-23T16:28:58.697Z",
           "tags": [
             "canary"
           ]
@@ -183,12 +183,12 @@
           "publishedAt": "2026-05-08T16:43:27.237Z"
         },
         "canary": {
-          "version": "19.3.0-canary-9ffcb463-20261021",
-          "publishedAt": "2026-10-22T16:32:58.909Z"
+          "version": "19.3.0-canary-a6b912fb-20261023",
+          "publishedAt": "2026-10-23T16:28:58.697Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-9ffcb463-20261021",
-          "publishedAt": "2026-10-22T17:13:57.561Z"
+          "version": "0.0.0-experimental-a6b912fb-20261023",
+          "publishedAt": "2026-10-23T16:30:41.053Z"
         },
         "rc": {
           "version": "19.0.0-rc.1",
@@ -269,27 +269,19 @@
       "npmUrl": "https://www.npmjs.com/package/next",
       "repoUrl": "https://github.com/vercel/next.js",
       "latest": {
+        "version": "16.4.3",
+        "publishedAt": "2026-10-23T13:40:24.922Z"
+      },
+      "previous": {
         "version": "16.4.2",
         "publishedAt": "2026-10-15T20:57:24.007Z"
       },
-      "previous": {
-        "version": "16.4.1",
-        "publishedAt": "2026-10-14T17:43:55.246Z"
-      },
       "bump": "patch",
-      "prereleases": [
-        {
-          "version": "16.5.0-canary.25",
-          "publishedAt": "2026-10-23T08:56:24.882Z",
-          "tags": [
-            "canary"
-          ]
-        }
-      ],
+      "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "16.4.2",
-          "publishedAt": "2026-10-15T20:57:24.007Z"
+          "version": "16.4.3",
+          "publishedAt": "2026-10-23T13:40:24.922Z"
         },
         "canary": {
           "version": "16.5.0-canary.25",
@@ -307,7 +299,7 @@
       "weeklyDownloads": 41069423,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.2"
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.3"
       }
     },
     "expo": {
@@ -1086,15 +1078,15 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-9ffcb463-20261021",
-          "publishedAt": "2026-10-22T17:13:20.132Z",
+          "version": "0.0.0-experimental-a6b912fb-20261023",
+          "publishedAt": "2026-10-23T16:30:15.669Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "7.1.1-canary-9ffcb463-20261021",
-          "publishedAt": "2026-10-22T16:32:23.742Z",
+          "version": "7.1.1-canary-a6b912fb-20261023",
+          "publishedAt": "2026-10-23T16:28:35.226Z",
           "tags": [
             "canary"
           ]
@@ -1117,12 +1109,12 @@
           "publishedAt": "2026-05-08T16:43:06.991Z"
         },
         "canary": {
-          "version": "7.1.1-canary-9ffcb463-20261021",
-          "publishedAt": "2026-10-22T16:32:23.742Z"
+          "version": "7.1.1-canary-a6b912fb-20261023",
+          "publishedAt": "2026-10-23T16:28:35.226Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-9ffcb463-20261021",
-          "publishedAt": "2026-10-22T17:13:20.132Z"
+          "version": "0.0.0-experimental-a6b912fb-20261023",
+          "publishedAt": "2026-10-23T16:30:15.669Z"
         },
         "rc": {
           "version": "6.0.0-rc.2",
@@ -1246,6 +1238,14 @@
     }
   },
   "recent": [
+    {
+      "name": "next",
+      "group": "frameworks",
+      "version": "16.4.3",
+      "publishedAt": "2026-10-23T13:40:24.922Z",
+      "bump": "patch",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.3"
+    },
     {
       "name": "@tanstack/react-router",
       "group": "routing-data",
@@ -1476,7 +1476,7 @@
       "version": "16.4.2",
       "publishedAt": "2026-10-15T20:57:24.007Z",
       "bump": "patch",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.2"
+      "url": "https://www.npmjs.com/package/next/v/16.4.2"
     },
     {
       "name": "expo",
@@ -1637,14 +1637,6 @@
       "publishedAt": "2026-10-13T17:46:29.399Z",
       "bump": "patch",
       "url": "https://www.npmjs.com/package/expo/v/58.0.9"
-    },
-    {
-      "name": "react-native-screens",
-      "group": "native",
-      "version": "4.30.0",
-      "publishedAt": "2026-10-13T14:30:23.133Z",
-      "bump": "minor",
-      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.30.0"
     }
   ]
 }
