@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T04:52:24.906Z",
+  "updatedAt": "2026-10-26T13:14:18.886Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -456,19 +456,19 @@
       "npmUrl": "https://www.npmjs.com/package/@tanstack/react-query",
       "repoUrl": "https://github.com/TanStack/query",
       "latest": {
+        "version": "5.105.0",
+        "publishedAt": "2026-10-26T09:31:29.126Z"
+      },
+      "previous": {
         "version": "5.104.5",
         "publishedAt": "2026-10-19T16:57:50.440Z"
       },
-      "previous": {
-        "version": "5.104.4",
-        "publishedAt": "2026-10-17T17:55:14.077Z"
-      },
-      "bump": "patch",
+      "bump": "minor",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "5.104.5",
-          "publishedAt": "2026-10-19T16:57:50.440Z"
+          "version": "5.105.0",
+          "publishedAt": "2026-10-26T09:31:29.126Z"
         },
         "rc": {
           "version": "5.0.0-rc.16",
@@ -486,7 +486,7 @@
       "weeklyDownloads": 42710852,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/TanStack/query/releases/tag/%40tanstack/react-query%405.104.5"
+        "url": "https://github.com/TanStack/query/releases/tag/%40tanstack/react-query%405.105.0"
       }
     },
     "@tanstack/react-router": {
@@ -1247,6 +1247,14 @@
   },
   "recent": [
     {
+      "name": "@tanstack/react-query",
+      "group": "routing-data",
+      "version": "5.105.0",
+      "publishedAt": "2026-10-26T09:31:29.126Z",
+      "bump": "minor",
+      "url": "https://github.com/TanStack/query/releases/tag/%40tanstack/react-query%405.105.0"
+    },
+    {
       "name": "expo",
       "group": "frameworks",
       "version": "58.0.19",
@@ -1380,7 +1388,7 @@
       "version": "5.104.5",
       "publishedAt": "2026-10-19T16:57:50.440Z",
       "bump": "patch",
-      "url": "https://github.com/TanStack/query/releases/tag/%40tanstack/react-query%405.104.5"
+      "url": "https://www.npmjs.com/package/@tanstack/react-query/v/5.104.5"
     },
     {
       "name": "expo",
@@ -1637,14 +1645,6 @@
       "publishedAt": "2026-10-14T16:47:15.290Z",
       "bump": "patch",
       "url": "https://github.com/react/react/releases/tag/v19.3.1"
-    },
-    {
-      "name": "expo",
-      "group": "frameworks",
-      "version": "57.0.29",
-      "publishedAt": "2026-10-14T16:32:28.791Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/expo/v/57.0.29"
     }
   ]
 }
