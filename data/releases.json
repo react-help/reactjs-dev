@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-27T05:13:50.522Z",
+  "updatedAt": "2026-10-27T12:22:14.374Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -783,19 +783,19 @@
       "npmUrl": "https://www.npmjs.com/package/motion",
       "repoUrl": "https://github.com/motiondivision/motion",
       "latest": {
-        "version": "14.6.0",
-        "publishedAt": "2026-10-22T08:17:20.723Z"
+        "version": "14.7.1",
+        "publishedAt": "2026-10-27T11:42:37.384Z"
       },
       "previous": {
-        "version": "14.5.0",
-        "publishedAt": "2026-10-21T04:35:59.498Z"
+        "version": "14.7.0",
+        "publishedAt": "2026-10-27T09:53:36.321Z"
       },
-      "bump": "minor",
+      "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "14.6.0",
-          "publishedAt": "2026-10-22T08:17:20.723Z"
+          "version": "14.7.1",
+          "publishedAt": "2026-10-27T11:42:37.384Z"
         },
         "canary": {
           "version": "13.1.1-alpha.0",
@@ -1247,6 +1247,22 @@
   },
   "recent": [
     {
+      "name": "motion",
+      "group": "forms-ui",
+      "version": "14.7.1",
+      "publishedAt": "2026-10-27T11:42:37.384Z",
+      "bump": "patch",
+      "url": "https://github.com/motiondivision/motion/blob/HEAD/CHANGELOG.md"
+    },
+    {
+      "name": "motion",
+      "group": "forms-ui",
+      "version": "14.7.0",
+      "publishedAt": "2026-10-27T09:53:36.321Z",
+      "bump": "minor",
+      "url": "https://www.npmjs.com/package/motion/v/14.7.0"
+    },
+    {
       "name": "@tanstack/react-query",
       "group": "routing-data",
       "version": "5.105.0",
@@ -1292,7 +1308,7 @@
       "version": "14.6.0",
       "publishedAt": "2026-10-22T08:17:20.723Z",
       "bump": "minor",
-      "url": "https://github.com/motiondivision/motion/blob/HEAD/CHANGELOG.md"
+      "url": "https://www.npmjs.com/package/motion/v/14.6.0"
     },
     {
       "name": "zustand",
@@ -1627,22 +1643,6 @@
       "group": "core",
       "version": "19.3.1",
       "publishedAt": "2026-10-14T16:49:10.081Z",
-      "bump": "patch",
-      "url": "https://github.com/react/react/releases/tag/v19.3.1"
-    },
-    {
-      "name": "react",
-      "group": "core",
-      "version": "19.0.9",
-      "publishedAt": "2026-10-14T16:48:37.103Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/react/v/19.0.9"
-    },
-    {
-      "name": "react",
-      "group": "core",
-      "version": "19.3.1",
-      "publishedAt": "2026-10-14T16:47:15.290Z",
       "bump": "patch",
       "url": "https://github.com/react/react/releases/tag/v19.3.1"
     }
