@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T22:27:09.558Z",
+  "updatedAt": "2026-10-31T12:43:25.781Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -97,15 +97,15 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-a703ca64-20261030",
-          "publishedAt": "2026-10-30T16:21:41.273Z",
+          "version": "0.0.0-experimental-e84e1492-20261031",
+          "publishedAt": "2026-10-31T09:15:39.748Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "19.3.0-canary-a703ca64-20261030",
-          "publishedAt": "2026-10-30T16:19:40.009Z",
+          "version": "19.3.0-canary-e84e1492-20261031",
+          "publishedAt": "2026-10-31T09:14:14.740Z",
           "tags": [
             "canary"
           ]
@@ -121,12 +121,12 @@
           "publishedAt": "2026-05-08T16:43:16.457Z"
         },
         "canary": {
-          "version": "19.3.0-canary-a703ca64-20261030",
-          "publishedAt": "2026-10-30T16:19:40.009Z"
+          "version": "19.3.0-canary-e84e1492-20261031",
+          "publishedAt": "2026-10-31T09:14:14.740Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-a703ca64-20261030",
-          "publishedAt": "2026-10-30T16:21:41.273Z"
+          "version": "0.0.0-experimental-e84e1492-20261031",
+          "publishedAt": "2026-10-31T09:15:39.748Z"
         },
         "rc": {
           "version": "19.0.0-rc.1",
@@ -159,15 +159,15 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-a703ca64-20261030",
-          "publishedAt": "2026-10-30T16:25:51.253Z",
+          "version": "0.0.0-experimental-e84e1492-20261031",
+          "publishedAt": "2026-10-31T09:18:06.184Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "19.3.0-canary-a703ca64-20261030",
-          "publishedAt": "2026-10-30T16:20:36.544Z",
+          "version": "19.3.0-canary-e84e1492-20261031",
+          "publishedAt": "2026-10-31T09:16:09.998Z",
           "tags": [
             "canary"
           ]
@@ -183,12 +183,12 @@
           "publishedAt": "2026-05-08T16:43:27.237Z"
         },
         "canary": {
-          "version": "19.3.0-canary-a703ca64-20261030",
-          "publishedAt": "2026-10-30T16:20:36.544Z"
+          "version": "19.3.0-canary-e84e1492-20261031",
+          "publishedAt": "2026-10-31T09:16:09.998Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-a703ca64-20261030",
-          "publishedAt": "2026-10-30T16:25:51.253Z"
+          "version": "0.0.0-experimental-e84e1492-20261031",
+          "publishedAt": "2026-10-31T09:18:06.184Z"
         },
         "rc": {
           "version": "19.0.0-rc.1",
@@ -279,8 +279,8 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "16.5.0-canary.34",
-          "publishedAt": "2026-10-30T11:08:32.796Z",
+          "version": "16.5.0-canary.35",
+          "publishedAt": "2026-10-31T08:09:24.440Z",
           "tags": [
             "canary"
           ]
@@ -292,8 +292,8 @@
           "publishedAt": "2026-10-23T13:40:24.922Z"
         },
         "canary": {
-          "version": "16.5.0-canary.34",
-          "publishedAt": "2026-10-30T11:08:32.796Z"
+          "version": "16.5.0-canary.35",
+          "publishedAt": "2026-10-31T08:09:24.440Z"
         },
         "rc": {
           "version": "15.0.0-rc.1",
@@ -316,19 +316,19 @@
       "npmUrl": "https://www.npmjs.com/package/expo",
       "repoUrl": "https://github.com/expo/expo",
       "latest": {
-        "version": "58.0.21",
-        "publishedAt": "2026-10-28T15:36:05.811Z"
+        "version": "58.0.22",
+        "publishedAt": "2026-10-31T10:33:20.523Z"
       },
       "previous": {
-        "version": "58.0.20",
-        "publishedAt": "2026-10-27T16:12:41.704Z"
+        "version": "58.0.21",
+        "publishedAt": "2026-10-28T15:36:05.811Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "58.0.21",
-          "publishedAt": "2026-10-28T15:36:05.811Z"
+          "version": "58.0.22",
+          "publishedAt": "2026-10-31T10:33:20.523Z"
         },
         "next": {
           "version": "58.0.11",
@@ -342,7 +342,7 @@
       "weeklyDownloads": 15441675,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/expo/expo/releases/tag/expo%4058.0.21"
+        "url": "https://github.com/expo/expo/releases/tag/expo%4058.0.22"
       }
     },
     "astro": {
@@ -1086,15 +1086,15 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-a703ca64-20261030",
-          "publishedAt": "2026-10-30T16:22:46.289Z",
+          "version": "0.0.0-experimental-e84e1492-20261031",
+          "publishedAt": "2026-10-31T09:15:31.359Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "7.1.1-canary-a703ca64-20261030",
-          "publishedAt": "2026-10-30T16:20:36.177Z",
+          "version": "7.1.1-canary-e84e1492-20261031",
+          "publishedAt": "2026-10-31T09:14:04.308Z",
           "tags": [
             "canary"
           ]
@@ -1117,12 +1117,12 @@
           "publishedAt": "2026-05-08T16:43:06.991Z"
         },
         "canary": {
-          "version": "7.1.1-canary-a703ca64-20261030",
-          "publishedAt": "2026-10-30T16:20:36.177Z"
+          "version": "7.1.1-canary-e84e1492-20261031",
+          "publishedAt": "2026-10-31T09:14:04.308Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-a703ca64-20261030",
-          "publishedAt": "2026-10-30T16:22:46.289Z"
+          "version": "0.0.0-experimental-e84e1492-20261031",
+          "publishedAt": "2026-10-31T09:15:31.359Z"
         },
         "rc": {
           "version": "6.0.0-rc.2",
@@ -1247,6 +1247,14 @@
   },
   "recent": [
     {
+      "name": "expo",
+      "group": "frameworks",
+      "version": "58.0.22",
+      "publishedAt": "2026-10-31T10:33:20.523Z",
+      "bump": "patch",
+      "url": "https://github.com/expo/expo/releases/tag/expo%4058.0.22"
+    },
+    {
       "name": "motion",
       "group": "forms-ui",
       "version": "14.9.0",
@@ -1276,7 +1284,7 @@
       "version": "58.0.21",
       "publishedAt": "2026-10-28T15:36:05.811Z",
       "bump": "patch",
-      "url": "https://github.com/expo/expo/releases/tag/expo%4058.0.21"
+      "url": "https://www.npmjs.com/package/expo/v/58.0.21"
     },
     {
       "name": "astro",
@@ -1637,14 +1645,6 @@
       "publishedAt": "2026-10-15T14:27:25.734Z",
       "bump": "minor",
       "url": "https://www.npmjs.com/package/motion/v/14.3.0"
-    },
-    {
-      "name": "react-native",
-      "group": "core",
-      "version": "0.88.0",
-      "publishedAt": "2026-10-15T14:08:56.115Z",
-      "bump": "major",
-      "url": "https://www.npmjs.com/package/react-native/v/0.88.0"
     }
   ]
 }
