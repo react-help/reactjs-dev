@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T21:45:30.106Z",
+  "updatedAt": "2026-11-03T06:56:05.212Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -277,15 +277,23 @@
         "publishedAt": "2026-10-23T13:40:24.922Z"
       },
       "bump": "patch",
-      "prereleases": [],
+      "prereleases": [
+        {
+          "version": "16.5.0-canary.37",
+          "publishedAt": "2026-11-02T23:55:48.378Z",
+          "tags": [
+            "canary"
+          ]
+        }
+      ],
       "distTags": {
         "latest": {
           "version": "16.4.4",
           "publishedAt": "2026-11-02T10:49:48.611Z"
         },
         "canary": {
-          "version": "16.5.0-canary.36",
-          "publishedAt": "2026-10-31T23:51:06.142Z"
+          "version": "16.5.0-canary.37",
+          "publishedAt": "2026-11-02T23:55:48.378Z"
         },
         "rc": {
           "version": "15.0.0-rc.1",
@@ -510,7 +518,7 @@
           "publishedAt": "2025-09-22T01:27:44.255Z"
         }
       },
-      "weeklyDownloads": 12500909,
+      "weeklyDownloads": 21763871,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/TanStack/router/releases/tag/%40tanstack/react-router%401.170.46"
@@ -565,19 +573,19 @@
       "npmUrl": "https://www.npmjs.com/package/@apollo/client",
       "repoUrl": "https://github.com/apollographql/apollo-client",
       "latest": {
-        "version": "4.3.5",
-        "publishedAt": "2026-10-19T21:34:42.910Z"
+        "version": "4.3.6",
+        "publishedAt": "2026-11-03T01:01:56.982Z"
       },
       "previous": {
-        "version": "4.3.4",
-        "publishedAt": "2026-10-16T17:33:54.458Z"
+        "version": "4.3.5",
+        "publishedAt": "2026-10-19T21:34:42.910Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "4.3.5",
-          "publishedAt": "2026-10-19T21:34:42.910Z"
+          "version": "4.3.6",
+          "publishedAt": "2026-11-03T01:01:56.982Z"
         },
         "next": {
           "version": "4.3.0-rc.2",
@@ -599,7 +607,7 @@
       "weeklyDownloads": 8475720,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.5"
+        "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.6"
       }
     },
     "zustand": {
@@ -666,7 +674,7 @@
           "publishedAt": "2023-05-16T14:09:15.407Z"
         }
       },
-      "weeklyDownloads": 19771535,
+      "weeklyDownloads": 45814989,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/reduxjs/redux-toolkit/releases/tag/v2.13.0"
@@ -1222,7 +1230,7 @@
           "publishedAt": "2023-02-16T22:51:01.618Z"
         }
       },
-      "weeklyDownloads": 41731341,
+      "weeklyDownloads": 89491596,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/testing-library/react-testing-library/releases/tag/v16.3.3"
@@ -1230,6 +1238,14 @@
     }
   },
   "recent": [
+    {
+      "name": "@apollo/client",
+      "group": "routing-data",
+      "version": "4.3.6",
+      "publishedAt": "2026-11-03T01:01:56.982Z",
+      "bump": "patch",
+      "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.6"
+    },
     {
       "name": "@tanstack/react-query",
       "group": "routing-data",
@@ -1524,7 +1540,7 @@
       "version": "4.3.5",
       "publishedAt": "2026-10-19T21:34:42.910Z",
       "bump": "patch",
-      "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.5"
+      "url": "https://www.npmjs.com/package/@apollo/client/v/4.3.5"
     },
     {
       "name": "@tanstack/react-query",
@@ -1621,14 +1637,6 @@
       "publishedAt": "2026-10-16T16:49:26.075Z",
       "bump": "minor",
       "url": "https://github.com/software-mansion/react-native-gesture-handler/releases/tag/v3.4.0"
-    },
-    {
-      "name": "expo",
-      "group": "frameworks",
-      "version": "58.0.13",
-      "publishedAt": "2026-10-16T15:43:20.342Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/expo/v/58.0.13"
     }
   ]
 }
