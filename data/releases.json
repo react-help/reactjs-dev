@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T19:33:48.106Z",
+  "updatedAt": "2026-11-04T06:37:56.672Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -277,15 +277,23 @@
         "publishedAt": "2026-11-02T10:49:48.611Z"
       },
       "bump": "patch",
-      "prereleases": [],
+      "prereleases": [
+        {
+          "version": "16.5.0-canary.40",
+          "publishedAt": "2026-11-03T23:53:56.040Z",
+          "tags": [
+            "canary"
+          ]
+        }
+      ],
       "distTags": {
         "latest": {
           "version": "16.4.5",
           "publishedAt": "2026-11-03T18:01:54.667Z"
         },
         "canary": {
-          "version": "16.5.0-canary.38",
-          "publishedAt": "2026-11-03T09:22:38.627Z"
+          "version": "16.5.0-canary.40",
+          "publishedAt": "2026-11-03T23:53:56.040Z"
         },
         "rc": {
           "version": "15.0.0-rc.1",
