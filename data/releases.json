@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:47:22.636Z",
+  "updatedAt": "2026-11-09T22:28:11.296Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -97,15 +97,15 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-5b610964-20261106",
-          "publishedAt": "2026-11-06T16:19:15.622Z",
+          "version": "0.0.0-experimental-4ae637b6-20261109",
+          "publishedAt": "2026-11-09T16:21:22.670Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "19.3.0-canary-5b610964-20261106",
-          "publishedAt": "2026-11-06T16:18:36.333Z",
+          "version": "19.3.0-canary-4ae637b6-20261109",
+          "publishedAt": "2026-11-09T16:18:50.910Z",
           "tags": [
             "canary"
           ]
@@ -121,12 +121,12 @@
           "publishedAt": "2026-05-08T16:43:16.457Z"
         },
         "canary": {
-          "version": "19.3.0-canary-5b610964-20261106",
-          "publishedAt": "2026-11-06T16:18:36.333Z"
+          "version": "19.3.0-canary-4ae637b6-20261109",
+          "publishedAt": "2026-11-09T16:18:50.910Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-5b610964-20261106",
-          "publishedAt": "2026-11-06T16:19:15.622Z"
+          "version": "0.0.0-experimental-4ae637b6-20261109",
+          "publishedAt": "2026-11-09T16:21:22.670Z"
         },
         "rc": {
           "version": "19.0.0-rc.1",
@@ -159,15 +159,15 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-5b610964-20261106",
-          "publishedAt": "2026-11-06T16:19:52.000Z",
+          "version": "0.0.0-experimental-4ae637b6-20261109",
+          "publishedAt": "2026-11-09T16:21:04.516Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "19.3.0-canary-5b610964-20261106",
-          "publishedAt": "2026-11-06T16:17:59.672Z",
+          "version": "19.3.0-canary-4ae637b6-20261109",
+          "publishedAt": "2026-11-09T16:20:03.212Z",
           "tags": [
             "canary"
           ]
@@ -183,12 +183,12 @@
           "publishedAt": "2026-05-08T16:43:27.237Z"
         },
         "canary": {
-          "version": "19.3.0-canary-5b610964-20261106",
-          "publishedAt": "2026-11-06T16:17:59.672Z"
+          "version": "19.3.0-canary-4ae637b6-20261109",
+          "publishedAt": "2026-11-09T16:20:03.212Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-5b610964-20261106",
-          "publishedAt": "2026-11-06T16:19:52.000Z"
+          "version": "0.0.0-experimental-4ae637b6-20261109",
+          "publishedAt": "2026-11-09T16:21:04.516Z"
         },
         "rc": {
           "version": "19.0.0-rc.1",
@@ -277,27 +277,19 @@
       "npmUrl": "https://www.npmjs.com/package/next",
       "repoUrl": "https://github.com/vercel/next.js",
       "latest": {
+        "version": "16.4.6",
+        "publishedAt": "2026-11-09T20:33:38.821Z"
+      },
+      "previous": {
         "version": "16.4.5",
         "publishedAt": "2026-11-03T18:01:54.667Z"
       },
-      "previous": {
-        "version": "16.4.4",
-        "publishedAt": "2026-11-02T10:49:48.611Z"
-      },
       "bump": "patch",
-      "prereleases": [
-        {
-          "version": "16.5.0-canary.45",
-          "publishedAt": "2026-11-08T23:55:42.909Z",
-          "tags": [
-            "canary"
-          ]
-        }
-      ],
+      "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "16.4.5",
-          "publishedAt": "2026-11-03T18:01:54.667Z"
+          "version": "16.4.6",
+          "publishedAt": "2026-11-09T20:33:38.821Z"
         },
         "canary": {
           "version": "16.5.0-canary.45",
@@ -315,7 +307,7 @@
       "weeklyDownloads": 92107277,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.5"
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.6"
       }
     },
     "expo": {
@@ -359,19 +351,19 @@
       "npmUrl": "https://www.npmjs.com/package/astro",
       "repoUrl": "https://github.com/withastro/astro",
       "latest": {
-        "version": "7.4.7",
-        "publishedAt": "2026-11-05T19:59:28.083Z"
+        "version": "7.4.8",
+        "publishedAt": "2026-11-09T14:51:52.802Z"
       },
       "previous": {
-        "version": "7.4.6",
-        "publishedAt": "2026-11-05T16:18:53.342Z"
+        "version": "7.4.7",
+        "publishedAt": "2026-11-05T19:59:28.083Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "7.4.7",
-          "publishedAt": "2026-11-05T19:59:28.083Z"
+          "version": "7.4.8",
+          "publishedAt": "2026-11-09T14:51:52.802Z"
         },
         "rc": {
           "version": "3.0.0-rc.11",
@@ -389,7 +381,7 @@
       "weeklyDownloads": 11617545,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/withastro/astro/releases/tag/astro%407.4.7"
+        "url": "https://github.com/withastro/astro/releases/tag/astro%407.4.8"
       }
     },
     "vite": {
@@ -398,19 +390,19 @@
       "npmUrl": "https://www.npmjs.com/package/vite",
       "repoUrl": "https://github.com/vitejs/vite",
       "latest": {
-        "version": "8.3.6",
-        "publishedAt": "2026-11-05T05:40:52.195Z"
+        "version": "8.3.7",
+        "publishedAt": "2026-11-09T10:25:29.212Z"
       },
       "previous": {
-        "version": "8.3.5",
-        "publishedAt": "2026-10-21T06:38:54.907Z"
+        "version": "8.3.6",
+        "publishedAt": "2026-11-05T05:40:52.195Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "8.3.6",
-          "publishedAt": "2026-11-05T05:40:52.195Z"
+          "version": "8.3.7",
+          "publishedAt": "2026-11-09T10:25:29.212Z"
         },
         "beta": {
           "version": "8.3.0-beta.1",
@@ -424,7 +416,7 @@
       "weeklyDownloads": 262791030,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/vitejs/vite/releases/tag/v8.3.6"
+        "url": "https://github.com/vitejs/vite/releases/tag/v8.3.7"
       }
     },
     "react-router": {
@@ -791,19 +783,19 @@
       "npmUrl": "https://www.npmjs.com/package/motion",
       "repoUrl": "https://github.com/motiondivision/motion",
       "latest": {
-        "version": "14.10.1",
-        "publishedAt": "2026-11-06T14:25:26.082Z"
+        "version": "14.11.1",
+        "publishedAt": "2026-11-09T13:19:43.758Z"
       },
       "previous": {
-        "version": "14.10.0",
-        "publishedAt": "2026-11-06T09:59:41.737Z"
+        "version": "14.11.0",
+        "publishedAt": "2026-11-09T11:21:08.129Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "14.10.1",
-          "publishedAt": "2026-11-06T14:25:26.082Z"
+          "version": "14.11.1",
+          "publishedAt": "2026-11-09T13:19:43.758Z"
         },
         "canary": {
           "version": "13.1.1-alpha.0",
@@ -1094,15 +1086,15 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-5b610964-20261106",
-          "publishedAt": "2026-11-06T16:19:09.195Z",
+          "version": "0.0.0-experimental-4ae637b6-20261109",
+          "publishedAt": "2026-11-09T16:20:10.815Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "7.1.1-canary-5b610964-20261106",
-          "publishedAt": "2026-11-06T16:18:57.912Z",
+          "version": "7.1.1-canary-4ae637b6-20261109",
+          "publishedAt": "2026-11-09T16:19:40.244Z",
           "tags": [
             "canary"
           ]
@@ -1125,12 +1117,12 @@
           "publishedAt": "2026-05-08T16:43:06.991Z"
         },
         "canary": {
-          "version": "7.1.1-canary-5b610964-20261106",
-          "publishedAt": "2026-11-06T16:18:57.912Z"
+          "version": "7.1.1-canary-4ae637b6-20261109",
+          "publishedAt": "2026-11-09T16:19:40.244Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-5b610964-20261106",
-          "publishedAt": "2026-11-06T16:19:09.195Z"
+          "version": "0.0.0-experimental-4ae637b6-20261109",
+          "publishedAt": "2026-11-09T16:20:10.815Z"
         },
         "rc": {
           "version": "6.0.0-rc.2",
@@ -1255,6 +1247,78 @@
   },
   "recent": [
     {
+      "name": "next",
+      "group": "frameworks",
+      "version": "16.4.6",
+      "publishedAt": "2026-11-09T20:33:38.821Z",
+      "bump": "patch",
+      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.6"
+    },
+    {
+      "name": "astro",
+      "group": "frameworks",
+      "version": "7.4.8",
+      "publishedAt": "2026-11-09T14:51:52.802Z",
+      "bump": "patch",
+      "url": "https://github.com/withastro/astro/releases/tag/astro%407.4.8"
+    },
+    {
+      "name": "motion",
+      "group": "forms-ui",
+      "version": "14.11.1",
+      "publishedAt": "2026-11-09T13:19:43.758Z",
+      "bump": "patch",
+      "url": "https://github.com/motiondivision/motion/blob/HEAD/CHANGELOG.md"
+    },
+    {
+      "name": "motion",
+      "group": "forms-ui",
+      "version": "14.11.0",
+      "publishedAt": "2026-11-09T11:21:08.129Z",
+      "bump": "minor",
+      "url": "https://www.npmjs.com/package/motion/v/14.11.0"
+    },
+    {
+      "name": "vite",
+      "group": "frameworks",
+      "version": "6.4.6",
+      "publishedAt": "2026-11-09T11:06:50.618Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/vite/v/6.4.6"
+    },
+    {
+      "name": "vite",
+      "group": "frameworks",
+      "version": "8.1.7",
+      "publishedAt": "2026-11-09T11:02:32.994Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/vite/v/8.1.7"
+    },
+    {
+      "name": "vite",
+      "group": "frameworks",
+      "version": "7.3.8",
+      "publishedAt": "2026-11-09T11:01:58.318Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/vite/v/7.3.8"
+    },
+    {
+      "name": "vite",
+      "group": "frameworks",
+      "version": "8.2.6",
+      "publishedAt": "2026-11-09T11:00:12.866Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/vite/v/8.2.6"
+    },
+    {
+      "name": "vite",
+      "group": "frameworks",
+      "version": "8.3.7",
+      "publishedAt": "2026-11-09T10:25:29.212Z",
+      "bump": "patch",
+      "url": "https://github.com/vitejs/vite/releases/tag/v8.3.7"
+    },
+    {
       "name": "@vitejs/plugin-react",
       "group": "tooling",
       "version": "6.3.0",
@@ -1292,7 +1356,7 @@
       "version": "14.10.1",
       "publishedAt": "2026-11-06T14:25:26.082Z",
       "bump": "patch",
-      "url": "https://github.com/motiondivision/motion/blob/HEAD/CHANGELOG.md"
+      "url": "https://www.npmjs.com/package/motion/v/14.10.1"
     },
     {
       "name": "zustand",
@@ -1324,7 +1388,7 @@
       "version": "7.4.7",
       "publishedAt": "2026-11-05T19:59:28.083Z",
       "bump": "patch",
-      "url": "https://github.com/withastro/astro/releases/tag/astro%407.4.7"
+      "url": "https://www.npmjs.com/package/astro/v/7.4.7"
     },
     {
       "name": "astro",
@@ -1364,7 +1428,7 @@
       "version": "8.3.6",
       "publishedAt": "2026-11-05T05:40:52.195Z",
       "bump": "patch",
-      "url": "https://github.com/vitejs/vite/releases/tag/v8.3.6"
+      "url": "https://www.npmjs.com/package/vite/v/8.3.6"
     },
     {
       "name": "@tanstack/react-query",
@@ -1396,7 +1460,7 @@
       "version": "16.4.5",
       "publishedAt": "2026-11-03T18:01:54.667Z",
       "bump": "patch",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.4.5"
+      "url": "https://www.npmjs.com/package/next/v/16.4.5"
     },
     {
       "name": "expo",
@@ -1581,78 +1645,6 @@
       "publishedAt": "2026-10-27T09:53:36.321Z",
       "bump": "minor",
       "url": "https://www.npmjs.com/package/motion/v/14.7.0"
-    },
-    {
-      "name": "@tanstack/react-query",
-      "group": "routing-data",
-      "version": "5.105.0",
-      "publishedAt": "2026-10-26T09:31:29.126Z",
-      "bump": "minor",
-      "url": "https://www.npmjs.com/package/@tanstack/react-query/v/5.105.0"
-    },
-    {
-      "name": "expo",
-      "group": "frameworks",
-      "version": "58.0.19",
-      "publishedAt": "2026-10-23T23:27:17.387Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/expo/v/58.0.19"
-    },
-    {
-      "name": "react-hook-form",
-      "group": "forms-ui",
-      "version": "7.91.0",
-      "publishedAt": "2026-10-23T21:37:28.462Z",
-      "bump": "minor",
-      "url": "https://github.com/react-hook-form/react-hook-form/releases/tag/v7.91.0"
-    },
-    {
-      "name": "next",
-      "group": "frameworks",
-      "version": "16.4.3",
-      "publishedAt": "2026-10-23T13:40:24.922Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/next/v/16.4.3"
-    },
-    {
-      "name": "@tanstack/react-router",
-      "group": "routing-data",
-      "version": "1.170.46",
-      "publishedAt": "2026-10-22T20:10:14.318Z",
-      "bump": "patch",
-      "url": "https://github.com/TanStack/router/releases/tag/%40tanstack/react-router%401.170.46"
-    },
-    {
-      "name": "motion",
-      "group": "forms-ui",
-      "version": "14.6.0",
-      "publishedAt": "2026-10-22T08:17:20.723Z",
-      "bump": "minor",
-      "url": "https://www.npmjs.com/package/motion/v/14.6.0"
-    },
-    {
-      "name": "zustand",
-      "group": "state",
-      "version": "5.0.16",
-      "publishedAt": "2026-10-22T04:32:02.337Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/zustand/v/5.0.16"
-    },
-    {
-      "name": "expo",
-      "group": "frameworks",
-      "version": "58.0.17",
-      "publishedAt": "2026-10-21T19:19:23.403Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/expo/v/58.0.17"
-    },
-    {
-      "name": "expo",
-      "group": "frameworks",
-      "version": "54.0.38",
-      "publishedAt": "2026-10-21T17:25:00.274Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/expo/v/54.0.38"
     }
   ]
 }
