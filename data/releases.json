@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T22:28:11.296Z",
+  "updatedAt": "2026-11-10T07:27:14.361Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -221,8 +221,8 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.89.0-rc.0",
-          "publishedAt": "2026-11-04T11:05:06.769Z",
+          "version": "0.89.0-rc.1",
+          "publishedAt": "2026-11-10T01:23:12.216Z",
           "tags": [
             "next"
           ]
@@ -234,8 +234,8 @@
           "publishedAt": "2026-10-27T14:43:35.156Z"
         },
         "next": {
-          "version": "0.89.0-rc.0",
-          "publishedAt": "2026-11-04T11:05:06.769Z"
+          "version": "0.89.0-rc.1",
+          "publishedAt": "2026-11-10T01:23:12.216Z"
         }
       },
       "weeklyDownloads": 21346874,
@@ -285,15 +285,23 @@
         "publishedAt": "2026-11-03T18:01:54.667Z"
       },
       "bump": "patch",
-      "prereleases": [],
+      "prereleases": [
+        {
+          "version": "16.5.0-canary.46",
+          "publishedAt": "2026-11-09T23:57:45.682Z",
+          "tags": [
+            "canary"
+          ]
+        }
+      ],
       "distTags": {
         "latest": {
           "version": "16.4.6",
           "publishedAt": "2026-11-09T20:33:38.821Z"
         },
         "canary": {
-          "version": "16.5.0-canary.45",
-          "publishedAt": "2026-11-08T23:55:42.909Z"
+          "version": "16.5.0-canary.46",
+          "publishedAt": "2026-11-09T23:57:45.682Z"
         },
         "rc": {
           "version": "15.0.0-rc.1",
@@ -573,19 +581,19 @@
       "npmUrl": "https://www.npmjs.com/package/@apollo/client",
       "repoUrl": "https://github.com/apollographql/apollo-client",
       "latest": {
-        "version": "4.3.7",
-        "publishedAt": "2026-11-05T21:08:31.499Z"
+        "version": "4.3.8",
+        "publishedAt": "2026-11-09T23:33:42.119Z"
       },
       "previous": {
-        "version": "4.3.6",
-        "publishedAt": "2026-11-03T01:01:56.982Z"
+        "version": "4.3.7",
+        "publishedAt": "2026-11-05T21:08:31.499Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "4.3.7",
-          "publishedAt": "2026-11-05T21:08:31.499Z"
+          "version": "4.3.8",
+          "publishedAt": "2026-11-09T23:33:42.119Z"
         },
         "next": {
           "version": "4.3.0-rc.2",
@@ -607,7 +615,7 @@
       "weeklyDownloads": 8451935,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.7"
+        "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.8"
       }
     },
     "zustand": {
@@ -1247,6 +1255,14 @@
   },
   "recent": [
     {
+      "name": "@apollo/client",
+      "group": "routing-data",
+      "version": "4.3.8",
+      "publishedAt": "2026-11-09T23:33:42.119Z",
+      "bump": "patch",
+      "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.8"
+    },
+    {
       "name": "next",
       "group": "frameworks",
       "version": "16.4.6",
@@ -1380,7 +1396,7 @@
       "version": "4.3.7",
       "publishedAt": "2026-11-05T21:08:31.499Z",
       "bump": "patch",
-      "url": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo/client%404.3.7"
+      "url": "https://www.npmjs.com/package/@apollo/client/v/4.3.7"
     },
     {
       "name": "astro",
@@ -1637,14 +1653,6 @@
       "publishedAt": "2026-10-27T11:42:37.384Z",
       "bump": "patch",
       "url": "https://www.npmjs.com/package/motion/v/14.7.1"
-    },
-    {
-      "name": "motion",
-      "group": "forms-ui",
-      "version": "14.7.0",
-      "publishedAt": "2026-10-27T09:53:36.321Z",
-      "bump": "minor",
-      "url": "https://www.npmjs.com/package/motion/v/14.7.0"
     }
   ]
 }
