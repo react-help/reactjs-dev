@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T19:49:54.772Z",
+  "updatedAt": "2026-11-11T06:38:50.129Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -287,8 +287,8 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "16.5.0-canary.46",
-          "publishedAt": "2026-11-09T23:57:45.682Z",
+          "version": "16.5.0-canary.47",
+          "publishedAt": "2026-11-10T23:54:06.084Z",
           "tags": [
             "canary"
           ]
@@ -300,8 +300,8 @@
           "publishedAt": "2026-11-09T20:33:38.821Z"
         },
         "canary": {
-          "version": "16.5.0-canary.46",
-          "publishedAt": "2026-11-09T23:57:45.682Z"
+          "version": "16.5.0-canary.47",
+          "publishedAt": "2026-11-10T23:54:06.084Z"
         },
         "rc": {
           "version": "15.0.0-rc.1",
@@ -359,19 +359,19 @@
       "npmUrl": "https://www.npmjs.com/package/astro",
       "repoUrl": "https://github.com/withastro/astro",
       "latest": {
-        "version": "7.4.9",
-        "publishedAt": "2026-11-10T18:35:03.369Z"
+        "version": "7.4.10",
+        "publishedAt": "2026-11-10T20:11:04.461Z"
       },
       "previous": {
-        "version": "7.4.8",
-        "publishedAt": "2026-11-09T14:51:52.802Z"
+        "version": "7.4.9",
+        "publishedAt": "2026-11-10T18:35:03.369Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "7.4.9",
-          "publishedAt": "2026-11-10T18:35:03.369Z"
+          "version": "7.4.10",
+          "publishedAt": "2026-11-10T20:11:04.461Z"
         },
         "rc": {
           "version": "3.0.0-rc.11",
@@ -389,7 +389,7 @@
       "weeklyDownloads": 11698084,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/withastro/astro/releases/tag/astro%407.4.9"
+        "url": "https://github.com/withastro/astro/releases/tag/astro%407.4.10"
       }
     },
     "vite": {
@@ -398,19 +398,19 @@
       "npmUrl": "https://www.npmjs.com/package/vite",
       "repoUrl": "https://github.com/vitejs/vite",
       "latest": {
-        "version": "8.3.7",
-        "publishedAt": "2026-11-09T10:25:29.212Z"
+        "version": "8.3.8",
+        "publishedAt": "2026-11-11T02:49:46.387Z"
       },
       "previous": {
-        "version": "8.3.6",
-        "publishedAt": "2026-11-05T05:40:52.195Z"
+        "version": "8.3.7",
+        "publishedAt": "2026-11-09T10:25:29.212Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "8.3.7",
-          "publishedAt": "2026-11-09T10:25:29.212Z"
+          "version": "8.3.8",
+          "publishedAt": "2026-11-11T02:49:46.387Z"
         },
         "beta": {
           "version": "8.3.0-beta.1",
@@ -424,7 +424,7 @@
       "weeklyDownloads": 263886976,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/vitejs/vite/releases/tag/v8.3.7"
+        "url": "https://github.com/vitejs/vite/releases/tag/v8.3.8"
       }
     },
     "react-router": {
@@ -589,15 +589,24 @@
         "publishedAt": "2026-11-05T21:08:31.499Z"
       },
       "bump": "patch",
-      "prereleases": [],
+      "prereleases": [
+        {
+          "version": "4.4.0-alpha.0",
+          "publishedAt": "2026-11-10T23:26:32.893Z",
+          "tags": [
+            "next",
+            "alpha"
+          ]
+        }
+      ],
       "distTags": {
         "latest": {
           "version": "4.3.8",
           "publishedAt": "2026-11-09T23:33:42.119Z"
         },
         "next": {
-          "version": "4.3.0-rc.2",
-          "publishedAt": "2026-09-03T17:54:31.555Z"
+          "version": "4.4.0-alpha.0",
+          "publishedAt": "2026-11-10T23:26:32.893Z"
         },
         "rc": {
           "version": "4.3.0-rc.2",
@@ -608,8 +617,8 @@
           "publishedAt": "2025-12-23T13:10:00.365Z"
         },
         "alpha": {
-          "version": "4.3.0-alpha.11",
-          "publishedAt": "2026-08-21T16:37:31.614Z"
+          "version": "4.4.0-alpha.0",
+          "publishedAt": "2026-11-10T23:26:32.893Z"
         }
       },
       "weeklyDownloads": 8432350,
@@ -1255,12 +1264,28 @@
   },
   "recent": [
     {
+      "name": "vite",
+      "group": "frameworks",
+      "version": "8.3.8",
+      "publishedAt": "2026-11-11T02:49:46.387Z",
+      "bump": "patch",
+      "url": "https://github.com/vitejs/vite/releases/tag/v8.3.8"
+    },
+    {
+      "name": "astro",
+      "group": "frameworks",
+      "version": "7.4.10",
+      "publishedAt": "2026-11-10T20:11:04.461Z",
+      "bump": "patch",
+      "url": "https://github.com/withastro/astro/releases/tag/astro%407.4.10"
+    },
+    {
       "name": "astro",
       "group": "frameworks",
       "version": "7.4.9",
       "publishedAt": "2026-11-10T18:35:03.369Z",
       "bump": "patch",
-      "url": "https://github.com/withastro/astro/releases/tag/astro%407.4.9"
+      "url": "https://www.npmjs.com/package/astro/v/7.4.9"
     },
     {
       "name": "motion",
@@ -1348,7 +1373,7 @@
       "version": "8.3.7",
       "publishedAt": "2026-11-09T10:25:29.212Z",
       "bump": "patch",
-      "url": "https://github.com/vitejs/vite/releases/tag/v8.3.7"
+      "url": "https://www.npmjs.com/package/vite/v/8.3.7"
     },
     {
       "name": "@vitejs/plugin-react",
@@ -1637,22 +1662,6 @@
       "publishedAt": "2026-10-27T21:39:14.646Z",
       "bump": "patch",
       "url": "https://github.com/remix-run/react-router/releases/tag/react-router%408.5.1"
-    },
-    {
-      "name": "react-router",
-      "group": "routing-data",
-      "version": "7.18.5",
-      "publishedAt": "2026-10-27T21:13:38.806Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/react-router/v/7.18.5"
-    },
-    {
-      "name": "expo",
-      "group": "frameworks",
-      "version": "58.0.20",
-      "publishedAt": "2026-10-27T16:12:41.704Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/expo/v/58.0.20"
     }
   ]
 }
