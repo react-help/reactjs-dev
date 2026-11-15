@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T06:44:54.089Z",
+  "updatedAt": "2026-11-15T18:56:10.512Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -526,7 +526,7 @@
           "publishedAt": "2025-09-22T01:27:44.255Z"
         }
       },
-      "weeklyDownloads": 25330412,
+      "weeklyDownloads": 25542853,
       "releaseNotes": {
         "kind": "release",
         "url": "https://github.com/TanStack/router/releases/tag/%40tanstack/react-router%401.170.46"
@@ -931,19 +931,19 @@
       "npmUrl": "https://www.npmjs.com/package/@react-navigation/native",
       "repoUrl": "https://github.com/react-navigation/react-navigation",
       "latest": {
-        "version": "7.5.1",
-        "publishedAt": "2026-10-13T22:22:38.806Z"
+        "version": "7.5.2",
+        "publishedAt": "2026-11-15T15:57:32.835Z"
       },
       "previous": {
-        "version": "7.5.0",
-        "publishedAt": "2026-09-29T17:06:38.258Z"
+        "version": "7.5.1",
+        "publishedAt": "2026-10-13T22:22:38.806Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "7.5.1",
-          "publishedAt": "2026-10-13T22:22:38.806Z"
+          "version": "7.5.2",
+          "publishedAt": "2026-11-15T15:57:32.835Z"
         },
         "next": {
           "version": "8.0.0-alpha.51",
@@ -953,7 +953,7 @@
       "weeklyDownloads": 7149534,
       "releaseNotes": {
         "kind": "tag",
-        "url": "https://github.com/react-navigation/react-navigation/releases/tag/%40react-navigation%2Fnative%407.5.1"
+        "url": "https://github.com/react-navigation/react-navigation/releases/tag/%40react-navigation%2Fnative%407.5.2"
       }
     },
     "react-native-reanimated": {
@@ -1269,6 +1269,14 @@
     }
   },
   "recent": [
+    {
+      "name": "@react-navigation/native",
+      "group": "native",
+      "version": "7.5.2",
+      "publishedAt": "2026-11-15T15:57:32.835Z",
+      "bump": "patch",
+      "url": "https://github.com/react-navigation/react-navigation/releases/tag/%40react-navigation%2Fnative%407.5.2"
+    },
     {
       "name": "astro",
       "group": "frameworks",
@@ -1660,14 +1668,6 @@
       "publishedAt": "2026-11-02T07:47:32.754Z",
       "bump": "minor",
       "url": "https://www.npmjs.com/package/@vitejs/plugin-react/v/6.2.0"
-    },
-    {
-      "name": "@tanstack/react-query",
-      "group": "routing-data",
-      "version": "5.105.1",
-      "publishedAt": "2026-11-01T10:07:48.829Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/@tanstack/react-query/v/5.105.1"
     }
   ]
 }
