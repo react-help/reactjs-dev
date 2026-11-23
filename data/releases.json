@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T07:50:01.689Z",
+  "updatedAt": "2026-11-23T23:59:40.464Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -97,15 +97,15 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-e04279e7-20261119",
-          "publishedAt": "2026-11-19T16:21:19.596Z",
+          "version": "0.0.0-experimental-64e28797-20261123",
+          "publishedAt": "2026-11-23T16:19:28.484Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "19.3.0-canary-e04279e7-20261119",
-          "publishedAt": "2026-11-19T16:18:44.396Z",
+          "version": "19.3.0-canary-64e28797-20261123",
+          "publishedAt": "2026-11-23T16:17:56.103Z",
           "tags": [
             "canary"
           ]
@@ -121,12 +121,12 @@
           "publishedAt": "2026-05-08T16:43:16.457Z"
         },
         "canary": {
-          "version": "19.3.0-canary-e04279e7-20261119",
-          "publishedAt": "2026-11-19T16:18:44.396Z"
+          "version": "19.3.0-canary-64e28797-20261123",
+          "publishedAt": "2026-11-23T16:17:56.103Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-e04279e7-20261119",
-          "publishedAt": "2026-11-19T16:21:19.596Z"
+          "version": "0.0.0-experimental-64e28797-20261123",
+          "publishedAt": "2026-11-23T16:19:28.484Z"
         },
         "rc": {
           "version": "19.0.0-rc.1",
@@ -159,15 +159,15 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-e04279e7-20261119",
-          "publishedAt": "2026-11-19T16:21:36.478Z",
+          "version": "0.0.0-experimental-64e28797-20261123",
+          "publishedAt": "2026-11-23T16:22:34.035Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "19.3.0-canary-e04279e7-20261119",
-          "publishedAt": "2026-11-19T16:19:30.571Z",
+          "version": "19.3.0-canary-64e28797-20261123",
+          "publishedAt": "2026-11-23T16:21:01.779Z",
           "tags": [
             "canary"
           ]
@@ -183,12 +183,12 @@
           "publishedAt": "2026-05-08T16:43:27.237Z"
         },
         "canary": {
-          "version": "19.3.0-canary-e04279e7-20261119",
-          "publishedAt": "2026-11-19T16:19:30.571Z"
+          "version": "19.3.0-canary-64e28797-20261123",
+          "publishedAt": "2026-11-23T16:21:01.779Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-e04279e7-20261119",
-          "publishedAt": "2026-11-19T16:21:36.478Z"
+          "version": "0.0.0-experimental-64e28797-20261123",
+          "publishedAt": "2026-11-23T16:22:34.035Z"
         },
         "rc": {
           "version": "19.0.0-rc.1",
@@ -221,8 +221,8 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.89.0-rc.2",
-          "publishedAt": "2026-11-17T22:46:00.198Z",
+          "version": "0.89.0-rc.3",
+          "publishedAt": "2026-11-23T23:35:55.747Z",
           "tags": [
             "next"
           ]
@@ -234,8 +234,8 @@
           "publishedAt": "2026-10-27T14:43:35.156Z"
         },
         "next": {
-          "version": "0.89.0-rc.2",
-          "publishedAt": "2026-11-17T22:46:00.198Z"
+          "version": "0.89.0-rc.3",
+          "publishedAt": "2026-11-23T23:35:55.747Z"
         }
       },
       "weeklyDownloads": 22271991,
@@ -287,8 +287,8 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "16.5.0-canary.61",
-          "publishedAt": "2026-11-22T23:56:16.133Z",
+          "version": "16.5.0-canary.62",
+          "publishedAt": "2026-11-23T23:58:43.115Z",
           "tags": [
             "canary"
           ]
@@ -300,8 +300,8 @@
           "publishedAt": "2026-11-09T20:33:38.821Z"
         },
         "canary": {
-          "version": "16.5.0-canary.61",
-          "publishedAt": "2026-11-22T23:56:16.133Z"
+          "version": "16.5.0-canary.62",
+          "publishedAt": "2026-11-23T23:58:43.115Z"
         },
         "rc": {
           "version": "15.0.0-rc.1",
@@ -472,19 +472,19 @@
       "npmUrl": "https://www.npmjs.com/package/@tanstack/react-query",
       "repoUrl": "https://github.com/TanStack/query",
       "latest": {
-        "version": "5.108.3",
-        "publishedAt": "2026-11-22T20:09:32.864Z"
+        "version": "5.108.4",
+        "publishedAt": "2026-11-23T13:20:10.775Z"
       },
       "previous": {
-        "version": "5.108.2",
-        "publishedAt": "2026-11-20T13:37:18.547Z"
+        "version": "5.108.3",
+        "publishedAt": "2026-11-22T20:09:32.864Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "5.108.3",
-          "publishedAt": "2026-11-22T20:09:32.864Z"
+          "version": "5.108.4",
+          "publishedAt": "2026-11-23T13:20:10.775Z"
         },
         "rc": {
           "version": "5.0.0-rc.16",
@@ -502,7 +502,7 @@
       "weeklyDownloads": 91971702,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/TanStack/query/releases/tag/%40tanstack/react-query%405.108.3"
+        "url": "https://github.com/TanStack/query/releases/tag/%40tanstack/react-query%405.108.4"
       }
     },
     "@tanstack/react-router": {
@@ -890,27 +890,19 @@
       "npmUrl": "https://www.npmjs.com/package/@mui/material",
       "repoUrl": "https://github.com/mui/material-ui",
       "latest": {
+        "version": "9.6.0",
+        "publishedAt": "2026-11-23T08:54:07.414Z"
+      },
+      "previous": {
         "version": "9.5.0",
         "publishedAt": "2026-10-09T09:12:59.956Z"
       },
-      "previous": {
-        "version": "9.4.0",
-        "publishedAt": "2026-08-27T15:17:01.745Z"
-      },
       "bump": "minor",
-      "prereleases": [
-        {
-          "version": "10.0.0-alpha.0",
-          "publishedAt": "2026-10-12T10:32:05.584Z",
-          "tags": [
-            "next"
-          ]
-        }
-      ],
+      "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "9.5.0",
-          "publishedAt": "2026-10-09T09:12:59.956Z"
+          "version": "9.6.0",
+          "publishedAt": "2026-11-23T08:54:07.414Z"
         },
         "next": {
           "version": "10.0.0-alpha.0",
@@ -924,7 +916,7 @@
       "weeklyDownloads": 14981563,
       "releaseNotes": {
         "kind": "release",
-        "url": "https://github.com/mui/material-ui/releases/tag/v9.5.0"
+        "url": "https://github.com/mui/material-ui/releases/tag/v9.6.0"
       }
     },
     "@react-navigation/native": {
@@ -1111,15 +1103,15 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "0.0.0-experimental-e04279e7-20261119",
-          "publishedAt": "2026-11-19T16:20:06.503Z",
+          "version": "0.0.0-experimental-64e28797-20261123",
+          "publishedAt": "2026-11-23T16:20:07.368Z",
           "tags": [
             "experimental"
           ]
         },
         {
-          "version": "7.1.1-canary-e04279e7-20261119",
-          "publishedAt": "2026-11-19T16:18:29.287Z",
+          "version": "7.1.1-canary-64e28797-20261123",
+          "publishedAt": "2026-11-23T16:18:33.513Z",
           "tags": [
             "canary"
           ]
@@ -1142,12 +1134,12 @@
           "publishedAt": "2026-05-08T16:43:06.991Z"
         },
         "canary": {
-          "version": "7.1.1-canary-e04279e7-20261119",
-          "publishedAt": "2026-11-19T16:18:29.287Z"
+          "version": "7.1.1-canary-64e28797-20261123",
+          "publishedAt": "2026-11-23T16:18:33.513Z"
         },
         "experimental": {
-          "version": "0.0.0-experimental-e04279e7-20261119",
-          "publishedAt": "2026-11-19T16:20:06.503Z"
+          "version": "0.0.0-experimental-64e28797-20261123",
+          "publishedAt": "2026-11-23T16:20:07.368Z"
         },
         "rc": {
           "version": "6.0.0-rc.2",
@@ -1274,10 +1266,34 @@
     {
       "name": "@tanstack/react-query",
       "group": "routing-data",
+      "version": "5.108.4",
+      "publishedAt": "2026-11-23T13:20:10.775Z",
+      "bump": "patch",
+      "url": "https://github.com/TanStack/query/releases/tag/%40tanstack/react-query%405.108.4"
+    },
+    {
+      "name": "expo",
+      "group": "frameworks",
+      "version": "57.0.34",
+      "publishedAt": "2026-11-23T13:12:05.894Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/expo/v/57.0.34"
+    },
+    {
+      "name": "@mui/material",
+      "group": "forms-ui",
+      "version": "9.6.0",
+      "publishedAt": "2026-11-23T08:54:07.414Z",
+      "bump": "minor",
+      "url": "https://github.com/mui/material-ui/releases/tag/v9.6.0"
+    },
+    {
+      "name": "@tanstack/react-query",
+      "group": "routing-data",
       "version": "5.108.3",
       "publishedAt": "2026-11-22T20:09:32.864Z",
       "bump": "patch",
-      "url": "https://github.com/TanStack/query/releases/tag/%40tanstack/react-query%405.108.3"
+      "url": "https://www.npmjs.com/package/@tanstack/react-query/v/5.108.3"
     },
     {
       "name": "@tanstack/react-query",
@@ -1646,30 +1662,6 @@
       "publishedAt": "2026-11-05T09:33:34.724Z",
       "bump": "patch",
       "url": "https://www.npmjs.com/package/expo/v/57.0.32"
-    },
-    {
-      "name": "@tanstack/react-query",
-      "group": "routing-data",
-      "version": "5.106.1",
-      "publishedAt": "2026-11-05T08:07:42.091Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/@tanstack/react-query/v/5.106.1"
-    },
-    {
-      "name": "vite",
-      "group": "frameworks",
-      "version": "8.3.6",
-      "publishedAt": "2026-11-05T05:40:52.195Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/vite/v/8.3.6"
-    },
-    {
-      "name": "@tanstack/react-query",
-      "group": "routing-data",
-      "version": "5.106.0",
-      "publishedAt": "2026-11-04T20:13:09.653Z",
-      "bump": "minor",
-      "url": "https://www.npmjs.com/package/@tanstack/react-query/v/5.106.0"
     }
   ]
 }
