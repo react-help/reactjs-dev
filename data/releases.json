@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T22:33:06.803Z",
+  "updatedAt": "2026-11-25T08:46:24.467Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -250,19 +250,19 @@
       "npmUrl": "https://www.npmjs.com/package/@types/react",
       "repoUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped",
       "latest": {
-        "version": "19.3.1",
-        "publishedAt": "2026-11-24T19:05:12.656Z"
+        "version": "19.3.2",
+        "publishedAt": "2026-11-25T08:36:27.227Z"
       },
       "previous": {
-        "version": "19.3.0",
-        "publishedAt": "2026-09-09T18:08:49.750Z"
+        "version": "19.3.1",
+        "publishedAt": "2026-11-24T19:05:12.656Z"
       },
       "bump": "patch",
       "prereleases": [],
       "distTags": {
         "latest": {
-          "version": "19.3.1",
-          "publishedAt": "2026-11-24T19:05:12.656Z"
+          "version": "19.3.2",
+          "publishedAt": "2026-11-25T08:36:27.227Z"
         }
       },
       "weeklyDownloads": 247655001,
@@ -287,8 +287,8 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "16.5.0-canary.63",
-          "publishedAt": "2026-11-24T20:55:52.131Z",
+          "version": "16.5.0-canary.65",
+          "publishedAt": "2026-11-25T01:03:22.109Z",
           "tags": [
             "canary"
           ]
@@ -300,8 +300,8 @@
           "publishedAt": "2026-11-09T20:33:38.821Z"
         },
         "canary": {
-          "version": "16.5.0-canary.63",
-          "publishedAt": "2026-11-24T20:55:52.131Z"
+          "version": "16.5.0-canary.65",
+          "publishedAt": "2026-11-25T01:03:22.109Z"
         },
         "rc": {
           "version": "15.0.0-rc.1",
@@ -408,8 +408,8 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "8.4.0-beta.1",
-          "publishedAt": "2026-11-16T07:22:57.270Z",
+          "version": "8.4.0-beta.2",
+          "publishedAt": "2026-11-25T05:16:25.895Z",
           "tags": [
             "beta"
           ]
@@ -421,8 +421,8 @@
           "publishedAt": "2026-11-11T02:49:46.387Z"
         },
         "beta": {
-          "version": "8.4.0-beta.1",
-          "publishedAt": "2026-11-16T07:22:57.270Z"
+          "version": "8.4.0-beta.2",
+          "publishedAt": "2026-11-25T05:16:25.895Z"
         },
         "alpha": {
           "version": "6.0.0-alpha.24",
@@ -1266,10 +1266,18 @@
     {
       "name": "@types/react",
       "group": "core",
+      "version": "19.3.2",
+      "publishedAt": "2026-11-25T08:36:27.227Z",
+      "bump": "patch",
+      "url": "https://www.npmjs.com/package/@types/react?activeTab=versions"
+    },
+    {
+      "name": "@types/react",
+      "group": "core",
       "version": "19.3.1",
       "publishedAt": "2026-11-24T19:05:12.656Z",
       "bump": "patch",
-      "url": "https://www.npmjs.com/package/@types/react?activeTab=versions"
+      "url": "https://www.npmjs.com/package/@types/react/v/19.3.1"
     },
     {
       "name": "@types/react",
@@ -1654,14 +1662,6 @@
       "publishedAt": "2026-11-06T21:19:31.404Z",
       "bump": "minor",
       "url": "https://www.npmjs.com/package/@tanstack/react-query/v/5.107.0"
-    },
-    {
-      "name": "motion",
-      "group": "forms-ui",
-      "version": "14.10.1",
-      "publishedAt": "2026-11-06T14:25:26.082Z",
-      "bump": "patch",
-      "url": "https://www.npmjs.com/package/motion/v/14.10.1"
     }
   ]
 }
