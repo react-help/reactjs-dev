@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T21:25:42.348Z",
+  "updatedAt": "2026-11-28T07:58:31.930Z",
   "sources": [
     "https://registry.npmjs.org",
     "https://api.npmjs.org/downloads",
@@ -287,8 +287,8 @@
       "bump": "patch",
       "prereleases": [
         {
-          "version": "16.5.0-canary.70",
-          "publishedAt": "2026-11-27T07:59:20.246Z",
+          "version": "16.5.0-canary.71",
+          "publishedAt": "2026-11-28T00:15:50.576Z",
           "tags": [
             "canary"
           ]
@@ -300,8 +300,8 @@
           "publishedAt": "2026-11-09T20:33:38.821Z"
         },
         "canary": {
-          "version": "16.5.0-canary.70",
-          "publishedAt": "2026-11-27T07:59:20.246Z"
+          "version": "16.5.0-canary.71",
+          "publishedAt": "2026-11-28T00:15:50.576Z"
         },
         "rc": {
           "version": "15.0.0-rc.1",
@@ -332,7 +332,15 @@
         "publishedAt": "2026-11-17T12:01:34.759Z"
       },
       "bump": "minor",
-      "prereleases": [],
+      "prereleases": [
+        {
+          "version": "59.0.0-canary-20261127212423-7d73b0a5db5929e44ff85806b12f925fcf7b731c",
+          "publishedAt": "2026-11-27T22:02:40.951Z",
+          "tags": [
+            "canary"
+          ]
+        }
+      ],
       "distTags": {
         "latest": {
           "version": "58.1.0",
@@ -343,8 +351,8 @@
           "publishedAt": "2026-10-15T19:40:12.002Z"
         },
         "canary": {
-          "version": "58.0.0-canary-20260909-ea7a89a",
-          "publishedAt": "2026-09-09T09:25:22.062Z"
+          "version": "59.0.0-canary-20261127212423-7d73b0a5db5929e44ff85806b12f925fcf7b731c",
+          "publishedAt": "2026-11-27T22:02:40.951Z"
         }
       },
       "weeklyDownloads": 16825896,
